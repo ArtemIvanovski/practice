@@ -17,10 +17,12 @@ class ImageViewer(QMainWindow):
         self.scroll_area.setWidgetResizable(True)
         width = read_settings_from_json("preview_width")
         height = read_settings_from_json("preview_height")
+        max_images_to_display = read_settings_from_json("max_images_to_display")
         self.widget = QWidget()
         self.layout = QVBoxLayout(self.widget)
-
-        for image_path in image_paths:
+        for i, image_path in enumerate(image_paths):
+            if i >= max_images_to_display:
+                break
             image_label = QLabel(self)
             pixmap = QPixmap(image_path)
 
@@ -43,6 +45,3 @@ class ImageViewer(QMainWindow):
         self.setCentralWidget(self.scroll_area)
         self.setWindowFlags(Qt.Window | Qt.WindowStaysOnTopHint) # TODO: найти как скрыть флаг скрывания
         self.setWindowModality(Qt.ApplicationModal)
-
-    def closeEvent(self, event):
-        event.ignore()

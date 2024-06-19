@@ -45,7 +45,7 @@ class SettingsWindow(QDialog):
 
         max_images_layout = QHBoxLayout()
         max_images_label = QLabel("Максимум изображений для вывода в виде превьюшек")
-        self.max_images_input = create_spin_box(1, 10000, "max_images_to_display")
+        self.max_images_input = create_spin_box(2, 10000, "max_images_to_display")
         max_images_layout.addWidget(max_images_label)
         max_images_layout.addWidget(self.max_images_input)
 
