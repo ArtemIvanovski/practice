@@ -1,7 +1,6 @@
 import os
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLabel, QFileDialog
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QPushButton, QLabel, QFileDialog
 from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import Qt
 
 from GUI.top_bar_with_icons import create_top_bar_with_icons
 

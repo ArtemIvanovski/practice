@@ -39,3 +39,11 @@ G.idea/sonarlint/issuestore/1/e/1eab3eb841e3d3f2c3050353dcbc69b91e7a5725,a\5\a5
 Q.idea/sonarlint/securityhotspotstore/f/1/f1bdda93d9a278e358509d498e17d97764c1fb29,b\5\b58a0677868503201074e965423d875803239017
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+F
+GUI/settings_window.py,4\0\408a21d10fd9d0c0f8b27809931c367956da3306
+@
+core/__init__.py,c\e\ce4f796c5be8947b7ba7705fab2b891600f264e5
+H
+core/settings_handler.py,7\c\7cc9c03ccfa5d5e5daa2edbe3a8ba93fbe3bf806
+=
+settings.json,c\b\cb7461413ce2481b9b3941ee38d326fc8f47620e

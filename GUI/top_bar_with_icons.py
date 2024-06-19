@@ -1,6 +1,15 @@
-from PyQt5.QtWidgets import QWidget, QHBoxLayout, QToolButton, QFrame
+from PyQt5.QtWidgets import QWidget, QHBoxLayout, QToolButton, QFrame, QCheckBox
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt, QSize
+from GUI.settings_window import SettingsWindow
+from core.settings_handler import read_settings_from_json
+
+
+def create_checkbox(label_text, setting_key):
+    checkbox = QCheckBox(label_text)
+    if read_settings_from_json(setting_key):
+        checkbox.setCheckState(Qt.Checked)
+    return checkbox
 
 
 def create_top_bar_with_icons(parent_widget):
@@ -16,9 +25,11 @@ def create_top_bar_with_icons(parent_widget):
 
     grey_layout.setSpacing(0)
 
+    setting_window = SettingsWindow(parent_widget)
+
     add_icon_to_layout(grey_layout, 'assets/iconRun.png', 'Запустить поиск')
     add_icon_to_layout(grey_layout, 'assets/iconHomepage.png', 'Хочу домой')
-    add_icon_to_layout(grey_layout, 'assets/iconSettings.png', 'Настройки')
+    add_icon_to_layout(grey_layout, 'assets/iconSettings.png', 'Настройки', setting_window.show)
     add_icon_to_layout(grey_layout, 'assets/iconHelp.png', 'Мне нужна помощь')
     add_icon_to_layout(grey_layout, 'assets/iconInformation.png', 'Информация о приложении')
 
@@ -27,7 +38,7 @@ def create_top_bar_with_icons(parent_widget):
     return white_strip, grey_strip
 
 
-def add_icon_to_layout(layout, icon_path, tooltip_text):
+def add_icon_to_layout(layout, icon_path, tooltip_text, on_click=None):
     icon_size = QSize(512, 512)
 
     icon_button = QToolButton()
@@ -57,5 +68,9 @@ def add_icon_to_layout(layout, icon_path, tooltip_text):
     separator_line.setFrameShape(QFrame.VLine)
     separator_line.setFrameShadow(QFrame.Sunken)
     separator_line.setStyleSheet("color: #afb2b7")
+
+    if on_click:
+        icon_button.clicked.connect(on_click)
+
     layout.addWidget(icon_button)
     layout.addWidget(separator_line)

@@ -1,0 +1,22 @@
+{
+  "preview_width": 200,
+  "preview_height": 200,
+  "max_images_to_display": 5000,
+  "similarity_threshold": 95,
+  "number_of_sectors": 8,
+  "rotate_90_clockwise": true,
+  "rotate_180": true,
+  "rotate_270_clockwise": true,
+  "flip_horizontal": true,
+  "flip_vertical": true,
+  "use_hashing_algorithm": false,
+  "use_vector_algorithm": true,
+  "english": false,
+  "russian": true,
+  "french": false,
+  "belarusian": false,
+  "bmp": true,
+  "png": true,
+  "jpeg": true,
+  "gif": true
+}

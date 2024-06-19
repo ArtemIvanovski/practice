@@ -122,3 +122,212 @@ AttributeError: 'QHBoxLayout' object has no attribute 'setLayout'
 2024-06-19 01:56:29 - logger - INFO - Start app
 2024-06-19 01:56:43 - logger - INFO - Start app
 2024-06-19 01:56:48 - logger - INFO - Start app
+2024-06-19 12:54:28 - logger - INFO - Start app
+2024-06-19 13:06:41 - logger - INFO - Start app
+2024-06-19 13:06:41 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 38, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self, open_settings)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 15, in create_top_bar_with_icons
+    grey_layout.setAlignment(Qt.AlignLeft)
+NameError: name 'Qt' is not defined
+2024-06-19 13:07:08 - logger - INFO - Start app
+2024-06-19 13:07:51 - logger - INFO - Start app
+2024-06-19 13:09:19 - logger - INFO - Start app
+2024-06-19 13:10:17 - logger - INFO - Start app
+2024-06-19 13:10:17 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+TypeError: __init__() takes 1 positional argument but 2 were given
+2024-06-19 13:11:48 - logger - INFO - Start app
+2024-06-19 13:12:07 - logger - INFO - Start app
+2024-06-19 13:13:58 - logger - INFO - Start app
+2024-06-19 13:18:45 - logger - INFO - Start app
+2024-06-19 13:22:22 - logger - INFO - Start app
+2024-06-19 13:23:25 - logger - INFO - Start app
+2024-06-19 13:23:43 - logger - INFO - Start app
+2024-06-19 13:24:53 - logger - INFO - Start app
+2024-06-19 13:25:04 - logger - INFO - Start app
+2024-06-19 13:25:22 - logger - INFO - Start app
+2024-06-19 13:25:43 - logger - INFO - Start app
+2024-06-19 13:28:01 - logger - INFO - Start app
+2024-06-19 13:28:01 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 17, in __init__
+    tabs.addTab(self.create_comparison_tab(), "Сравнение")
+  File "D:\duplicateImages\GUI\settings_window.py", line 93, in create_comparison_tab
+    self.similarity_slider = QSlider(Qt.Horizontal)
+NameError: name 'QSlider' is not defined
+2024-06-19 13:28:15 - logger - INFO - Start app
+2024-06-19 13:28:16 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 17, in __init__
+    tabs.addTab(self.create_comparison_tab(), "Сравнение")
+  File "D:\duplicateImages\GUI\settings_window.py", line 103, in create_comparison_tab
+    self.tab_widget.addTab(tab, "Сравнение")
+AttributeError: 'SettingsWindow' object has no attribute 'tab_widget'
+2024-06-19 13:28:28 - logger - INFO - Start app
+2024-06-19 13:28:29 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 17, in __init__
+    tabs.addTab(self.create_comparison_tab(), "Сравнение")
+  File "D:\duplicateImages\GUI\settings_window.py", line 103, in create_comparison_tab
+    self.tab_widget.addTab(tab, "Сравнение")
+AttributeError: 'SettingsWindow' object has no attribute 'tab_widget'
+2024-06-19 13:29:43 - logger - INFO - Start app
+2024-06-19 13:29:43 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 17, in __init__
+    tabs.addTab(self.create_comparison_tab(), "Сравнение")
+TypeError: arguments did not match any overloaded call:
+  addTab(self, widget: QWidget, a1: str): argument 1 has unexpected type 'QVBoxLayout'
+  addTab(self, widget: QWidget, icon: QIcon, label: str): argument 1 has unexpected type 'QVBoxLayout'
+2024-06-19 13:29:55 - logger - INFO - Start app
+2024-06-19 13:29:56 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 17, in __init__
+    tabs.addTab(self.create_comparison_tab(), "Сравнение")
+TypeError: arguments did not match any overloaded call:
+  addTab(self, widget: QWidget, a1: str): argument 1 has unexpected type 'QVBoxLayout'
+  addTab(self, widget: QWidget, icon: QIcon, label: str): argument 1 has unexpected type 'QVBoxLayout'
+2024-06-19 13:31:19 - logger - INFO - Start app
+2024-06-19 13:36:09 - logger - INFO - Start app
+2024-06-19 13:36:21 - logger - INFO - Start app
+2024-06-19 13:37:00 - logger - INFO - Start app
+2024-06-19 13:38:39 - logger - INFO - Start app
+2024-06-19 13:39:05 - logger - INFO - Start app
+2024-06-19 13:39:24 - logger - INFO - Start app
+2024-06-19 13:40:56 - logger - INFO - Start app
+2024-06-19 13:41:45 - logger - INFO - Start app
+2024-06-19 13:41:46 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 17, in __init__
+    tabs.addTab(self.create_comparison_tab(), "Сравнение")
+  File "D:\duplicateImages\GUI\settings_window.py", line 93, in create_comparison_tab
+    layout.addWidget(label)
+NameError: name 'label' is not defined
+2024-06-19 13:42:00 - logger - INFO - Start app
+2024-06-19 13:42:01 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 18, in __init__
+    tabs.addTab(self.create_comparison_tab(), "Сравнение")
+  File "D:\duplicateImages\GUI\settings_window.py", line 94, in create_comparison_tab
+    layout.addWidget(label)
+NameError: name 'label' is not defined
+2024-06-19 13:42:23 - logger - INFO - Start app
+2024-06-19 13:44:05 - logger - INFO - Start app
+2024-06-19 13:46:44 - logger - INFO - Start app
+2024-06-19 13:49:12 - logger - INFO - Start app
+2024-06-19 13:49:33 - logger - INFO - Start app
+2024-06-19 13:53:03 - logger - INFO - Start app
+2024-06-19 13:54:41 - logger - INFO - Start app
+2024-06-19 13:55:22 - logger - INFO - Start app
+2024-06-19 13:56:45 - logger - INFO - Start app
+2024-06-19 13:57:57 - logger - INFO - Start app
+2024-06-19 14:07:44 - logger - INFO - Start app
+2024-06-19 14:14:34 - logger - INFO - Start app
+2024-06-19 14:16:31 - logger - INFO - Start app
+2024-06-19 14:16:32 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 20, in __init__
+    tabs.addTab(self.create_language_tab(), "Language")
+  File "D:\duplicateImages\GUI\settings_window.py", line 133, in create_language_tab
+    self.language_russian.setCheckState(Qt.NotChecked)
+AttributeError: type object 'Qt' has no attribute 'NotChecked'
+2024-06-19 14:18:27 - logger - INFO - Start app
+2024-06-19 14:18:57 - logger - INFO - Start app
+2024-06-19 14:18:57 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 20, in __init__
+    tabs.addTab(self.create_language_tab(), "Language")
+  File "D:\duplicateImages\GUI\settings_window.py", line 133, in create_language_tab
+    self.language_russian.setCheckState(state)
+TypeError: setCheckState(self, state: Qt.CheckState): argument 1 has unexpected type 'str'
+2024-06-19 14:19:12 - logger - INFO - Start app
+2024-06-19 14:19:12 - logger - ERROR - JSON decode error in file 'settings.json': Expecting value: line 15 column 14 (char 386)
+2024-06-19 14:19:12 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 20, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 20, in __init__
+    tabs.addTab(self.create_language_tab(), "Language")
+  File "D:\duplicateImages\GUI\settings_window.py", line 133, in create_language_tab
+    self.language_russian.setCheckState(state)
+TypeError: setCheckState(self, state: Qt.CheckState): argument 1 has unexpected type 'NoneType'
+2024-06-19 14:20:30 - logger - INFO - Start app
+2024-06-19 14:28:58 - logger - INFO - Start app
+2024-06-19 14:31:05 - logger - INFO - Start app
+2024-06-19 14:32:38 - logger - INFO - Start app
+2024-06-19 14:38:19 - logger - INFO - Start app
+2024-06-19 14:43:03 - logger - INFO - Start app
+2024-06-19 14:44:18 - logger - INFO - Start app
+2024-06-19 14:44:37 - logger - INFO - Start app
+2024-06-19 14:48:18 - logger - INFO - Start app
+2024-06-19 14:48:32 - logger - INFO - Start app
+2024-06-19 14:50:25 - logger - INFO - Start app
+2024-06-19 18:53:44 - logger - INFO - Start app
