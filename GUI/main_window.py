@@ -1,13 +1,17 @@
-import os
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QPushButton, QLabel, QFileDialog
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog
 from PyQt5.QtGui import QIcon
 
-from GUI.top_bar_with_icons import create_top_bar_with_icons
+from GUI.error_window import ErrorWindow
+from GUI.image_viewer_window import ImageViewer
+from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
+from core.file_utils import get_files_in_folder
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.folder_path_above = None
+        self.folder_path_below = None
         self.setWindowTitle('Image Duplicate Finder')
         self.setStyleSheet("background-color: #f3f3f3;")
         self.setWindowIcon(QIcon('assets/icon.png'))
@@ -16,30 +20,78 @@ class MainWindow(QMainWindow):
         self.main_widget = QWidget()
         self.setCentralWidget(self.main_widget)
         self.layout = QVBoxLayout()
+        self.viewer_window = None
 
-        content_strip = QWidget()
-        content_layout = QVBoxLayout()
-
-        self.select_folder_button = QPushButton('Выбрать папку')
-        self.select_folder_button.clicked.connect(self.select_folder)
-
-        self.selected_folder_label = QLabel('Выбранная папка: Не выбрана')
-
-        content_layout.addWidget(self.select_folder_button)
-        content_layout.addWidget(self.selected_folder_label)
-
-        content_strip.setLayout(content_layout)
         white_strip, grey_strip = create_top_bar_with_icons(self)
-
         self.layout.addWidget(white_strip)
         self.layout.addWidget(grey_strip)
+        self.layout.addWidget(white_strip)
+        self.layout.addWidget(white_strip)
+        self.layout.addWidget(white_strip)
+        self.layout.addWidget(white_strip)
+
+        button_layout_above = QHBoxLayout()
+
+        self.add_folder_button_above = create_button("Добавить папку с изображениями", "assets/iconAddFolder.png")
+        self.add_folder_button_above.clicked.connect(self.select_folder_above)
+        button_layout_above.addWidget(self.add_folder_button_above)
+
+        self.view_images_button_above = create_button("Просмотреть изображения в папке", "assets/iconView.png")
+        self.view_images_button_above.clicked.connect(lambda: self.view_images_in_folder(False))
+        button_layout_above.addWidget(self.view_images_button_above)
+
+        self.layout.addLayout(button_layout_above)
+
+        button_layout_below = QHBoxLayout()
+
+        self.add_folder_button_below = create_button("Добавить папку с изображениями", "assets/iconAddFolder.png")
+        self.add_folder_button_below.clicked.connect(self.select_folder_below)
+        button_layout_below.addWidget(self.add_folder_button_below)
+
+        self.view_images_button_below = create_button("Просмотреть изображения в папке", "assets/iconView.png")
+        self.view_images_button_below.clicked.connect(lambda: self.view_images_in_folder(True))
+        button_layout_below.addWidget(self.view_images_button_below)
+
+        self.layout.addLayout(button_layout_below)
+
+        content_strip = QWidget()
         self.layout.addWidget(content_strip)
 
         self.main_widget.setLayout(self.layout)
 
-    def select_folder(self):
-        folder_path = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
-        if folder_path:
-            self.selected_folder_label.setText(f'Выбранная папка: {folder_path}')
+    def select_folder_above(self):
+        self.folder_path_above = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
+        if self.folder_path_above:
+            self.add_folder_button_above.setText(f"Выбранная папка: {self.folder_path_above.split('/')[-1]}")
+            self.add_folder_button_above.setIcon(QIcon("assets/iconRemoveFolder.png"))
         else:
-            self.selected_folder_label.setText('Выбранная папка: Не выбрана')
+            self.add_folder_button_above.setText("Добавить папку с изображениями")
+            self.add_folder_button_above.setIcon(QIcon("assets/iconAddFolder.png"))
+
+    def select_folder_below(self):
+        self.folder_path_below = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
+        if self.folder_path_below:
+            self.add_folder_button_below.setText(f"Выбранная папка: {self.folder_path_below.split('/')[-1]}")
+            self.add_folder_button_below.setIcon(QIcon("assets/iconRemoveFolder.png"))
+        else:
+            self.add_folder_button_below.setText("Добавить папку с изображениями")
+            self.add_folder_button_below.setIcon(QIcon("assets/iconAddFolder.png"))
+
+    def view_images_in_folder(self, is_below_folder):
+        if is_below_folder:
+            if self.folder_path_below is not None:
+                image_paths = get_files_in_folder(self.folder_path_below)
+            else:
+                error_dialog = ErrorWindow("Папка ниже не выбрана.")
+                error_dialog.exec_()
+                return
+        else:
+            if self.folder_path_above is not None:
+                image_paths = get_files_in_folder(self.folder_path_above)
+            else:
+                error_dialog = ErrorWindow("Папка сверху не выбрана.")
+                error_dialog.exec_()
+                return
+
+        self.viewer_window = ImageViewer(image_paths)
+        self.viewer_window.show()

@@ -1,7 +1,9 @@
-from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QCheckBox,
-                             QPushButton, QTabWidget, QWidget, QSpinBox, QSlider)
+from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QTabWidget, QWidget, QButtonGroup,
+                             QRadioButton)
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import QSize, Qt
+
+from GUI.error_window import ErrorWindow
 
 
 class SettingsWindow(QDialog):
@@ -9,13 +11,14 @@ class SettingsWindow(QDialog):
         super().__init__(parent)
         self.setWindowTitle("Настройки")
         self.setGeometry(300, 300, 600, 400)
-
+        self.setFixedSize(self.size())
         main_layout = QVBoxLayout()
+        self.setWindowFlags(Qt.Window | Qt.WindowCloseButtonHint)
 
         tabs = QTabWidget()
         tabs.addTab(self.create_general_tab(), "Основные")
         tabs.addTab(self.create_comparison_tab(), "Сравнение")
-        tabs.addTab(self.create_language_tab(), "Language")
+        tabs.addTab(self.create_language_tab(), "Язык")
         tabs.addTab(self.create_file_formats_tab(), "Форматы файлов")
 
         main_layout.addWidget(tabs)
@@ -29,25 +32,20 @@ class SettingsWindow(QDialog):
 
         width_layout = QHBoxLayout()
         width_label = QLabel("Ширина превьюшек")
-        self.width_input = QSpinBox()
-        self.width_input.setRange(1, 10000)
-        self.width_input.setValue(200)
+        from GUI.top_bar_with_icons import create_spin_box
+        self.width_input = create_spin_box(1, 10000, "preview_width")
         width_layout.addWidget(width_label)
         width_layout.addWidget(self.width_input)
 
         height_layout = QHBoxLayout()
         height_label = QLabel("Высота превьюшек")
-        self.height_input = QSpinBox()
-        self.height_input.setRange(1, 10000)
-        self.height_input.setValue(200)
+        self.height_input = create_spin_box(1, 10000, "preview_height")
         height_layout.addWidget(height_label)
         height_layout.addWidget(self.height_input)
 
         max_images_layout = QHBoxLayout()
         max_images_label = QLabel("Максимум изображений для вывода в виде превьюшек")
-        self.max_images_input = QSpinBox()
-        self.max_images_input.setRange(1, 10000)
-        self.max_images_input.setValue(5000)
+        self.max_images_input = create_spin_box(1, 10000, "max_images_to_display")
         max_images_layout.addWidget(max_images_label)
         max_images_layout.addWidget(self.max_images_input)
 
@@ -69,13 +67,13 @@ class SettingsWindow(QDialog):
         from GUI.top_bar_with_icons import create_checkbox
         self.rotate_90 = create_checkbox("Поворот 90° по часовой", "rotate_90_clockwise")
         group_layout.addWidget(self.rotate_90)
-        self.rotate_180 = QCheckBox("Поворот 180°")
+        self.rotate_180 = create_checkbox("Поворот 180°", "rotate_180")
         group_layout.addWidget(self.rotate_180)
-        self.rotate_270 = QCheckBox("Поворот 270° по часовой")
+        self.rotate_270 = create_checkbox("Поворот 270° по часовой", "rotate_270_clockwise")
         group_layout.addWidget(self.rotate_270)
-        self.flip_horizontal = QCheckBox("Отражение по горизонтали")
+        self.flip_horizontal = create_checkbox("Отражение по горизонтали", "flip_horizontal")
         group_layout.addWidget(self.flip_horizontal)
-        self.flip_vertical = QCheckBox("Отражение по вертикали")
+        self.flip_vertical = create_checkbox("Отражение по вертикали", "flip_vertical")
         group_layout.addWidget(self.flip_vertical)
 
         self.warning_label = QLabel("Внимание: Установка этих опций увеличит время сравнения")
@@ -87,29 +85,22 @@ class SettingsWindow(QDialog):
         self.use_hash_algorithm = create_checkbox("Использовать алгоритм хэширования", "use_hashing_algorithm")
         layout.addWidget(self.use_hash_algorithm)
 
-        self.use_sector_algorithm = create_checkbox("Использовать алгоритм сравнения по секторам", "use_vector_algorithm")
+        self.use_sector_algorithm = create_checkbox("Использовать алгоритм сравнения по секторам",
+                                                    "use_sector_algorithm")
         layout.addWidget(self.use_sector_algorithm)
 
-        self.label_similarity = QLabel("Порог сходства: 95 %")
-        layout.addWidget(self.label_similarity)
-        self.similarity_slider = QSlider(Qt.Horizontal)
-        self.similarity_slider.setMinimum(0)
-        self.similarity_slider.setMaximum(100)
-        self.similarity_slider.setValue(95)
-        self.similarity_slider.setTickInterval(1)
-        self.similarity_slider.setTickPosition(QSlider.TicksBelow)
+        from GUI.top_bar_with_icons import create_slider
+        self.similarity_slider = create_slider(0, 100, "similarity_threshold")
         self.similarity_slider.valueChanged.connect(self.update_label_similarity_text)
+        self.label_similarity = QLabel(f"Порог сходства: {self.similarity_slider.value()} %")
+        layout.addWidget(self.label_similarity)
         layout.addWidget(self.similarity_slider)
 
-        self.label_sector = QLabel("Количество секторов: 8")
-        layout.addWidget(self.label_sector)
-        self.sector_slider = QSlider(Qt.Horizontal)
-        self.sector_slider.setMinimum(2)
-        self.sector_slider.setMaximum(20)
-        self.sector_slider.setValue(8)
-        self.sector_slider.setTickInterval(1)
-        self.sector_slider.setTickPosition(QSlider.TicksBelow)
+        self.sector_slider = create_slider(2, 20, "number_of_sectors")
         self.sector_slider.valueChanged.connect(self.update_label_sector_text)
+        self.label_sector = QLabel(f"Количество секторов: {self.sector_slider.value()}")
+
+        layout.addWidget(self.label_sector)
         layout.addWidget(self.sector_slider)
 
         comparison_tab.setLayout(layout)
@@ -124,18 +115,21 @@ class SettingsWindow(QDialog):
     def create_language_tab(self):
         language_tab = QWidget()
         layout = QVBoxLayout()
-        from GUI.top_bar_with_icons import create_checkbox
-        self.language_english = create_checkbox("English", "english")
-        layout.addWidget(self.language_english)
 
-        self.language_russian = create_checkbox("Русский", "russian")
-        layout.addWidget(self.language_russian)
+        self.language_group = QButtonGroup()
+        self.language_buttons = {}
 
-        self.language_belarussian = create_checkbox("Беларускі", "belarusian")
-        layout.addWidget(self.language_belarussian)
+        self.language_buttons["english"] = QRadioButton("English")
+        self.language_buttons["russian"] = QRadioButton("Русский")
+        self.language_buttons["belarusian"] = QRadioButton("Беларускі")
+        self.language_buttons["french"] = QRadioButton("Français")
 
-        self.language_france = create_checkbox("Français", "french")
-        layout.addWidget(self.language_france)
+        for key, button in self.language_buttons.items():
+            self.language_group.addButton(button)
+            layout.addWidget(button)
+
+        from core.settings_handler import get_language
+        self.language_buttons[get_language()].setChecked(True)
 
         layout.addStretch(1)
         language_tab.setLayout(layout)
@@ -181,7 +175,42 @@ class SettingsWindow(QDialog):
         button_layout.addWidget(ok_button)
         button_layout.addWidget(cancel_button)
 
-        ok_button.clicked.connect(self.accept)
+        ok_button.clicked.connect(self.on_ok_button_clicked)
         cancel_button.clicked.connect(self.reject)
 
         return button_layout
+
+    def on_ok_button_clicked(self):
+
+        if not (self.bmp.isChecked() or self.png.isChecked() or self.jpeg.isChecked() or self.gif.isChecked()):
+            error_dialog = ErrorWindow("Не выбран ни один тип файла")
+            error_dialog.exec_()
+            return
+
+        settings = {
+            "preview_width": self.width_input.value(),
+            "preview_height": self.height_input.value(),
+            "max_images_to_display": self.max_images_input.value(),
+            "similarity_threshold": self.similarity_slider.value(),
+            "number_of_sectors": self.sector_slider.value(),
+            "rotate_90_clockwise": self.rotate_90.isChecked(),
+            "rotate_180": self.rotate_180.isChecked(),
+            "rotate_270_clockwise": self.rotate_270.isChecked(),
+            "flip_horizontal": self.flip_horizontal.isChecked(),
+            "flip_vertical": self.flip_vertical.isChecked(),
+            "use_hashing_algorithm": self.use_hash_algorithm.isChecked(),
+            "use_sector_algorithm": self.use_sector_algorithm.isChecked(),
+            "english": self.language_buttons["english"].isChecked(),
+            "russian": self.language_buttons["russian"].isChecked(),
+            "french": self.language_buttons["french"].isChecked(),
+            "belarusian": self.language_buttons["belarusian"].isChecked(),
+            "bmp": self.bmp.isChecked(),
+            "png": self.png.isChecked(),
+            "jpeg": self.jpeg.isChecked(),
+            "gif": self.gif.isChecked()
+        }
+
+        from core.settings_handler import write_settings_to_json
+        write_settings_to_json(settings)
+
+        self.accept()

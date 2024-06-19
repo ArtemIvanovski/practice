@@ -1,8 +1,22 @@
-from PyQt5.QtWidgets import QWidget, QHBoxLayout, QToolButton, QFrame, QCheckBox
+from PyQt5.QtWidgets import QWidget, QHBoxLayout, QToolButton, QFrame, QCheckBox, QSlider, QSpinBox, QPushButton
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt, QSize
 from GUI.settings_window import SettingsWindow
 from core.settings_handler import read_settings_from_json
+
+
+def create_button(text, icon_path, icon_size=QSize(100, 100)):
+    button = QPushButton()
+    button.setStyleSheet("""
+        QPushButton {
+            background-color: #afb2b7;
+        }
+    """)
+    button.setFixedSize(QSize(400, 200))
+    button.setIconSize(icon_size)
+    button.setIcon(QIcon(icon_path))
+    button.setText(text)
+    return button
 
 
 def create_checkbox(label_text, setting_key):
@@ -10,6 +24,23 @@ def create_checkbox(label_text, setting_key):
     if read_settings_from_json(setting_key):
         checkbox.setCheckState(Qt.Checked)
     return checkbox
+
+
+def create_slider(min_board, max_board, setting_key):
+    slider = QSlider(Qt.Horizontal)
+    slider.setMinimum(min_board)
+    slider.setMaximum(max_board)
+    slider.setValue(read_settings_from_json(setting_key))
+    slider.setTickInterval(1)
+    slider.setTickPosition(QSlider.TicksBelow)
+    return slider
+
+
+def create_spin_box(min_board, max_board, setting_key):
+    spin_box = QSpinBox()
+    spin_box.setRange(min_board, max_board)
+    spin_box.setValue(read_settings_from_json(setting_key))
+    return spin_box
 
 
 def create_top_bar_with_icons(parent_widget):
@@ -28,7 +59,6 @@ def create_top_bar_with_icons(parent_widget):
     setting_window = SettingsWindow(parent_widget)
 
     add_icon_to_layout(grey_layout, 'assets/iconRun.png', 'Запустить поиск')
-    add_icon_to_layout(grey_layout, 'assets/iconHomepage.png', 'Хочу домой')
     add_icon_to_layout(grey_layout, 'assets/iconSettings.png', 'Настройки', setting_window.show)
     add_icon_to_layout(grey_layout, 'assets/iconHelp.png', 'Мне нужна помощь')
     add_icon_to_layout(grey_layout, 'assets/iconInformation.png', 'Информация о приложении')

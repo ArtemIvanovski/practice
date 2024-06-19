@@ -2,6 +2,26 @@ from logger import logger
 import json
 
 
+def get_language():
+    try:
+        with open("settings.json", 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            if data.get("english"):
+                return "english"
+            elif data.get("russian"):
+                return "russian"
+            elif data.get("french"):
+                return "french"
+            elif data.get("belarusian"):
+                return "belarusian"
+    except FileNotFoundError as e:
+        logger.error(f"File 'settings.json' not found: {e}")
+    except json.JSONDecodeError as e:
+        logger.error(f"JSON decode error in file 'settings.json': {e}")
+    except Exception as e:
+        logger.error(f"Error reading file 'settings.json': {e}")
+
+
 def read_settings_from_json(field):
     try:
         with open("settings.json", 'r', encoding='utf-8') as f:

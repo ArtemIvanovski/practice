@@ -332,3 +332,219 @@ TypeError: setCheckState(self, state: Qt.CheckState): argument 1 has unexpected 
 2024-06-19 14:50:25 - logger - INFO - Start app
 2024-06-19 18:53:44 - logger - INFO - Start app
 2024-06-19 18:59:51 - logger - INFO - Start app
+2024-06-19 19:56:18 - logger - INFO - Start app
+2024-06-19 19:57:54 - logger - INFO - Start app
+2024-06-19 20:04:11 - logger - INFO - Start app
+2024-06-19 20:04:23 - logger - INFO - Start app
+2024-06-19 20:05:53 - logger - INFO - Start app
+2024-06-19 20:08:06 - logger - INFO - Start app
+2024-06-19 20:12:51 - logger - INFO - Start app
+2024-06-19 20:13:17 - logger - INFO - Start app
+2024-06-19 20:14:59 - logger - INFO - Start app
+2024-06-19 20:14:59 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 32, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 45, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 17, in __init__
+    tabs.addTab(self.create_language_tab(), "Язык")
+  File "D:\duplicateImages\GUI\settings_window.py", line 119, in create_language_tab
+    self.language_buttons["english"] = QRadioButton("English")
+NameError: name 'QRadioButton' is not defined
+2024-06-19 20:15:04 - logger - INFO - Start app
+2024-06-19 20:21:50 - logger - INFO - Start app
+2024-06-19 20:22:06 - logger - INFO - Start app
+2024-06-19 20:34:58 - logger - INFO - Start app
+2024-06-19 20:35:04 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-19 20:35:12 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-19 20:35:16 - logger - INFO - Start app
+2024-06-19 20:43:37 - logger - INFO - Start app
+2024-06-19 20:44:56 - logger - INFO - Start app
+2024-06-19 20:47:04 - logger - INFO - Start app
+2024-06-19 23:35:49 - logger - INFO - Start app
+2024-06-19 23:36:06 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-19 23:36:15 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-19 23:44:47 - logger - INFO - Start app
+2024-06-19 23:50:03 - logger - INFO - Start app
+2024-06-19 23:51:42 - logger - INFO - Start app
+2024-06-19 23:55:29 - logger - INFO - Start app
+2024-06-19 23:55:30 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 41, in __init__
+    self.add_folder_button.clicked.connect(self.select_folder)
+AttributeError: 'MainWindow' object has no attribute 'add_folder_button'
+2024-06-19 23:56:51 - logger - INFO - Start app
+2024-06-19 23:58:38 - logger - INFO - Start app
+2024-06-20 00:01:16 - logger - INFO - Start app
+2024-06-20 00:02:45 - logger - INFO - Start app
+2024-06-20 00:04:43 - logger - INFO - Start app
+2024-06-20 00:04:55 - logger - INFO - Start app
+2024-06-20 00:05:04 - logger - INFO - Start app
+2024-06-20 00:07:13 - logger - INFO - Start app
+2024-06-20 00:08:38 - logger - INFO - Start app
+2024-06-20 00:08:48 - logger - INFO - Start app
+2024-06-20 00:09:23 - logger - INFO - Start app
+2024-06-20 00:09:39 - logger - INFO - Start app
+2024-06-20 00:10:07 - logger - INFO - Start app
+2024-06-20 00:10:25 - logger - INFO - Start app
+2024-06-20 00:11:35 - logger - INFO - Start app
+2024-06-20 00:11:44 - logger - INFO - Start app
+2024-06-20 00:12:12 - logger - INFO - Start app
+2024-06-20 00:12:24 - logger - INFO - Start app
+2024-06-20 00:15:48 - logger - INFO - Start app
+2024-06-20 00:15:48 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 30, in __init__
+    self.add_folder_button_above = create_button("Добавить папку с изображениями", 'assets/iconAddFolder.png')
+TypeError: create_button() missing 1 required positional argument: 'icon_path'
+2024-06-20 00:16:00 - logger - INFO - Start app
+2024-06-20 00:16:00 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 30, in __init__
+    self.add_folder_button_above = create_button("Добавить папку с изображениями", "assets/iconAddFolder.png")
+TypeError: create_button() missing 1 required positional argument: 'icon_path'
+2024-06-20 00:17:03 - logger - INFO - Start app
+2024-06-20 00:17:50 - logger - INFO - Start app
+2024-06-20 00:18:16 - logger - INFO - Start app
+2024-06-20 00:18:35 - logger - INFO - Start app
+2024-06-20 00:18:49 - logger - INFO - Start app
+2024-06-20 00:19:02 - logger - INFO - Start app
+2024-06-20 00:19:10 - logger - INFO - Start app
+2024-06-20 00:20:10 - logger - INFO - Start app
+2024-06-20 00:21:45 - logger - INFO - Start app
+2024-06-20 00:21:45 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 46, in __init__
+    button_layout_below.addWidget(self.view_images_button_below)
+AttributeError: 'MainWindow' object has no attribute 'view_images_button_below'
+2024-06-20 00:21:59 - logger - INFO - Start app
+2024-06-20 00:25:45 - logger - INFO - Start app
+2024-06-20 00:25:46 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 53, in __init__
+    content_layout.addWidget(self.select_folder_button)
+AttributeError: 'MainWindow' object has no attribute 'select_folder_button'
+2024-06-20 00:26:07 - logger - INFO - Start app
+2024-06-20 00:26:08 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 53, in __init__
+    content_layout.addWidget(self.select_folder_button)
+AttributeError: 'MainWindow' object has no attribute 'select_folder_button'
+2024-06-20 00:26:33 - logger - INFO - Start app
+2024-06-20 00:26:58 - logger - INFO - Start app
+2024-06-20 00:27:14 - logger - INFO - Start app
+2024-06-20 00:27:26 - logger - INFO - Start app
+2024-06-20 00:27:34 - logger - INFO - Start app
+2024-06-20 00:27:39 - logger - INFO - Start app
+2024-06-20 00:27:58 - logger - INFO - Start app
+2024-06-20 00:29:03 - logger - INFO - Start app
+2024-06-20 00:30:06 - logger - INFO - Start app
+2024-06-20 00:36:22 - logger - INFO - Start app
+2024-06-20 00:37:09 - logger - INFO - Start app
+2024-06-20 00:37:25 - logger - INFO - Start app
+2024-06-20 00:58:12 - logger - INFO - Start app
+2024-06-20 00:58:32 - logger - INFO - Start app
+2024-06-20 00:59:17 - logger - INFO - Start app
+2024-06-20 01:16:39 - logger - INFO - Start app
+2024-06-20 01:16:40 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 38, in __init__
+    button_layout_above.addWidget(self.view_images_in_folder(False))
+  File "D:\duplicateImages\GUI\main_window.py", line 80, in view_images_in_folder
+    image_paths = get_files_in_folder(self.folder_path_above)
+  File "D:\duplicateImages\core\file_utils.py", line 17, in get_files_in_folder
+    for root, _, files in os.walk(folder_path):
+  File "C:\Users\Pasha\AppData\Local\Programs\Python\Python39\lib\os.py", line 342, in walk
+    return _walk(fspath(top), topdown, onerror, followlinks)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2024-06-20 01:17:22 - logger - INFO - Start app
+2024-06-20 01:17:22 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 38, in __init__
+    button_layout_above.addWidget(self.view_images_in_folder(False))
+  File "D:\duplicateImages\GUI\main_window.py", line 80, in view_images_in_folder
+    image_paths = get_files_in_folder(self.folder_path_above)
+  File "D:\duplicateImages\core\file_utils.py", line 17, in get_files_in_folder
+    for root, _, files in os.walk(folder_path):
+  File "C:\Users\Pasha\AppData\Local\Programs\Python\Python39\lib\os.py", line 342, in walk
+    return _walk(fspath(top), topdown, onerror, followlinks)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2024-06-20 01:21:04 - logger - INFO - Start app
+2024-06-20 01:21:04 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 45, in __init__
+    self.add_folder_button_below.clicked.connect(self.select_folder_below)
+AttributeError: 'MainWindow' object has no attribute 'select_folder_below'
+2024-06-20 01:23:09 - logger - INFO - Start app
+2024-06-20 01:24:38 - logger - INFO - Start app
+2024-06-20 01:24:38 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 38, in __init__
+    self.view_images_button_above.clicked.connect(self.view_images_in_folder(False))
+TypeError: argument 1 has unexpected type 'NoneType'
+2024-06-20 01:25:12 - logger - INFO - Start app
+2024-06-20 01:25:12 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 11, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 38, in __init__
+    self.view_images_button_above.clicked.connect(self.view_images_in_folder(False))
+TypeError: argument 1 has unexpected type 'NoneType'
+2024-06-20 01:26:03 - logger - INFO - Start app
+2024-06-20 01:26:26 - logger - INFO - Start app
+2024-06-20 01:27:00 - logger - INFO - Start app
+2024-06-20 01:28:28 - logger - INFO - Start app
+2024-06-20 01:32:58 - logger - INFO - Start app
+2024-06-20 01:33:17 - logger - INFO - Start app
+2024-06-20 01:34:49 - logger - INFO - Start app
+2024-06-20 01:36:06 - logger - INFO - Start app
+2024-06-20 01:36:17 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-20 01:36:23 - logger - INFO - Start app
+2024-06-20 01:36:27 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-20 01:38:32 - logger - INFO - Start app
+2024-06-20 01:38:49 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-20 01:40:44 - logger - INFO - Start app
+2024-06-20 01:43:30 - logger - INFO - Start app
+2024-06-20 01:43:48 - logger - INFO - Start app
+2024-06-20 01:50:35 - logger - INFO - Start app
+2024-06-20 01:50:56 - logger - INFO - Start app
+2024-06-20 01:53:30 - logger - INFO - Start app
+2024-06-20 01:54:12 - logger - INFO - Start app
+2024-06-20 01:55:02 - logger - INFO - Start app
+2024-06-20 01:56:34 - logger - INFO - Start app
+2024-06-20 02:00:55 - logger - INFO - Start app
+2024-06-20 02:03:17 - logger - INFO - Start app
+2024-06-20 02:03:23 - logger - INFO - Start app
+2024-06-20 02:04:09 - logger - INFO - Start app
+2024-06-20 02:04:40 - logger - INFO - Start app
+2024-06-20 02:05:02 - logger - INFO - Start app
+2024-06-20 02:06:01 - logger - INFO - Start app
+2024-06-20 02:07:12 - logger - INFO - Start app
+2024-06-20 02:08:59 - logger - INFO - Start app
+2024-06-20 02:10:32 - logger - INFO - Start app
+2024-06-20 02:10:52 - logger - INFO - Start app
+2024-06-20 02:14:08 - logger - INFO - Start app
+2024-06-20 02:14:34 - logger - INFO - Start app
