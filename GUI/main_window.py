@@ -92,6 +92,9 @@ class MainWindow(QMainWindow):
                 error_dialog = ErrorWindow("Папка сверху не выбрана.")
                 error_dialog.exec_()
                 return
-
+        if not image_paths:
+            error_dialog = ErrorWindow("Нет изображений выбранного типа")
+            error_dialog.exec_()
+            return
         self.viewer_window = ImageViewer(image_paths)
         self.viewer_window.show()

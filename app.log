@@ -563,3 +563,6 @@ TypeError: argument 1 has unexpected type 'NoneType'
 2024-06-20 02:26:02 - logger - INFO - Settings successfully written to 'settings.json'.
 2024-06-20 02:26:13 - logger - INFO - Settings successfully written to 'settings.json'.
 2024-06-20 02:26:20 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-20 02:30:07 - logger - INFO - Start app
+2024-06-20 02:30:29 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-20 02:32:13 - logger - INFO - Start app

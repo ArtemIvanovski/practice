@@ -16,7 +16,7 @@
     "french": false,
     "belarusian": true,
     "bmp": true,
-    "png": true,
+    "png": false,
     "jpeg": false,
     "gif": false
 }
