@@ -12,7 +12,7 @@ def main():
         window.show()
         sys.exit(app.exec_())
     except Exception as e:
-        logger.exception("Error while starting")
+        logger.exception("Error while starting!")
         sys.exit(1)
 
 
