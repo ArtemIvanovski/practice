@@ -39,7 +39,6 @@ class ImageViewer(QMainWindow):
             container_widget.setLayout(container_layout)
 
             self.layout.addWidget(container_widget)
-
         self.scroll_area.setWidget(self.widget)
         self.setCentralWidget(self.scroll_area)
         self.setWindowFlags(Qt.Window | Qt.WindowStaysOnTopHint) # TODO: найти как скрыть флаг скрывания
