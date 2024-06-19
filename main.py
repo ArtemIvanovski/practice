@@ -12,7 +12,7 @@ def main():
         window.show()
         sys.exit(app.exec_())
     except Exception as e:
-        logger.exception("Произошла ошибка при запуске приложения")
+        logger.exception("Error while starting")
         sys.exit(1)
 
 
