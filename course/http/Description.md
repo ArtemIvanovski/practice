@@ -5,7 +5,7 @@
 
 ## Решение
 
-### Файл [`server.py`]()
+### Файл [`server.py`](https://github.com/ArtemIvanovski/practice/blob/main/course/http/server.py)
 
 Для решения задачи написан сервер с использованием Flask, который обращается к API OpenWeatherMap и моделирует различные HTTP статусы.
 
@@ -18,7 +18,7 @@
 - **POST /weather** - моделирует статус 400 (неправильный запрос).
 - **GET /simulate_error** - моделирует статус 500 (внутренняя ошибка сервера).
 
-### Файл [`request.py`]()
+### Файл [`request.py`](https://github.com/ArtemIvanovski/practice/blob/main/course/http/request.py)
 
 В этом файле использована библиотека requests для получения различных статусов ответов от API OpenWeatherMap.
 
