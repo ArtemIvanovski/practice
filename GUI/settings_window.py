@@ -10,7 +10,7 @@ class SettingsWindow(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle("Настройки")
-        self.setGeometry(300, 300, 600, 400)
+        self.setGeometry(300, 300, 600, 600)
         self.setFixedSize(self.size())
         main_layout = QVBoxLayout()
         self.setWindowFlags(Qt.Window | Qt.WindowCloseButtonHint)
@@ -49,6 +49,13 @@ class SettingsWindow(QDialog):
         max_images_layout.addWidget(max_images_label)
         max_images_layout.addWidget(self.max_images_input)
 
+        value_columns_layout = QHBoxLayout()
+        value_columns_label = QLabel("Количество столбцов в виде превьюшек")
+        self.value_columns_input = create_spin_box(1, 5, "value_columns")
+        value_columns_layout.addWidget(value_columns_label)
+        value_columns_layout.addWidget(self.value_columns_input)
+
+        layout.addLayout(value_columns_layout)
         layout.addLayout(width_layout)
         layout.addLayout(height_layout)
         layout.addLayout(max_images_layout)
@@ -191,6 +198,7 @@ class SettingsWindow(QDialog):
             "preview_width": self.width_input.value(),
             "preview_height": self.height_input.value(),
             "max_images_to_display": self.max_images_input.value(),
+            "value_columns": self.value_columns_input.value(),
             "similarity_threshold": self.similarity_slider.value(),
             "number_of_sectors": self.sector_slider.value(),
             "rotate_90_clockwise": self.rotate_90.isChecked(),

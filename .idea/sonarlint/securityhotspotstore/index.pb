@@ -47,10 +47,6 @@ H
 core/settings_handler.py,7\c\7cc9c03ccfa5d5e5daa2edbe3a8ba93fbe3bf806
 =
 settings.json,c\b\cb7461413ce2481b9b3941ee38d326fc8f47620e
-<
-GUI/en_US.ts,7\d\7dc103c60293284d189203811a29eb78848c79b1
-<
-GUI/ru_RU.ts,c\e\ce148ca6820d16aece696a3d9a444365a3ce434d
 J
 translations/translator.py,b\3\b3cc3bfb3c4c2b96d0265ac802ecfeeb92f6c4a2
 B
@@ -59,3 +55,5 @@ J
 GUI/image_viewer_window.py,d\5\d55221239b1a9b5b4ca8f751bfa786acc76c9c25
 C
 GUI/error_window.py,a\1\a10b126eb1a0ebe84d5c3dec1090b4586b933fd9
+C
+core/image_utils.py,b\c\bc5f4fd9ff211ddfde21bb7e12214faa3193e531
