@@ -3,7 +3,6 @@ from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QMainWindow, QWidget
 
 from GUI.top_bar_with_icons import create_top_bar_with_icons
 from core.find_duplicate import find_duplicate
-from database.db import get_image_data
 
 
 class ResultsWindow(QMainWindow):
