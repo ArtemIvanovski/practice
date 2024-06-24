@@ -2,6 +2,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QMainWindow, QWidget
 
 from GUI.top_bar_with_icons import create_top_bar_with_icons
+from core.find_duplicate import find_duplicate
 
 
 class ResultsWindow(QMainWindow):
@@ -31,6 +32,7 @@ class ResultsWindow(QMainWindow):
 
         content_strip = QWidget()
         self.layout.addWidget(content_strip)
+        find_duplicate(image_paths_above, image_paths_below)
 
         self.main_widget.setLayout(self.layout)
 
