@@ -1,3 +1,31 @@
 2024-06-24 14:29:38 - logger - INFO - Start app
 2024-06-24 15:14:17 - logger - INFO - Start app
 2024-06-24 15:14:17 - logger - INFO - Creating database
+2024-06-24 15:17:50 - logger - INFO - Start app
+2024-06-24 15:17:50 - logger - INFO - Creating database
+2024-06-24 15:18:04 - logger - INFO - Deleting database
+2024-06-24 16:03:36 - logger - INFO - Start app
+2024-06-24 16:03:36 - logger - INFO - Creating database
+2024-06-24 16:03:58 - logger - INFO - Deleting database
+2024-06-24 16:08:40 - logger - INFO - Start app
+2024-06-24 16:08:40 - logger - INFO - Creating database
+2024-06-24 16:08:42 - logger - INFO - Deleting database
+2024-06-24 16:09:06 - logger - INFO - Start app
+2024-06-24 16:09:06 - logger - INFO - Creating database
+2024-06-24 16:09:48 - logger - INFO - Start app
+2024-06-24 16:09:48 - logger - INFO - Creating database
+2024-06-24 16:09:48 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\main.py", line 15, in main
+    loading_dialog = LoadingDialog()
+  File "D:\duplicateImages\GUI\loading_window.py", line 19, in __init__
+    loading_label.setMovie(loading_movie)
+TypeError: setMovie(self, movie: QMovie): argument 1 has unexpected type 'QPixmap'
+2024-06-24 16:12:20 - logger - INFO - Start app
+2024-06-24 16:12:20 - logger - INFO - Creating database
+2024-06-24 16:17:35 - logger - INFO - Start app
+2024-06-24 16:17:35 - logger - INFO - Creating database
+2024-06-24 16:17:47 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-24 16:17:58 - logger - INFO - Deleting database
+2024-06-24 16:18:25 - logger - INFO - Start app
+2024-06-24 16:18:25 - logger - INFO - Creating database

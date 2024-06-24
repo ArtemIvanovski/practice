@@ -1,6 +1,5 @@
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog
 from PyQt5.QtGui import QIcon
-
 from GUI.error_window import ErrorWindow
 from GUI.image_viewer_window import ImageViewer
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
@@ -62,6 +61,7 @@ class MainWindow(QMainWindow):
         self.main_widget.setLayout(self.layout)
 
     def select_folder_above(self):
+
         self.folder_path_above = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
         if self.folder_path_above:
             self.add_folder_button_above.setText(f"Выбранная папка: {self.folder_path_above.split('/')[-1]}")
@@ -122,3 +122,4 @@ class MainWindow(QMainWindow):
             return
         self.viewer_window = ImageViewer(image_paths)
         self.viewer_window.show()
+

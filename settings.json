@@ -10,7 +10,7 @@
     "rotate_270_clockwise": false,
     "flip_horizontal": false,
     "flip_vertical": false,
-    "aHash": false,
+    "aHash": true,
     "pHash": false,
     "dHash": false,
     "gHash": false,

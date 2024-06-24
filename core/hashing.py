@@ -1,6 +1,8 @@
 from core.image_utils import resize_image, convert_to_grayscale, dct_2d
 import numpy as np
 
+from logger import logger
+
 
 def ahash(image_path, new_width, new_height):
     pixels = resize_image(image_path, new_width, new_height)
@@ -59,3 +61,35 @@ def ghash(image_path):
         hash_value = (hash_value << 1) | bit
 
     return hash_value
+
+
+def int32_to_binary_string(hash_int32, num_bits=64):
+    hash_int = int(hash_int32)
+    hash_binary = bin(hash_int & (2 ** num_bits - 1))[2:]
+    hash_binary = hash_binary.zfill(num_bits)
+    return hash_binary
+
+
+def hamming_distance(hash1, hash2):
+    hash1_bits = f"{hash1:#066b}"[2:]
+    hash2_bits = f"{hash2:#066b}"[2:]
+
+    if len(hash1_bits) != len(hash2_bits):
+        logger.error("Хэши должны быть одинаковой длины")
+        raise ValueError("Хэши должны быть одинаковой длины")
+
+    distance = 0
+    for bit1, bit2 in zip(hash1_bits, hash2_bits):
+        if bit1 != bit2:
+            distance += 1
+
+    return distance
+
+
+def similarity_percentage(hash1, hash2, max_distance=64):
+    hash1 = int32_to_binary_string(hash1)
+    hash2 = int32_to_binary_string(hash2)
+    distance = hamming_distance(hash1, hash2)
+    similarity_percent = (1 - distance / max_distance) * 100
+
+    return similarity_percent
