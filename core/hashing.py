@@ -75,7 +75,7 @@ def hamming_distance(hash1, hash2):
     hash2_bits = f"{hash2:#066b}"[2:]
 
     if len(hash1_bits) != len(hash2_bits):
-        logger.error("Хэши должны быть одинаковой длины")
+        logger.error("Difference length between hash1 and hash")
         raise ValueError("Хэши должны быть одинаковой длины")
 
     distance = 0
