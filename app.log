@@ -1616,3 +1616,1406 @@ TypeError: create_top_bar_with_icons() missing 1 required positional argument: '
 2024-06-25 00:44:08 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
 2024-06-25 00:44:08 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 8192
 2024-06-25 00:44:12 - logger - INFO - Deleting database
+2024-06-25 00:45:26 - logger - INFO - Start app
+2024-06-25 00:45:26 - logger - INFO - Creating database
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 8192
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 4238
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 744
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 870 247
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1129 5264
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 41 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 62 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 99 8192
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 41 4
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 57 32
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 101 2
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'bKGD' 101 2 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 115 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tIME' 136 7
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'tIME' 136 7 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 155 13527
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 41 765
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 818 254
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1084 4414
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 8192
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 3932
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 768
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 894 255
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1161 8306
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 768
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 894 255
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1161 12518
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 759
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 885 252
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1149 4239
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:33 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 8192
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 8192
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 4238
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 41 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'gAMA' 41 4
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 41 765
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 62 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 818 254
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'cHRM' 57 32
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 99 8192
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconLoading.gif: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1084 4414
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 101 2
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 744
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'bKGD' 101 2 (unknown)
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\icon.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 870 247
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconAddFolder.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 115 9
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconHomepage.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1129 5264
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 8192
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 3932
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tIME' 136 7
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 768
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 3
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'tIME' 136 7 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 894 255
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'sBIT' 41 4
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconError.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 3 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 155 13527
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1161 8306
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconCancel.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - b'sBIT' 41 4 (unknown)
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 56 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'pHYs' 57 9
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 13694 37
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 768
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 77 25
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 78 25
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 13743 37
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 894 255
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'PLTE' 114 759
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconRun.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 115 8192
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1161 12518
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tEXt' 13792 49
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'tRNS' 885 252
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 1149 4239
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconSettings.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconInformation.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconRemoveFolder.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconHelp.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconView.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Входная матрица должна быть в формате RGB
+2024-06-25 00:45:35 - logger - ERROR - Error processing D:/duplicateImages/assets\iconYes.png: Входная матрица должна быть в формате RGB
+2024-06-25 00:46:44 - logger - INFO - Start app
+2024-06-25 00:46:44 - logger - INFO - Creating database
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-25 00:46:50 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-25 00:46:51 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-25 00:46:51 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-25 00:46:51 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-25 00:46:51 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-25 00:46:51 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset\Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:46:51 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset\Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\0934dd1dde.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\05777790e2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\2703a19d40.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\110075880f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\2794fc1ff3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\184522aa50.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\1925720ad2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\2824ba3315.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\30356bc116.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\30837c8454.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\301b28fabe.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\25824d354d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\405620274c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\469764c8e2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\41996dd2ba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\30918b00e2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\4795abe765.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\4829351a69.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\512883ba70.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\47895917ba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\5491cb74d3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\52178f21ae.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\4739f59723.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\539cde3977.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\58239ddadd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\36202ad0aa.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\541caddb11.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\57229fa626.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\59156527f5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\586085c837.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\6072ba60b9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\5958836eb1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\6234950cf2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\6445794dd5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\6713fd7f88.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\683152d11a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\654799146e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\709948c994.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\5857e34aba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\53815c5e4d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\719cedd667.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\74308a6033.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\7210ea9bbc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\749412e02d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\725e58cecd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\6412799dc6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\52236b1a56.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\55507d0cb5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\8201b963b9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\750f82f03d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\82365a32d3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\8167b803ee.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\761830f617.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\8320c9d5be.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\8548cb621d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\84042e2885.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\7504965fdb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\8058a2974c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\86543db2e9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\85520c848c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\8720a46d82.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\8732172969.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\878805cdab.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\88650948fc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\9228a9d2c4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\9272958192.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\923f605132.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\83657b8b10.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:58 - logger - ERROR - Error processing D:/_datatset\Lilly\9318c50eb0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\82922fc82b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\9217213773.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\951130d9d9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\96995c7183.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\982951d839.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\883432a6cf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\9923eb817b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\93519f856f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\950dfee63b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a017dcfc8e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\98490e42fb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a0e7fefca0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\991909cfef.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a1221c07dd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a0372744a2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a1c2b83bf4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\889124b13b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\9509bc69dc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a1bca53f96.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a3092719ab.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a5eb26aef7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a635631fbf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a533064a04.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a708bac57e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a757fa785c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a67791ccf3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a779e97cb0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a8b388d75d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a7fb5c561d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a94e513bea.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a9a440dbd6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a9d395721e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\ab4f2d7bf3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\abb9c23c70.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a255e8a11a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\ab5964d7a9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\abeefc4eb8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\acfab9e9f3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\af921f09dc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\aec6b37bbc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\afabbd4009.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\afebb705b6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\aff73bb9b9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b3b86fb853.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\abbfc1a3ac.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b3f1cb364b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b4548ba28f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b4f3ccee20.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b1022ca4d9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b55cd7e10a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\ab40a4d943.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b4d57b86d3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b4f63d6810.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\9776a9ed97.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b8a141a38a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b8245e6298.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b93a5767de.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b57e85cc79.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b827cec92c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b760d473f1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\ba5381c0cc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bb8b8685b7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bb4efef4f2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bd1730d00c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bc54f20732.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bd0f391c9c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bd51004c82.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bdc87ac2ea.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bc776c624b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\baa051cae9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bda5e9e10c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bc68ef530a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bde5f846f1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bed177dd64.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\325d1de8f7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\becf7380ab.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bf533cd690.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c1a2e7bcac.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bef653b8e3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c8e0a9dce8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c246fe7b07.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c8ae2364c9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c8e5cabe4c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c1abf74c2b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\005fb079bf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c9b4ac8823.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0133af7453.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\bdd0af0e12.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\017e2a3fb3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c8f1c46a40.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\c9b167647f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\b9f3e328f8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\02a7a2df46.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0296b1fcff.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\02a4864347.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0312374e42.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\03fea52888.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\04b869bda4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\04df5b9a38.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\04eae8a9d7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0161f0611d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\026a5bcaa7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\063c011067.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\05266c0057.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\04c7948bce.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\05b10af635.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\063e2b980c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\06aba41d8d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lilly\a0957ec347.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\054838fbb0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\05fb18848c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\07a7f92485.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\07008525a7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\09504f1c96.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\05a9e346f9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\070db4de38.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0ac3d917e3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0a4ffd9788.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0ad0cd94c1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0ae8156e1f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:46:59 - logger - ERROR - Error processing D:/_datatset\Lotus\0b606f8000.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0c64ddbd36.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\04450f2d2e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0c58cee30f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0c0d2ac60b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0dfaf0300b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0cd4d2960b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0cad97f7dc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0ae6ffa4ee.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0f764ed822.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\104e76bb88.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0f8e44ea8f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\10012f282d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1097d43183.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\10d638da38.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\114e22df81.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\106c49d46c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\11829680cc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\0e8428ce72.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\11373f6206.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\12a5c5c711.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\120ab9a273.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\11df6da2d4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\120ce94102.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\118677892b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\13d061b666.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\12d8ce591a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\14b8c6f56f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1334999611.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1502e04092.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\14e1d3c32c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\145c63b4a9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\156c864d2b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1574e81f5d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\093ed8029f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\15092e529e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1615f8a5da.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\146f3ff520.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\16474f6557.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\16aa5a0fc6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1690129ab6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\160a90eb0f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\16905dde87.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\16e4ff0e8b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\16fd3cc75e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\168021e8e7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\162ae01a17.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1701ff270b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\17ae326aa3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\18d39ab324.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\12e31eda33.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1a26b6c7b6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\197529bcd3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1a137c0bd2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1897734ce7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1a34d776fd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1a710d99e5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1ab941d933.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1a68534426.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\176fd7b2a4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1ad8aef901.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1b275895f5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1ab2f6b1a4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1cd84094d1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1e48af5218.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1d9614295c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1f2a787279.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1de73ec6ca.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1e843a910f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1cecc63aa9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1c4737b5ef.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\20fae6a18b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1ff72522cf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\1ff763b480.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2263b6d91e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\23060e4b2a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\23a14caf30.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2360bfc307.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\23ae813d99.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\22575e98bb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\25190a4b10.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\224849686c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2413efd4ba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\23bed55f48.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\260b71ab2a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2110f319c7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\268368071a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\264a0fa012.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\236a1999ad.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\243198e87d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2493f76896.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2708ad39b8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\259831c4d1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2821eb0546.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\284605b5cd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\29591eb02d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2883dbcf42.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\29c0e41930.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\256dfad5d7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\296cb02182.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2a263feca5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2a89c783b1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2b26d1cabc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2afd5f1683.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2b3ed9c0c6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2b2ce81ee8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2c6c8e8961.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\272936570a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2c4f6c1507.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2cb33f1616.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2d5b809fcc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2ed79944f6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2e7a9acf5c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2f1add56bd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2f8ba7bf6e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2f8c275b1c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2ec3630caf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2fc20dedbd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2f8ffe19d2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:00 - logger - ERROR - Error processing D:/_datatset\Lotus\2fd93d296d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\2834841109.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\30c777ccbd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\319f6f1ab8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\30f63e2e2b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\312787fb22.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\30c55762e5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\31d8fbd918.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\30f0eb6874.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\327c5f7be0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3357dee9d3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\329ee61767.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\326745c2cb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\329cfb5f61.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\336c5a1691.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\33a40dfbfd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3624472b56.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\336f11c70d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\38bf949580.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\37e849d7f5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\37de003492.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\38c6826bac.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\390b7b51d2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3843f660be.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3733e0605a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\300b7a766d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\39f2072760.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\39c3110e31.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\392d86aee7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\39dc95a6cd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3ac49999e4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\397dbb9911.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3b5428a18b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3b6dd1fee9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3c00cc3957.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3de0e47f81.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3c4f7716c3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3ed0f9f6f4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3dac6e3140.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3f71e073bf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3d10b9a47c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\409e6d99b9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\40e28944b3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3562159f8c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4162acda61.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3a0f852e69.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\418c6db3de.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3a1743d347.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\41f18d3622.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\42f75a847a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\430abc8cd6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4380fe9316.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\40dcb643d4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\428f77977d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4353a6397f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\44362ea49f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\450eb9416d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4509b252d5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4432d92fbd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\42fb71d2e0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4569c7b8fa.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4519474ea7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\462cdec8c0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\46c6cee4d0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\47c30f94ea.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\468620ce2a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\478381596b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4365c1e604.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\45cc4204d3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\496c982cd5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4875412d95.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4801981e39.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\497ae4ae19.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\49a60a8f44.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4aaeffa82c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4307bdda9a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\47f4a6fafc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4a886407a7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4bb6bee863.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4bbebdad0c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4aa60f51e0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4aae931d0b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4bed3cdfec.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4c721d6603.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4cff3f44cb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4ad31f044e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4d1192c8b6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4e47a2a9b7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4dc6213c2f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4d4f50f45b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4ed1f4be2b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4d3a2e955b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4ef0ac41ac.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4edc76f910.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4f216c4911.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\505ecafa7d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\50f3abe3de.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\508e3ad8fe.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\525bd8a46c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5004843175.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\52d4b69d12.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\4f808e8733.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5416f6c645.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\526a8205a2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\52ae71fa07.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\522bfdece5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\53273fc047.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\54aac586c7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\551e0a0b43.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5474a93003.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\558fa356d0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\55a0a75de5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5431f5a180.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\565485761e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5651420e11.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\56eb65b771.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\56525415a0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\576a4fe81b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\578068da89.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\57a643418b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\57d2d85ee3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\570f408bde.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\3ea06dd08e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\57ac816e1e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\57e7b1a0e4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\59631ca3d5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\57aadee37c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5334950bee.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\585aa59a95.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5a9360eab0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5bf15d1927.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\5b3d1831a8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:01 - logger - ERROR - Error processing D:/_datatset\Lotus\59cb000080.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5c6bb54164.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5cc60da49c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\59701040c1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5e323ad5b5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5c40ac3f22.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\58bde11820.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5da1d8b229.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5dafd07f6b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5ea2c4062d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5e592c669c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5e92978fee.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5e3212835d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\61ad7f5618.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\604f09b5c3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\5f93c61752.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\52ef67fc65.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\631db0034b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\63f6bc9e6e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6308c26b1f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\63da376811.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\62744cfc5a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\62519b4fd1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6408689ff9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\657d3d8fb3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\65ba5d828e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\66428fcb71.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\65f332b445.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\65fbcf1ba4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\67fade2a4d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\67b5c75688.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6854bc9030.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\667b0a77ba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\699e6b5547.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6823815e9e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\69eef356d4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\67684e348a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6a7cf96b41.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\66ebf42b17.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6a32ef337a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6ac1094972.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6adc97f7c7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6ae8884b8d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6acf5327ad.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6bceecb753.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\68ceb6c74b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6bc12da5ed.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6c09ea37e5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6d8bc32966.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\579a4f0f61.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6c59914931.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6b18d857b7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6e6560c3c7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6e2db67edf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6ed95a14d5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6faf541da6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6f28be0775.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\70a83daf37.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6dd426e30c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\712578266f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\71ce16989f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\72890fff4c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6fd950b693.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\721b28a072.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\722cf68b4c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\746e2e2026.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\72878ebd82.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\71d670c1d1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\723490f92c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\72d44500a6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\74b0776a19.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\748924a5db.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7589ad685d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\74a699229b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\6bcfe4987d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\74d1aa4b06.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\75ccbddc32.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\75c90c153a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\75fa2a5d85.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\765e3f9e93.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\735ae71b3e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\77c032c0a0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\780f91b345.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\76e8a50ee0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\77d3adc19d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\75c3f83f36.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\786034f026.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\77359d1404.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\76e4477209.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\795b15ca4b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\796c78c84c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\788c3fa819.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7842ecaeda.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\799253cd56.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\781e76ad86.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\79b522ff8b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7a3b61c15b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7bbf29116b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\79e5272b22.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7afe9af588.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\78be741dc5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7a358c32d8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7cae98d9b8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7e5429325b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7f195fed3e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7cac937a56.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7ead61d7e8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7f88f8ba9a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7f528100a3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7bbea3dc30.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\802c47c59c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\80764094e0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\81165dcfee.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\817ac71873.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\7ea5c1d036.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\8239e843aa.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\81d74b1184.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\821dd124e3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\82400f7b39.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\823d624123.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\82e26f6846.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\836674b9c6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\839f7d1a14.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\858e85b3e1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\84c411ddd3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\83b9a0ecbe.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\8484db6e93.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:02 - logger - ERROR - Error processing D:/_datatset\Lotus\8404564c32.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\85fb09f098.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\877696e081.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\87fcce248a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8707bffa93.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\85afcde634.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\86e9df52ea.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8705237f75.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\88510c29d3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\885ecde6f5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\892be20c6e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\893b6ad7c4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8939886dc1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\896f9833b1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8996975039.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8a08dd9281.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8986b399f5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\818f54648b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8a98232051.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8d188562ab.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8aabaeb8e6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8bf062c215.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8b20ef02cc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8dda00f1df.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8bda18ee1c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8e082c232f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8e22cd5672.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8de21a667d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8e5d7efb3f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8ebb47f695.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8f1d4fe942.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8e7fd3d520.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8f2b2ac625.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9026e1f61e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8b7257f8d7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\90f1cae4e9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\91359a9820.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\914f27c4f6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\90f2fd177d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\930e7c7cbf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\936a126a18.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\94a5992d50.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9401462a65.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\922032a7d8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\958fee0645.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\965286a9e4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\95e04d8d26.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9190cb2e94.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\8fd188c1df.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\90a1aa80ce.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9665f1c005.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\96992a064c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9678fc511c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\943b283f93.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\96c76bb4b1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9735cc8566.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9971471588.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\983ab6f9d1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9a6c52c5e9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\99ab99bbb2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\997533bb4e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\98bc382f52.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9a06655acc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\978e624690.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9b197dd2a6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9b780df240.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\983cf3b143.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\914cb149ff.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9a78c2c896.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9c22b62ade.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9d8acbb2e7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9d93458f4b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9cd75051a0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9e6a71150c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9f08bcacaf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9d80b60ff4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9f21409118.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9eba908b01.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9fa3b4c1de.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9ec8d3df60.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a29f58e0a2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a107fa30c4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a2366b9646.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a243fa21f9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a2b98f6355.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a2fc09a700.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9ccc35e230.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a2b5392b43.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a45e462b19.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a517d28346.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\9fb9a5734c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a5717121e7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a2b907b6d6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a4a16e592c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a6f2c715c6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a5e3886b77.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a709edd0ce.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a7b8605bba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a65e3bfc9f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a365c8f98f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a47835a90d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a94d7c15fc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a9afebd1b7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a452438b1d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\aa30f135df.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\aa86ed8e7a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\aa9a005472.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\ac0c0047bc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\abe24f8ed0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\ac8d80339c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a9a2a731c2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\ad7391e5e3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\ad209514d2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\ae6ee955f2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\aea00b2201.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\ae72b8cb6a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\aed1a95c1d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\ad3f47bb34.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\af79cfa8e9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\af6a3efba7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\b05f728c56.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\b129786b8c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\a9c5f326bc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:03 - logger - ERROR - Error processing D:/_datatset\Lotus\b1e1ea59d8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\a7747af3d2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b27921a0ee.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\af6bf14b61.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b0fbf02b73.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b3be7c880d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b485323a13.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b5ebec5250.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b53ff27af6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b3f0bd9979.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b3c23b6ab1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b65e4114e9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b72f6df347.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b7199d0f3a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b73de89d62.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b5727f5789.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b789656180.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b5d5d40ee8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b7971faf21.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b7ddf08fb3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b82196d76a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b79f162271.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b86f6c748d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b84e899b04.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b9117400e5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b93b4cd52a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\ba5381c0cc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\ba9f4e07ba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\baa07ef32c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bb3e6d1729.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b9c65af4f9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\ba36967b1b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b94c3ecfa6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bc4431e960.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b849151086.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bd36dbe003.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bd4763b2ef.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bd810bd849.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bd8efee6dd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bc58b0e433.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bdbc2e1d83.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bdf3ad08f4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\be45a0d337.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bf4527eb22.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\be6ed019fd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\be8758ee51.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bf7e6f5a40.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bf356d0a39.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bf4b9aed6f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c05a56d144.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\bfe5d3a42d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c06ec02648.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c21186d2ff.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c1d67e4aad.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c275c3099d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c191d43daf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c2fcd33437.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c0e240b83f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c28b7e566d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c441ad625d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c4dd113483.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c3505c9ad9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c538e6c39a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c593e0534a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c5ee7aa9c3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c598d97018.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c603051ee5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c13293fe1c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c73eca14b0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c78deef34e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c72fc77c59.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c60eb3796d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c8357d67fc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c8ed020bb0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c92cc2dfed.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c887d5e1cb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c83e5ab7ba.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c8e4698aa0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c6e56a6d40.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c5842dad5c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c9947e1d91.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c93f0a0ed9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\ca93abdbae.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\ca849c6a0f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cb3a08e49e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cb1441ff41.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\c96a797cee.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cbf568e467.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cbba474796.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cc3d256df8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cbd2e0be0d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cc6ec46055.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cdedb40f2a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\ce54837eb1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\ce059a6a3c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cde53f1da8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cca292de11.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cee81e1792.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cc4a353994.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\b147e95f6c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\d132d383b2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\d22e289a6e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cbfde23b9e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\d209c70336.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\cb89b575b2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\d18dfe6016.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\d0233b82ca.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\d3b0198de3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:04 - logger - ERROR - Error processing D:/_datatset\Lotus\d387c6a921.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d3b31a61bf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d3dd4eed85.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d4e114bf9d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d4def38487.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d4d22bc77f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\cf73fbc3ab.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d5e984e6dc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d52ef8aded.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d58acc2534.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d6fda0834a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d792034d27.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d84de388fe.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d7150350c5.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d71ef2a5b1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d79732e736.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d6caf28e01.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d8ee011e28.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\da764cf211.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\da513e9781.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d45a7c17a3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d8dc5f6904.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dac6a5b8cc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\db2a5b1152.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\db78a68131.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\db1a59381c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dbfe3e8c10.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\da744bd81a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dcc4b2dcfd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dcf80d5f41.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dd0755afa9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dcdd2c5d4c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dc1e60c231.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dd34dabec8.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dd12984828.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dd5f6c19c1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dee15923c4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dec4cd77f6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\de8ad9aa08.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ddc2ddaa16.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dd50c8c30c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\df0df9b967.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\df426500ed.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e111d6ca8b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e0fc1c1e2a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e0b21081ec.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\df1f039176.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\defa34022b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ddad92ddc3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e19b3cb38a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e287cf4a72.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\dda8f965b2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e303975347.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e29c537a69.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e5a37ae30d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e4e8d3f753.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e595dd10a9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e5e156cce6.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\d4ca4a8eb7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e7239e04b9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e78e87aded.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e678742ec9.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e4062377b0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e84d7f5e57.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e8926d6d85.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e79dd9c08a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e93682f5b7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e676a3fec3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e4e736e9ef.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e9898b5375.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e99fa570cf.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e83c944d9e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e90a460b94.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ea94fa6287.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ead2d44b31.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eb08a858e4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e9e50f59e0.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eb32def629.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eb876066ab.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ec315ecc50.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ece7ec80b4.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eb17213ced.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eaeaceaf90.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eb74a7d55f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ed35fb5039.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ee9e17074d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ee3899a35c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ee17183937.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ee423a544a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\e8ce1c3cb2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eec5f12738.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\efe2296fde.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eec842a799.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ef2b836db7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\eeb11016b3.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\efbaf713cb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\edafe6c8cd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\ee4f02cc67.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f0c319e592.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f082024a97.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f001caba51.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f09e0d170f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f160ee00c7.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f0b5a1dd4b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f1a095eb66.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f1aa92b89b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f11a48ce08.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f1a574574e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f12a843b39.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f397a70f05.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f4126f3cfd.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f19bf4df5d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f465985380.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f34e463038.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f490a72f48.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f4a54c5331.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f4ee87031e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:05 - logger - ERROR - Error processing D:/_datatset\Lotus\f4fc5a5772.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f57b3b63f2.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f50244bb4c.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f2c2421a64.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\e49ab32c7b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\e6be237c65.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f6a9a4a853.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f2fc26a953.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f59ef53e40.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f7e869246f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f8d9affffb.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f93b5b08c1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f8464a420a.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f96bec2961.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fa5fca6f56.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fa8a3068e1.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fa4dc8d78e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f8179dd4fc.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f59d61e700.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fa4ed1169e.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fd85836a00.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fb85a68d1d.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\f644407335.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fde3bdfc69.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fd59d80757.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\ffdc73802b.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fd7f684f68.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\ffecf36a67.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\ff1e033228.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:06 - logger - ERROR - Error processing D:/_datatset\Lotus\fcbbb6999f.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:47:31 - logger - INFO - Deleting database
+2024-06-25 00:48:22 - logger - INFO - Start app
+2024-06-25 00:48:22 - logger - INFO - Creating database
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-25 00:48:33 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-25 00:48:33 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:48:33 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:49:35 - logger - ERROR - Error processing D:/_datatset/Lilly\2703a19d40.jpeg: Python int too large to convert to SQLite INTEGER
+2024-06-25 00:51:42 - logger - INFO - Start app
+2024-06-25 00:51:42 - logger - INFO - Creating database
+2024-06-25 00:51:44 - logger - INFO - Deleting database
+2024-06-25 00:51:47 - logger - INFO - Start app
+2024-06-25 00:51:47 - logger - INFO - Creating database
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-25 00:51:55 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-25 00:51:55 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:51:55 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:52:22 - logger - INFO - Start app
+2024-06-25 00:52:22 - logger - INFO - Creating database
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-25 00:52:29 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-25 00:52:29 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset\Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:52:29 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset\Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:52:41 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:52:41 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:54:04 - logger - INFO - Deleting database
+2024-06-25 00:54:52 - logger - INFO - Start app
+2024-06-25 00:54:52 - logger - INFO - Creating database
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-25 00:54:59 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-25 00:54:59 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:54:59 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-25 00:55:17 - logger - INFO - Deleting database

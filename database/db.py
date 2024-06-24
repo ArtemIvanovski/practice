@@ -35,7 +35,7 @@ def add_image_data(path, a_hash=None, p_hash=None, g_hash=None, d_hash=None, db_
     cursor.execute('''
         INSERT INTO image_data (path, a_hash, p_hash, g_hash, d_hash)
         VALUES (?, ?, ?, ?, ?)
-    ''', (path, a_hash, p_hash, g_hash, d_hash))
+    ''', (path, str(a_hash), str(p_hash), str(g_hash), str(d_hash)))
     conn.commit()
     conn.close()
 

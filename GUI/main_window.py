@@ -133,8 +133,8 @@ class MainWindow(QMainWindow):
             error_dialog.exec_()
             return
 
-        if self.results_window is None:
-            self.results_window = ResultsWindow(self, self.image_paths_above, self.image_paths_below)
-        # self.results_window = ResultsWindow(self.image_paths_above, self.image_paths_below)
+        # if self.results_window is None:
+        #     self.results_window = ResultsWindow(self, self.image_paths_above, self.image_paths_below)
+        self.results_window = ResultsWindow(self, self.image_paths_above, self.image_paths_below)
         self.results_window.show()
         self.hide()
