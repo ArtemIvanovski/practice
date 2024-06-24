@@ -89,8 +89,18 @@ class SettingsWindow(QDialog):
         group_box.setLayout(group_layout)
         layout.addWidget(group_box)
 
-        self.use_hash_algorithm = create_checkbox("Использовать алгоритм хэширования", "use_hashing_algorithm")
-        layout.addWidget(self.use_hash_algorithm)
+        self.use_a_hash_algorithm = create_checkbox("Использовать алгоритм a-хэширования", "aHash")
+        layout.addWidget(self.use_a_hash_algorithm)
+
+        self.use_p_hash_algorithm = create_checkbox("Использовать алгоритм p-хэширования", "aHash")
+        layout.addWidget(self.use_p_hash_algorithm)
+
+        self.use_g_hash_algorithm = create_checkbox("Использовать алгоритм g-хэширования", "aHash")
+        layout.addWidget(self.use_g_hash_algorithm)
+
+        self.use_d_hash_algorithm = create_checkbox("Использовать алгоритм d-хэширования", "aHash")
+        layout.addWidget(self.use_d_hash_algorithm)
+
 
         self.use_sector_algorithm = create_checkbox("Использовать алгоритм сравнения по секторам",
                                                     "use_sector_algorithm")
@@ -206,7 +216,10 @@ class SettingsWindow(QDialog):
             "rotate_270_clockwise": self.rotate_270.isChecked(),
             "flip_horizontal": self.flip_horizontal.isChecked(),
             "flip_vertical": self.flip_vertical.isChecked(),
-            "use_hashing_algorithm": self.use_hash_algorithm.isChecked(),
+            "aHash": self.use_a_hash_algorithm.isChecked(),
+            "pHash": self.use_p_hash_algorithm.isChecked(),
+            "dHash": self.use_d_hash_algorithm.isChecked(),
+            "gHash": self.use_g_hash_algorithm.isChecked(),
             "use_sector_algorithm": self.use_sector_algorithm.isChecked(),
             "english": self.language_buttons["english"].isChecked(),
             "russian": self.language_buttons["russian"].isChecked(),

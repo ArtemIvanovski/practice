@@ -57,3 +57,5 @@ C
 GUI/error_window.py,a\1\a10b126eb1a0ebe84d5c3dec1090b4586b933fd9
 C
 core/image_utils.py,b\c\bc5f4fd9ff211ddfde21bb7e12214faa3193e531
+?
+core/hashing.py,b\f\bfcde18d0ad7a7c8ce76277b4b4a65f9d793963f
