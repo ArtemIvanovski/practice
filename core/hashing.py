@@ -4,8 +4,8 @@ import numpy as np
 from logger import logger
 
 
-def ahash(image_path, new_width, new_height):
-    pixels = resize_image(image_path, new_width, new_height)
+def a_hash(image_path):
+    pixels = resize_image(image_path, 8, 8)
     grayscale_pixels = convert_to_grayscale(pixels)
     avg = grayscale_pixels.mean()
     bits = (grayscale_pixels >= avg).flatten()
@@ -16,7 +16,7 @@ def ahash(image_path, new_width, new_height):
     return hash_value
 
 
-def phash(image_path):
+def p_hash(image_path):
     pixels = resize_image(image_path, 32, 32)
     grayscale_pixels = convert_to_grayscale(pixels)
     dct_transformed = dct_2d(grayscale_pixels)
@@ -31,7 +31,7 @@ def phash(image_path):
     return hash_value
 
 
-def dhash(image_path):
+def d_hash(image_path):
     pixels = resize_image(image_path, 9, 8)
     grayscale_pixels = convert_to_grayscale(pixels)
     diff = grayscale_pixels[:, 1:] > grayscale_pixels[:, :-1]
@@ -43,7 +43,7 @@ def dhash(image_path):
     return hash_value
 
 
-def ghash(image_path):
+def g_hash(image_path):
     pixels = resize_image(image_path, 32, 32)
     grayscale_pixels = convert_to_grayscale(pixels)
     rows, cols = grayscale_pixels.shape

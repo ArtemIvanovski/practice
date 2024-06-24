@@ -153,5 +153,7 @@ w
 G.idea/sonarlint/issuestore/d/8/d81e95c5aa1be646634e4d1807d53a2cfe68ab9e,0\6\06d7060e439d9f2ccad47ed946735ff2fc5dba30
 w
 G.idea/sonarlint/issuestore/c/e/ce4f796c5be8947b7ba7705fab2b891600f264e5,d\2\d2b5b9c4c9791b8386c768e8785f0bff9e0ee173
-E
-GUI/loading_window.py,d\a\da58a399f95bb03106e5bc5552181d04d5c74172
+D
+GUI/result_window.py,4\0\40544d4d4698fe8ca52237c2481df5602d7f0c4f
+F
+core/find_duplicate.py,a\b\ab38d6a1d934c099f2586f898084bcef952e0d67

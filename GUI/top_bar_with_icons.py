@@ -43,7 +43,7 @@ def create_spin_box(min_board, max_board, setting_key):
     return spin_box
 
 
-def create_top_bar_with_icons(parent_widget):
+def create_top_bar_with_icons(parent_widget, run_search_callback, run_home_comeback):
     white_strip = QWidget(parent_widget)
     white_strip.setStyleSheet("background-color: #f3f3f3;")
     white_strip.setFixedHeight(30)
@@ -58,7 +58,8 @@ def create_top_bar_with_icons(parent_widget):
 
     setting_window = SettingsWindow(parent_widget)
 
-    add_icon_to_layout(grey_layout, 'assets/iconRun.png', 'Запустить поиск')
+    add_icon_to_layout(grey_layout, 'assets/iconHomepage.png', 'Хочу домой', run_home_comeback)
+    add_icon_to_layout(grey_layout, 'assets/iconRun.png', 'Запустить поиск', run_search_callback)
     add_icon_to_layout(grey_layout, 'assets/iconSettings.png', 'Настройки', setting_window.show)
     add_icon_to_layout(grey_layout, 'assets/iconHelp.png', 'Мне нужна помощь')
     add_icon_to_layout(grey_layout, 'assets/iconInformation.png', 'Информация о приложении')
