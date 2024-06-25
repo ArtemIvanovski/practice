@@ -51,7 +51,7 @@ class SettingsWindow(QDialog):
 
         value_columns_layout = QHBoxLayout()
         value_columns_label = QLabel("Количество столбцов в виде превьюшек")
-        self.value_columns_input = create_spin_box(1, 5, "value_columns")
+        self.value_columns_input = create_spin_box(1, 4, "value_columns")
         value_columns_layout.addWidget(value_columns_label)
         value_columns_layout.addWidget(self.value_columns_input)
 
@@ -72,23 +72,6 @@ class SettingsWindow(QDialog):
         group_layout = QVBoxLayout()
 
         from GUI.top_bar_with_icons import create_checkbox
-        self.rotate_90 = create_checkbox("Поворот 90° по часовой", "rotate_90_clockwise")
-        group_layout.addWidget(self.rotate_90)
-        self.rotate_180 = create_checkbox("Поворот 180°", "rotate_180")
-        group_layout.addWidget(self.rotate_180)
-        self.rotate_270 = create_checkbox("Поворот 270° по часовой", "rotate_270_clockwise")
-        group_layout.addWidget(self.rotate_270)
-        self.flip_horizontal = create_checkbox("Отражение по горизонтали", "flip_horizontal")
-        group_layout.addWidget(self.flip_horizontal)
-        self.flip_vertical = create_checkbox("Отражение по вертикали", "flip_vertical")
-        group_layout.addWidget(self.flip_vertical)
-
-        self.warning_label = QLabel("Внимание: Установка этих опций увеличит время сравнения")
-        group_layout.addWidget(self.warning_label)
-
-        group_box.setLayout(group_layout)
-        layout.addWidget(group_box)
-
         self.use_a_hash_algorithm = create_checkbox("Использовать алгоритм a-хэширования", "aHash")
         layout.addWidget(self.use_a_hash_algorithm)
 
@@ -101,10 +84,13 @@ class SettingsWindow(QDialog):
         self.use_d_hash_algorithm = create_checkbox("Использовать алгоритм d-хэширования", "aHash")
         layout.addWidget(self.use_d_hash_algorithm)
 
-
         self.use_sector_algorithm = create_checkbox("Использовать алгоритм сравнения по секторам",
                                                     "use_sector_algorithm")
         layout.addWidget(self.use_sector_algorithm)
+
+        self.warning_label = QLabel("Внимание: Установка этих опций увеличит время сравнения")
+        layout.addWidget(self.warning_label)
+
 
         from GUI.top_bar_with_icons import create_slider
         self.similarity_slider = create_slider(0, 100, "similarity_threshold")
@@ -211,11 +197,6 @@ class SettingsWindow(QDialog):
             "value_columns": self.value_columns_input.value(),
             "similarity_threshold": self.similarity_slider.value(),
             "number_of_sectors": self.sector_slider.value(),
-            "rotate_90_clockwise": self.rotate_90.isChecked(),
-            "rotate_180": self.rotate_180.isChecked(),
-            "rotate_270_clockwise": self.rotate_270.isChecked(),
-            "flip_horizontal": self.flip_horizontal.isChecked(),
-            "flip_vertical": self.flip_vertical.isChecked(),
             "aHash": self.use_a_hash_algorithm.isChecked(),
             "pHash": self.use_p_hash_algorithm.isChecked(),
             "dHash": self.use_d_hash_algorithm.isChecked(),

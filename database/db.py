@@ -40,10 +40,10 @@ def add_image_data(path, a_hash=None, p_hash=None, g_hash=None, d_hash=None, db_
     conn.close()
 
 
-def get_image_data(image_id, db_name='image_hashes.db'):
+def get_image_data(path, db_name='image_hashes.db'):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
-    cursor.execute('SELECT * FROM image_data WHERE id=?', (image_id,))
+    cursor.execute('SELECT * FROM image_data WHERE path = ?', (path,))
     data = cursor.fetchone()
     conn.close()
     return data
@@ -71,3 +71,12 @@ def clear_database(db_name='image_hashes.db'):
     cursor.execute('DELETE FROM image_data')
     conn.commit()
     conn.close()
+
+
+def get_record_count(db_name='image_hashes.db'):
+    conn = sqlite3.connect(db_name)
+    cursor = conn.cursor()
+    cursor.execute('SELECT COUNT(*) FROM image_data')
+    count = cursor.fetchone()[0]
+    conn.close()
+    return count

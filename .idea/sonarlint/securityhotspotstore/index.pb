@@ -1,6 +1,4 @@
 
-7
-main.py,f\1\f1bdda93d9a278e358509d498e17d97764c1fb29
 ?
 GUI/__init__.py,1\e\1eab3eb841e3d3f2c3050353dcbc69b91e7a5725
 B
@@ -157,3 +155,11 @@ D
 GUI/result_window.py,4\0\40544d4d4698fe8ca52237c2481df5602d7f0c4f
 F
 core/find_duplicate.py,a\b\ab38d6a1d934c099f2586f898084bcef952e0d67
+6
+app.py,1\3\13cce7fd076299c81b4986166f3d822791c9490e
+E
+GUI/loading_window.py,d\a\da58a399f95bb03106e5bc5552181d04d5c74172
+L
+GUI/similar_images_window.py,d\0\d007c4b16d78449a2137e4516ead87c7ed1d202e
+O
+core/image_processing_thread.py,1\8\18d0099f6e6166b64f447c3b8d3cb3f3b09f68ac

@@ -2,9 +2,11 @@ from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFil
 from PyQt5.QtGui import QIcon
 from GUI.error_window import ErrorWindow
 from GUI.image_viewer_window import ImageViewer
+from GUI.loading_window import LoadingDialog
 from GUI.result_window import ResultsWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
 from core.file_utils import get_files_in_folder
+from core.image_processing_thread import ImageProcessingThread
 
 
 class MainWindow(QMainWindow):
@@ -17,8 +19,8 @@ class MainWindow(QMainWindow):
         self.setWindowTitle('Image Duplicate Finder')
         self.setStyleSheet("background-color: #f3f3f3;")
         self.setWindowIcon(QIcon('assets/icon.png'))
-        self.showMaximized()
         # TODO: fix fixed size
+        # self.showMaximized()
         # self.setFixedSize(self.size())
         self.main_widget = QWidget()
         self.setCentralWidget(self.main_widget)
@@ -133,6 +135,17 @@ class MainWindow(QMainWindow):
             error_dialog.exec_()
             return
 
-        self.results_window = ResultsWindow(self, self.image_paths_above, self.image_paths_below)
+        self.loading_dialog = LoadingDialog(self)
+        self.loading_dialog.show()
+
+        self.image_processing_thread = ImageProcessingThread(
+            self.image_paths_above, self.image_paths_below,
+        )
+        self.image_processing_thread.results_ready.connect(self.on_results_ready)
+        self.image_processing_thread.start()
+
+    def on_results_ready(self, results):
+        self.loading_dialog.close()
+        self.results_window = ResultsWindow(self, results)
         self.results_window.show()
         self.hide()

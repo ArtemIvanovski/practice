@@ -70,10 +70,7 @@ def int32_to_binary_string(hash_int32, num_bits=64):
     return hash_binary
 
 
-def hamming_distance(hash1, hash2):
-    hash1_bits = f"{hash1:#066b}"[2:]
-    hash2_bits = f"{hash2:#066b}"[2:]
-
+def hamming_distance(hash1_bits, hash2_bits):
     if len(hash1_bits) != len(hash2_bits):
         logger.error("Difference length between hash1 and hash")
         raise ValueError("Хэши должны быть одинаковой длины")
@@ -86,9 +83,9 @@ def hamming_distance(hash1, hash2):
     return distance
 
 
-def similarity_percentage(hash1, hash2, max_distance=64):
-    hash1 = int32_to_binary_string(hash1)
-    hash2 = int32_to_binary_string(hash2)
+def calculate_similarity(hash1, hash2, max_distance=64):
+    hash1 = int32_to_binary_string(int(hash1))
+    hash2 = int32_to_binary_string(int(hash2))
     distance = hamming_distance(hash1, hash2)
     similarity_percent = (1 - distance / max_distance) * 100
 
