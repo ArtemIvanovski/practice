@@ -20,18 +20,54 @@
    - Относительные ссылки 2
    - Отмена изменений в git
 
-    [Скриншот результата](Git/раздел1_шаг2.png)
+    [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/2.png)
 
-5. Введение в Cherry-pick. [Скриншот результата](Git/раздел1_шаг2.png) 
+3. Перемещаем труды туда-сюда.
+   - Введение в cherry-pick
+   - Введение в интерактивный Rebase
+  
+   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/3.png) 
 
-6. Выберем один коммит. [Скриншот результата](Git/раздел1_шаг2.png)
+4. Сборная солянка.
+   - Выберем один коммит
+   - Жонглируем коммитами
+   - Жонглируем коммитами 2
+   - git tag
+   - git discribe
+
+   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/4.png)
    
-7. Rebase over 9000 раз. [Скриншот результата](Git/раздел1_шаг2.png)
+5. Продвинутый уровень.
+  - Rebase over 9000 раз
+  - Здровая семья или несколько родителей
+  - Спутанные ветки
+
+   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/5.png)
    
 ### Раздел 2: Удаленный репозитории 
 
-1. Введение в клонирование. [Скриншот результата](Git/раздел2_шаг1.png)
+1. Push & Pull - удалённые репозитории в Git!.
+   - Введение в клонирование
+   - Удалённые ветки
+   - Git fetch
+   - Git pull
+   - Коллективная работа
+   - Git push
+   - Расхождение в истории
+   - Заблокированная ветвь main
+     
+   [Скриншот результата]([Git/раздел2_шаг1.png](https://github.com/ArtemIvanovski/practice/blob/main/course/git/6.png))
 
-2. Push мастер! [Скриншот результата](Git/раздел3_шаг1.png)
+2. Через origin – к звёздам. Продвинутое использование Git Remotes.
+   - Push Мастер!
+   - Слияние с удалённым репозиторием
+   - Слежка за удалённым репозиторием
+   - Аргументы git push
+   - Аргументы для push -- расширенная версия!
+   - Аргументы для fetch
+   - Пустой источник
+   - Аргументы для pull
+     
+   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/7.png)
 
 
