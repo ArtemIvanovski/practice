@@ -22,8 +22,8 @@
    - Относительные ссылки 2
    - Отмена изменений в git
 
-    <p align="center">
-  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/2.png">
+<p align="center">
+     <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/2.png">
 </p>
 
 3. Перемещаем труды туда-сюда.
@@ -41,8 +41,8 @@
    - git tag
    - git discribe
 
-   <p align="center">
-  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/4.png">
+<p align="center">
+   <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/4.png">
 </p>
 
 5. Продвинутый уровень.
@@ -50,7 +50,7 @@
   - Здровая семья или несколько родителей
   - Спутанные ветки
 
-   <p align="center">
+<p align="center">
   <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/5.png">
 </p>
 
