@@ -12,7 +12,9 @@
    - Слияние веток в git
    - Введение в rebase
      
-    [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/1.png)
+<p align="center">
+  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/1.png">
+</p>
 
 2. Едем дальше.
    - Теряем голову или detached head
@@ -20,13 +22,17 @@
    - Относительные ссылки 2
    - Отмена изменений в git
 
-    [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/2.png)
+    <p align="center">
+  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/2.png">
+</p>
 
 3. Перемещаем труды туда-сюда.
    - Введение в cherry-pick
    - Введение в интерактивный Rebase
   
-   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/3.png) 
+<p align="center">
+  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/3.png">
+</p>
 
 4. Сборная солянка.
    - Выберем один коммит
@@ -35,15 +41,19 @@
    - git tag
    - git discribe
 
-   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/4.png)
-   
+   <p align="center">
+  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/4.png">
+</p>
+
 5. Продвинутый уровень.
   - Rebase over 9000 раз
   - Здровая семья или несколько родителей
   - Спутанные ветки
 
-   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/5.png)
-   
+   <p align="center">
+  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/5.png">
+</p>
+
 ### Раздел 2: Удаленный репозитории 
 
 1. Push & Pull - удалённые репозитории в Git!.
@@ -56,7 +66,9 @@
    - Расхождение в истории
    - Заблокированная ветвь main
      
-   [Скриншот результата]([Git/раздел2_шаг1.png](https://github.com/ArtemIvanovski/practice/blob/main/course/git/6.png))
+<p align="center">
+  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/6.png">
+</p>
 
 2. Через origin – к звёздам. Продвинутое использование Git Remotes.
    - Push Мастер!
@@ -68,6 +80,8 @@
    - Пустой источник
    - Аргументы для pull
      
-   [Скриншот результата](https://github.com/ArtemIvanovski/practice/blob/main/course/git/7.png)
+<p align="center">
+  <img src="https://github.com/ArtemIvanovski/practice/blob/main/course/git/7.png">
+</p>
 
 
