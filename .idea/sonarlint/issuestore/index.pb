@@ -157,7 +157,7 @@ L
 GUI/similar_images_window.py,d\0\d007c4b16d78449a2137e4516ead87c7ed1d202e
 O
 core/image_processing_thread.py,1\8\18d0099f6e6166b64f447c3b8d3cb3f3b09f68ac
-C
-GUI/about_window.py,5\a\5aa910864790027bb3c7fdfd3c2fd4bb3690ad27
 @
 requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
+H
+translations/__init__.py,0\0\00b0224f97a1c2a7d57ee77c7f2459eea3618681

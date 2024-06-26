@@ -2,7 +2,6 @@ from PyQt5.QtWidgets import QWidget, QHBoxLayout, QToolButton, QFrame, QCheckBox
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt, QSize
 
-from GUI.about_window import AboutWindow
 from GUI.settings_window import SettingsWindow
 from core.settings_handler import read_settings_from_json
 
@@ -59,13 +58,12 @@ def create_top_bar_with_icons(parent_widget, run_search_callback, run_home_comeb
     grey_layout.setSpacing(0)
 
     setting_window = SettingsWindow(parent_widget)
-    about_window = AboutWindow()
 
     add_icon_to_layout(grey_layout, 'assets/iconHomepage.png', 'Хочу домой', run_home_comeback)
     add_icon_to_layout(grey_layout, 'assets/iconRun.png', 'Запустить поиск', run_search_callback)
     add_icon_to_layout(grey_layout, 'assets/iconSettings.png', 'Настройки', setting_window.show)
     add_icon_to_layout(grey_layout, 'assets/iconHelp.png', 'Мне нужна помощь')
-    add_icon_to_layout(grey_layout, 'assets/iconInformation.png', 'Информация о приложении', about_window.show)
+    add_icon_to_layout(grey_layout, 'assets/iconInformation.png', 'Информация о приложении')
 
     grey_strip.setLayout(grey_layout)
 

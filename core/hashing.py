@@ -73,7 +73,7 @@ def int32_to_binary_string(hash_int32, num_bits=64):
 def hamming_distance(hash1_bits, hash2_bits):
     if len(hash1_bits) != len(hash2_bits):
         logger.error("Difference length between hash1 and hash")
-        raise ValueError("Хэши должны быть одинаковой длины")
+        raise ValueError("Difference length between hash1 and hash")
 
     distance = 0
     for bit1, bit2 in zip(hash1_bits, hash2_bits):
