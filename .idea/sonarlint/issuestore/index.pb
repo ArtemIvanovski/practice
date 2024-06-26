@@ -33,8 +33,6 @@ G.idea/sonarlint/issuestore/a/0/a04cdc1b813999384ef385ac5191cbe69e844545,9\4\94
 ..idea/inspectionProfiles/profiles_settings.xml,1\e\1e9075f5bf079c01ef2c910709e91a497d262080
 w
 G.idea/sonarlint/issuestore/1/e/1eab3eb841e3d3f2c3050353dcbc69b91e7a5725,a\5\a52deb68fdc46a37f91b9367d869aca43dfb9a25
-Å
-Q.idea/sonarlint/securityhotspotstore/f/1/f1bdda93d9a278e358509d498e17d97764c1fb29,b\5\b58a0677868503201074e965423d875803239017
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
 F
@@ -70,8 +68,6 @@ Q.idea/sonarlint/securityhotspotstore/b/6/b68e4281cae12a21abf823366dfd87783cb4ac
 Å
 Q.idea/sonarlint/securityhotspotstore/b/3/b3cc3bfb3c4c2b96d0265ac802ecfeeb92f6c4a2,c\b\cbb4fd3424eb53019401d9b8da8f9a7f6a0c5854
 Å
-Q.idea/sonarlint/securityhotspotstore/b/5/b58a0677868503201074e965423d875803239017,0\3\03d0bc6c0bde37cec5122c2677682e3692158735
-Å
 Q.idea/sonarlint/securityhotspotstore/4/0/408a21d10fd9d0c0f8b27809931c367956da3306,a\8\a89e02bd88e8e4ba3119c54a790e1cdb07b61bc3
 w
 G.idea/sonarlint/issuestore/1/e/1e9075f5bf079c01ef2c910709e91a497d262080,2\5\2511a7590eb091d560dac1615e6bcef0ceeaffb6
@@ -99,8 +95,6 @@ w
 G.idea/sonarlint/issuestore/b/6/b68e4281cae12a21abf823366dfd87783cb4ac08,f\5\f5d21beac96b8bf824cb8c2968da2a0d97eb62e4
 w
 G.idea/sonarlint/issuestore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,b\0\b04578cffb47b1e57970601a0cacef6081245859
-w
-G.idea/sonarlint/issuestore/b/5/b58a0677868503201074e965423d875803239017,7\3\734afce58a3e41c14a71e125d4d8fafca527d956
 Å
 Q.idea/sonarlint/securityhotspotstore/b/c/bc5f4fd9ff211ddfde21bb7e12214faa3193e531,a\f\af927da5bd563df8dfbf749145e3916f48878865
 Å
@@ -163,3 +157,7 @@ L
 GUI/similar_images_window.py,d\0\d007c4b16d78449a2137e4516ead87c7ed1d202e
 O
 core/image_processing_thread.py,1\8\18d0099f6e6166b64f447c3b8d3cb3f3b09f68ac
+C
+GUI/about_window.py,5\a\5aa910864790027bb3c7fdfd3c2fd4bb3690ad27
+@
+requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
