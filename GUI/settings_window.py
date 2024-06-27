@@ -68,9 +68,6 @@ class SettingsWindow(QDialog):
         comparison_tab = QWidget()
         layout = QVBoxLayout()
 
-        group_box = QWidget()
-        group_layout = QVBoxLayout()
-
         from GUI.top_bar_with_icons import create_checkbox
         self.use_a_hash_algorithm = create_checkbox("Использовать алгоритм a-хэширования", "aHash")
         layout.addWidget(self.use_a_hash_algorithm)

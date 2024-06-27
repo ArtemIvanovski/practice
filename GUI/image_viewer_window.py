@@ -1,7 +1,6 @@
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QMainWindow, QScrollArea, QWidget, QVBoxLayout, QLabel, QGridLayout
-
 from core.settings_handler import read_settings_from_json
 
 
@@ -54,7 +53,4 @@ class ImageViewer(QMainWindow):
         self.setCentralWidget(self.scroll_area)
 
         window_width = width * value_columns + 40 * (value_columns + 1)
-        # TODO: сделать высоту экранную динамическую
-        # window_height = height * ((len(image_paths) - 1) // value_columns + 1) + 80
-
         self.resize(window_width, 800)
