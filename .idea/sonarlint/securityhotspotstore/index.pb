@@ -155,20 +155,12 @@ E
 GUI/loading_window.py,d\a\da58a399f95bb03106e5bc5552181d04d5c74172
 L
 GUI/similar_images_window.py,d\0\d007c4b16d78449a2137e4516ead87c7ed1d202e
-O
-core/image_processing_thread.py,1\8\18d0099f6e6166b64f447c3b8d3cb3f3b09f68ac
 @
 requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
 H
 translations/__init__.py,0\0\00b0224f97a1c2a7d57ee77c7f2459eea3618681
-R
-"core/file_get_processing_thread.py,7\6\76570accfcd9c301a0b3793350223fd6d8305c4b
-L
-core/viewer_worker_thread.py,3\2\32e8d84cb57b5d92b4eab49aca2f46dc77a661d9
 C
 GUI/about_window.py,5\a\5aa910864790027bb3c7fdfd3c2fd4bb3690ad27
-X
-(core/similar_images_processing_thread.py,d\b\db1e0f1171488762837136954f149911c15f09a5
 H
 core/threads/__init__.py,0\9\0951ef795d60ecc0bf93179dd6e9ff6c2c1b38da
 `

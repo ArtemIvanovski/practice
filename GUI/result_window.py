@@ -49,7 +49,7 @@ class ResultsWindow(QMainWindow):
 
             view_button = QPushButton("Посмотреть подобные изображения")
             view_button.setFixedSize(350, 30)
-            view_button.clicked.connect(lambda checked, res=result: self.view_similar_images(res['similar_images']))
+            view_button.clicked.connect(lambda checked, res=result: self.start_similar_images_loading(res['similar_images']))
 
             image_layout = QVBoxLayout()
             image_layout.addStretch()
@@ -64,22 +64,19 @@ class ResultsWindow(QMainWindow):
         self.layout.addWidget(scroll_area)
         self.main_widget.setLayout(self.layout)
 
-    def view_similar_images(self, similar_images):
-        self.start_similar_viewer_loading(similar_images)
-
-    def run_homepage(self):
-        self.main_window.show()
-        self.close()
-
-    def start_similar_viewer_loading(self, similar_images):
+    def start_similar_images_loading(self, similar_images):
         self.loading_dialog = LoadingDialog(self)
         self.loading_dialog.show()
 
         self.similar_images_window_thread = SimilarImagesProcessingThread(similar_images, self.width, self.height)
-        self.similar_images_window_thread.finished.connect(self.on_viewer_loaded)
+        self.similar_images_window_thread.finished.connect(self.on_similar_images_loaded)
         self.similar_images_window_thread.start()
 
-    def on_similar_viewer_loaded(self, similar_images_window):
+    def on_similar_images_loaded(self, similar_images_window):
         self.loading_dialog.close()
         self.similar_images_window = similar_images_window
         self.similar_images_window.show()
+
+    def run_homepage(self):
+        self.main_window.show()
+        self.close()

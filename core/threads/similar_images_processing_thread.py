@@ -4,7 +4,7 @@ from GUI.similar_images_window import SimilarImagesWindow
 
 
 class SimilarImagesProcessingThread(QThread):
-    results_ready = pyqtSignal(list)
+    finished = pyqtSignal(object)
 
     def __init__(self, similar_images, width, height):
         super().__init__()
@@ -14,4 +14,4 @@ class SimilarImagesProcessingThread(QThread):
 
     def run(self):
         similar_images_window = SimilarImagesWindow(self.similar_images, self.width, self.height)
-        self.results_ready.emit(similar_images_window)
+        self.finished.emit(similar_images_window)
