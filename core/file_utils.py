@@ -5,6 +5,19 @@ from core.settings_handler import read_settings_from_json
 
 
 def get_files_in_folder(folder_path):
+    """
+        This function retrieves all valid image files from a given folder and its subfolders.
+
+        Parameters:
+        folder_path (str): The path of the folder to search for image files.
+
+        Returns:
+        tuple: A tuple containing two lists. The first list contains the paths of valid image files,
+               and the second list contains the names of invalid image files.
+
+        Raises:
+        FileNotFoundError: If the specified folder does not exist.
+        """
     format_settings = {
         "bmp": ".bmp",
         "png": ".png",

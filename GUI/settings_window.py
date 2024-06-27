@@ -9,8 +9,25 @@ from GUI.error_window import ErrorWindow
 class SettingsWindow(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
+        self.gif = None
+        self.jpeg = None
+        self.png = None
+        self.bmp = None
+        self.language_buttons = None
+        self.language_group = None
+        self.label_similarity = None
+        self.similarity_slider = None
+        self.use_d_hash_algorithm = None
+        self.use_g_hash_algorithm = None
+        self.use_p_hash_algorithm = None
+        self.use_a_hash_algorithm = None
+        self.warning_label = None
+        self.value_columns_input = None
+        self.max_images_input = None
+        self.height_input = None
+        self.width_input = None
         self.setWindowTitle("Настройки")
-        self.setGeometry(300, 300, 600, 600)
+        self.setGeometry(300, 300, 600, 400)
         self.setFixedSize(self.size())
         main_layout = QVBoxLayout()
         self.setWindowFlags(Qt.Window | Qt.WindowCloseButtonHint)
@@ -68,6 +85,9 @@ class SettingsWindow(QDialog):
         comparison_tab = QWidget()
         layout = QVBoxLayout()
 
+        self.warning_label = QLabel("Внимание: Установка всех этих опций увеличит время сравнения")
+        layout.addWidget(self.warning_label)
+
         from GUI.top_bar_with_icons import create_checkbox
         self.use_a_hash_algorithm = create_checkbox("Использовать алгоритм a-хэширования", "aHash")
         layout.addWidget(self.use_a_hash_algorithm)
@@ -80,9 +100,6 @@ class SettingsWindow(QDialog):
 
         self.use_d_hash_algorithm = create_checkbox("Использовать алгоритм d-хэширования", "aHash")
         layout.addWidget(self.use_d_hash_algorithm)
-
-        self.warning_label = QLabel("Внимание: Установка этих опций увеличит время сравнения")
-        layout.addWidget(self.warning_label)
 
         from GUI.top_bar_with_icons import create_slider
         self.similarity_slider = create_slider(0, 100, "similarity_threshold")
@@ -105,12 +122,8 @@ class SettingsWindow(QDialog):
         layout = QVBoxLayout()
 
         self.language_group = QButtonGroup()
-        self.language_buttons = {}
-
-        self.language_buttons["english"] = QRadioButton("English")
-        self.language_buttons["russian"] = QRadioButton("Русский")
-        self.language_buttons["belarusian"] = QRadioButton("Беларускі")
-        self.language_buttons["french"] = QRadioButton("Français")
+        self.language_buttons = {"english": QRadioButton("English"), "russian": QRadioButton("Русский"),
+                                 "belarusian": QRadioButton("Беларускі"), "french": QRadioButton("Français")}
 
         for key, button in self.language_buttons.items():
             self.language_group.addButton(button)

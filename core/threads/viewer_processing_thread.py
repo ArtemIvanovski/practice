@@ -3,7 +3,7 @@ from PyQt5.QtCore import QThread, pyqtSignal
 from GUI.image_viewer_window import ImageViewer
 
 
-class ViewerWorkerThread(QThread):
+class ViewerProcessingThread(QThread):
     finished = pyqtSignal(object)
 
     def __init__(self, image_paths):

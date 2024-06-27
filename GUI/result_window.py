@@ -1,15 +1,18 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QMainWindow, QWidget, QScrollArea, QPushButton
+from PyQt5.QtWidgets import QVBoxLayout, QLabel, QMainWindow, QWidget, QScrollArea, QPushButton
 
-from GUI.similar_images_window import SimilarImagesWindow
+from GUI.loading_window import LoadingDialog
 from GUI.top_bar_with_icons import create_top_bar_with_icons
 from core.settings_handler import read_settings_from_json
+from core.threads.similar_images_processing_thread import SimilarImagesProcessingThread
 
 
 class ResultsWindow(QMainWindow):
     def __init__(self, main_window, results):
         super().__init__()
+        self.similar_images_window_thread = None
+        self.loading_dialog = None
         self.similar_images_window = None
         self.main_window = main_window
         self.setWindowTitle('Image Duplicate Finder')
@@ -62,9 +65,21 @@ class ResultsWindow(QMainWindow):
         self.main_widget.setLayout(self.layout)
 
     def view_similar_images(self, similar_images):
-        self.similar_images_window = SimilarImagesWindow(similar_images, self.width, self.height)
-        self.similar_images_window.show()
+        self.start_similar_viewer_loading(similar_images)
 
     def run_homepage(self):
         self.main_window.show()
         self.close()
+
+    def start_similar_viewer_loading(self, similar_images):
+        self.loading_dialog = LoadingDialog(self)
+        self.loading_dialog.show()
+
+        self.similar_images_window_thread = SimilarImagesProcessingThread(similar_images, self.width, self.height)
+        self.similar_images_window_thread.finished.connect(self.on_viewer_loaded)
+        self.similar_images_window_thread.start()
+
+    def on_similar_viewer_loaded(self, similar_images_window):
+        self.loading_dialog.close()
+        self.similar_images_window = similar_images_window
+        self.similar_images_window.show()

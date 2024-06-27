@@ -7,7 +7,7 @@ from database.db import add_image_data, get_image_data, clear_database
 from logger import logger
 
 
-def process_image(image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash):
+def process_hash_image(image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash):
     hash_a = hash_p = hash_g = hash_d = None
     try:
         if use_a_hash:
@@ -23,9 +23,9 @@ def process_image(image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash):
         logger.error(f"Error processing {image_path}: {e}")
 
 
-def process_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash, max_workers=10):
+def process_hash_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash, max_workers=10):
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [executor.submit(process_image, image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash) for
+        futures = [executor.submit(process_hash_image, image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash) for
                    image_path in image_paths]
         for future in futures:
             try:
@@ -39,7 +39,7 @@ def find_hash(paths):
     use_g_hash = read_settings_from_json("gHash")
     use_p_hash = read_settings_from_json("pHash")
     use_d_hash = read_settings_from_json("dHash")
-    process_images_in_threads(paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash)
+    process_hash_images_in_threads(paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash)
 
 
 def get_results_find_duplicates(image_paths_above, image_paths_below):

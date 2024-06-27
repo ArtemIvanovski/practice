@@ -4,14 +4,15 @@ from GUI.error_window import ErrorWindow
 from GUI.loading_window import LoadingDialog
 from GUI.result_window import ResultsWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
-from core.file_get_processing_thread import FileGetProcessingThread
-from core.image_processing_thread import ImageProcessingThread
-from core.viewer_worker_thread import ViewerWorkerThread
+from core.threads.file_get_processing_thread import FileGetProcessingThread
+from core.threads.image_processing_thread import ImageProcessingThread
+from core.threads.viewer_processing_thread import ViewerProcessingThread
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.image_processing_thread = None
         self.viewer_worker_thread = None
         self.worker_thread = None
         self.loading_dialog = None
@@ -153,7 +154,7 @@ class MainWindow(QMainWindow):
         self.loading_dialog = LoadingDialog(self)
         self.loading_dialog.show()
 
-        self.viewer_worker_thread = ViewerWorkerThread(image_paths)
+        self.viewer_worker_thread = ViewerProcessingThread(image_paths)
         self.viewer_worker_thread.finished.connect(self.on_viewer_loaded)
         self.viewer_worker_thread.start()
 
