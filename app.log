@@ -4225,3 +4225,109 @@ NameError: name 'QIcon' is not defined
 2024-06-26 19:33:13 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
 2024-06-26 19:33:13 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
 2024-06-26 19:34:27 - logger - INFO - Deleting database
+2024-06-27 14:45:45 - logger - INFO - Start app
+2024-06-27 14:45:45 - logger - INFO - Creating database
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-27 14:46:10 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-27 14:46:10 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-27 14:46:11 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-27 14:46:32 - logger - INFO - Deleting database
+2024-06-27 14:54:49 - logger - INFO - Start app
+2024-06-27 14:54:49 - logger - INFO - Creating database
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-27 14:56:53 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-27 14:56:53 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
+2024-06-27 14:56:53 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
+2024-06-27 14:59:56 - logger - INFO - Deleting database

@@ -5,13 +5,15 @@ from GUI.image_viewer_window import ImageViewer
 from GUI.loading_window import LoadingDialog
 from GUI.result_window import ResultsWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
-from core.file_utils import get_files_in_folder
+from core.file_get_processing_thread import FileGetProcessingThread
 from core.image_processing_thread import ImageProcessingThread
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.worker_thread = None
+        self.loading_dialog = None
         self.folder_path_above = None
         self.folder_path_below = None
         self.image_paths_below = []
@@ -68,19 +70,7 @@ class MainWindow(QMainWindow):
     def select_folder_above(self):
         self.folder_path_above = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
         if self.folder_path_above:
-            self.add_folder_button_above.setText(f"Выбранная папка: {self.folder_path_above.split('/')[-1]}")
-            self.add_folder_button_above.setIcon(QIcon("assets/iconRemoveFolder.png"))
-            self.image_paths_above, error_image_path = get_files_in_folder(self.folder_path_above)
-            if len(error_image_path) > 0:
-                error_image_path_string = '\n'.join(path for path in error_image_path)
-                error_dialog = ErrorWindow(f"Данные изображения повреждены:\n {error_image_path_string}")
-                error_dialog.exec_()
-            if len(self.image_paths_above) == 0:
-                error_dialog = ErrorWindow("В данной папке нет изображений выбранного формата")
-                error_dialog.exec_()
-                self.folder_path_above = None
-                self.add_folder_button_above.setText("Добавить папку с изображениями")
-                self.add_folder_button_above.setIcon(QIcon("assets/iconAddFolder.png"))
+            self.start_loading(self.folder_path_above, self.on_folder_above_loaded)
         else:
             self.image_paths_above = []
             self.add_folder_button_above.setText("Добавить папку с изображениями")
@@ -89,21 +79,50 @@ class MainWindow(QMainWindow):
     def select_folder_below(self):
         self.folder_path_below = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
         if self.folder_path_below:
-            self.add_folder_button_below.setText(f"Выбранная папка: {self.folder_path_below.split('/')[-1]}")
-            self.add_folder_button_below.setIcon(QIcon("assets/iconRemoveFolder.png"))
-            self.image_paths_below, error_image_path = get_files_in_folder(self.folder_path_below)
-            if len(error_image_path) > 0:
-                error_image_path_string = '\n'.join(path for path in error_image_path)
-                error_dialog = ErrorWindow(f"Данные изображения повреждены:\n {error_image_path_string}")
-                error_dialog.exec_()
-            if len(self.image_paths_below) == 0:
-                error_dialog = ErrorWindow("В данной папке нет изображений выбранного формата")
-                error_dialog.exec_()
-                self.folder_path_below = None
-                self.add_folder_button_below.setText("Добавить папку с изображениями")
-                self.add_folder_button_below.setIcon(QIcon("assets/iconAddFolder.png"))
+
+            self.start_loading(self.folder_path_below, self.on_folder_below_loaded)
         else:
             self.image_paths_below = []
+            self.add_folder_button_below.setText("Добавить папку с изображениями")
+            self.add_folder_button_below.setIcon(QIcon("assets/iconAddFolder.png"))
+
+    def start_loading(self, folder_path, callback):
+        self.loading_dialog = LoadingDialog(self)
+        self.loading_dialog.show()
+
+        self.worker_thread = FileGetProcessingThread(folder_path)
+        self.worker_thread.finished.connect(callback)
+        self.worker_thread.start()
+
+    def on_folder_above_loaded(self, image_paths, error_image_path):
+        self.add_folder_button_above.setText(f"Выбранная папка: {self.folder_path_above.split('/')[-1]}")
+        self.add_folder_button_above.setIcon(QIcon("assets/iconRemoveFolder.png"))
+        self.loading_dialog.close()
+        self.image_paths_above = image_paths
+        if len(error_image_path) > 0:
+            error_image_path_string = '\n'.join(path for path in error_image_path)
+            error_dialog = ErrorWindow(f"Данные изображения повреждены:\n {error_image_path_string}")
+            error_dialog.exec_()
+        if len(self.image_paths_above) == 0:
+            error_dialog = ErrorWindow("В данной папке нет изображений выбранного формата")
+            error_dialog.exec_()
+            self.folder_path_above = None
+            self.add_folder_button_above.setText("Добавить папку с изображениями")
+            self.add_folder_button_above.setIcon(QIcon("assets/iconAddFolder.png"))
+
+    def on_folder_below_loaded(self, image_paths, error_image_path):
+        self.add_folder_button_below.setText(f"Выбранная папка: {self.folder_path_below.split('/')[-1]}")
+        self.add_folder_button_below.setIcon(QIcon("assets/iconRemoveFolder.png"))
+        self.loading_dialog.close()
+        self.image_paths_below = image_paths
+        if len(error_image_path) > 0:
+            error_image_path_string = '\n'.join(path for path in error_image_path)
+            error_dialog = ErrorWindow(f"Данные изображения повреждены:\n {error_image_path_string}")
+            error_dialog.exec_()
+        if len(self.image_paths_below) == 0:
+            error_dialog = ErrorWindow("В данной папке нет изображений выбранного формата")
+            error_dialog.exec_()
+            self.folder_path_below = None
             self.add_folder_button_below.setText("Добавить папку с изображениями")
             self.add_folder_button_below.setIcon(QIcon("assets/iconAddFolder.png"))
 
