@@ -81,13 +81,8 @@ class SettingsWindow(QDialog):
         self.use_d_hash_algorithm = create_checkbox("Использовать алгоритм d-хэширования", "aHash")
         layout.addWidget(self.use_d_hash_algorithm)
 
-        self.use_sector_algorithm = create_checkbox("Использовать алгоритм сравнения по секторам",
-                                                    "use_sector_algorithm")
-        layout.addWidget(self.use_sector_algorithm)
-
         self.warning_label = QLabel("Внимание: Установка этих опций увеличит время сравнения")
         layout.addWidget(self.warning_label)
-
 
         from GUI.top_bar_with_icons import create_slider
         self.similarity_slider = create_slider(0, 100, "similarity_threshold")
@@ -95,13 +90,6 @@ class SettingsWindow(QDialog):
         self.label_similarity = QLabel(f"Порог сходства: {self.similarity_slider.value()} %")
         layout.addWidget(self.label_similarity)
         layout.addWidget(self.similarity_slider)
-
-        self.sector_slider = create_slider(2, 20, "number_of_sectors")
-        self.sector_slider.valueChanged.connect(self.update_label_sector_text)
-        self.label_sector = QLabel(f"Количество секторов: {self.sector_slider.value()}")
-
-        layout.addWidget(self.label_sector)
-        layout.addWidget(self.sector_slider)
 
         comparison_tab.setLayout(layout)
         return comparison_tab
@@ -193,12 +181,10 @@ class SettingsWindow(QDialog):
             "max_images_to_display": self.max_images_input.value(),
             "value_columns": self.value_columns_input.value(),
             "similarity_threshold": self.similarity_slider.value(),
-            "number_of_sectors": self.sector_slider.value(),
             "aHash": self.use_a_hash_algorithm.isChecked(),
             "pHash": self.use_p_hash_algorithm.isChecked(),
             "dHash": self.use_d_hash_algorithm.isChecked(),
             "gHash": self.use_g_hash_algorithm.isChecked(),
-            "use_sector_algorithm": self.use_sector_algorithm.isChecked(),
             "english": self.language_buttons["english"].isChecked(),
             "russian": self.language_buttons["russian"].isChecked(),
             "french": self.language_buttons["french"].isChecked(),

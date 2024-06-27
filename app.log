@@ -4450,3 +4450,6 @@ AttributeError: 'QLabel' object has no attribute 'setSize'
 2024-06-27 15:27:20 - logger - INFO - Start app
 2024-06-27 15:27:20 - logger - INFO - Creating database
 2024-06-27 15:27:46 - logger - INFO - Deleting database
+2024-06-27 15:29:14 - logger - INFO - Start app
+2024-06-27 15:29:14 - logger - INFO - Creating database
+2024-06-27 15:29:37 - logger - INFO - Deleting database
