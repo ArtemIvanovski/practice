@@ -6,7 +6,7 @@ from core.settings_handler import read_settings_from_json
 
 def get_files_in_folder(folder_path):
     """
-        This function retrieves all valid image files from a given folder and its subfolders.
+        This function retrieves all valid image files from a given folder.
 
         Parameters:
         folder_path (str): The path of the folder to search for image files.
