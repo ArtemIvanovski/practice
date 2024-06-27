@@ -1,17 +1,18 @@
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog
 from PyQt5.QtGui import QIcon
 from GUI.error_window import ErrorWindow
-from GUI.image_viewer_window import ImageViewer
 from GUI.loading_window import LoadingDialog
 from GUI.result_window import ResultsWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
 from core.file_get_processing_thread import FileGetProcessingThread
 from core.image_processing_thread import ImageProcessingThread
+from core.viewer_worker_thread import ViewerWorkerThread
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.viewer_worker_thread = None
         self.worker_thread = None
         self.loading_dialog = None
         self.folder_path_above = None
@@ -145,7 +146,20 @@ class MainWindow(QMainWindow):
             error_dialog = ErrorWindow("Нет изображений выбранного типа")
             error_dialog.exec_()
             return
-        self.viewer_window = ImageViewer(image_paths)
+
+        self.start_viewer_loading(image_paths)
+
+    def start_viewer_loading(self, image_paths):
+        self.loading_dialog = LoadingDialog(self)
+        self.loading_dialog.show()
+
+        self.viewer_worker_thread = ViewerWorkerThread(image_paths)
+        self.viewer_worker_thread.finished.connect(self.on_viewer_loaded)
+        self.viewer_worker_thread.start()
+
+    def on_viewer_loaded(self, viewer_window):
+        self.loading_dialog.close()
+        self.viewer_window = viewer_window
         self.viewer_window.show()
 
     def run_search(self):

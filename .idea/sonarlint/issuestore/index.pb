@@ -163,3 +163,5 @@ H
 translations/__init__.py,0\0\00b0224f97a1c2a7d57ee77c7f2459eea3618681
 R
 "core/file_get_processing_thread.py,7\6\76570accfcd9c301a0b3793350223fd6d8305c4b
+L
+core/viewer_worker_thread.py,3\2\32e8d84cb57b5d92b4eab49aca2f46dc77a661d9
