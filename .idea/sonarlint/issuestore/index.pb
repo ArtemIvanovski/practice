@@ -165,3 +165,5 @@ R
 "core/file_get_processing_thread.py,7\6\76570accfcd9c301a0b3793350223fd6d8305c4b
 L
 core/viewer_worker_thread.py,3\2\32e8d84cb57b5d92b4eab49aca2f46dc77a661d9
+C
+GUI/about_window.py,5\a\5aa910864790027bb3c7fdfd3c2fd4bb3690ad27

@@ -4384,3 +4384,69 @@ NameError: name 'QIcon' is not defined
 2024-06-27 15:11:17 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\295bd95399.jpeg'. Возможно, изображение повреждено.
 2024-06-27 15:11:17 - logger - ERROR - Не удалось открыть изображение 'D:/_datatset/Lilly\434b2ccea1.jpeg'. Возможно, изображение повреждено.
 2024-06-27 15:11:29 - logger - INFO - Deleting database
+2024-06-27 15:18:20 - logger - INFO - Start app
+2024-06-27 15:18:20 - logger - INFO - Creating database
+2024-06-27 15:18:20 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\app.py", line 13, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 34, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 60, in create_top_bar_with_icons
+    about_window = AboutWindow(parent_widget)
+TypeError: __init__() takes 1 positional argument but 2 were given
+2024-06-27 15:18:29 - logger - INFO - Start app
+2024-06-27 15:18:29 - logger - INFO - Creating database
+2024-06-27 15:18:43 - logger - INFO - Deleting database
+2024-06-27 15:19:09 - logger - INFO - Start app
+2024-06-27 15:19:09 - logger - INFO - Creating database
+2024-06-27 15:19:20 - logger - INFO - Deleting database
+2024-06-27 15:19:32 - logger - INFO - Start app
+2024-06-27 15:19:32 - logger - INFO - Creating database
+2024-06-27 15:19:37 - logger - INFO - Deleting database
+2024-06-27 15:19:40 - logger - INFO - Start app
+2024-06-27 15:19:40 - logger - INFO - Creating database
+2024-06-27 15:19:47 - logger - INFO - Deleting database
+2024-06-27 15:20:57 - logger - INFO - Start app
+2024-06-27 15:20:57 - logger - INFO - Creating database
+2024-06-27 15:21:07 - logger - INFO - Deleting database
+2024-06-27 15:21:34 - logger - INFO - Start app
+2024-06-27 15:21:34 - logger - INFO - Creating database
+2024-06-27 15:21:37 - logger - INFO - Deleting database
+2024-06-27 15:22:31 - logger - INFO - Start app
+2024-06-27 15:22:31 - logger - INFO - Creating database
+2024-06-27 15:22:42 - logger - INFO - Deleting database
+2024-06-27 15:22:52 - logger - INFO - Start app
+2024-06-27 15:22:52 - logger - INFO - Creating database
+2024-06-27 15:23:06 - logger - INFO - Deleting database
+2024-06-27 15:23:29 - logger - INFO - Start app
+2024-06-27 15:23:29 - logger - INFO - Creating database
+2024-06-27 15:23:35 - logger - INFO - Deleting database
+2024-06-27 15:23:48 - logger - INFO - Start app
+2024-06-27 15:23:48 - logger - INFO - Creating database
+2024-06-27 15:24:01 - logger - INFO - Deleting database
+2024-06-27 15:24:08 - logger - INFO - Start app
+2024-06-27 15:24:08 - logger - INFO - Creating database
+2024-06-27 15:24:08 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\app.py", line 13, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 34, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 60, in create_top_bar_with_icons
+    about_window = AboutWindow(parent_widget)
+  File "D:\duplicateImages\GUI\about_window.py", line 18, in __init__
+    logo_label.setSize(250, 250)
+AttributeError: 'QLabel' object has no attribute 'setSize'
+2024-06-27 15:24:37 - logger - INFO - Start app
+2024-06-27 15:24:37 - logger - INFO - Creating database
+2024-06-27 15:24:43 - logger - INFO - Deleting database
+2024-06-27 15:25:47 - logger - INFO - Start app
+2024-06-27 15:25:47 - logger - INFO - Creating database
+2024-06-27 15:26:00 - logger - INFO - Deleting database
+2024-06-27 15:26:39 - logger - INFO - Start app
+2024-06-27 15:26:39 - logger - INFO - Creating database
+2024-06-27 15:26:55 - logger - INFO - Deleting database
+2024-06-27 15:27:20 - logger - INFO - Start app
+2024-06-27 15:27:20 - logger - INFO - Creating database
+2024-06-27 15:27:46 - logger - INFO - Deleting database
