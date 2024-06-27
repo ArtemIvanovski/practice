@@ -4727,3 +4727,165 @@ AttributeError: 'QLabel' object has no attribute 'setSize'
 2024-06-28 00:00:48 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
 2024-06-28 00:00:48 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
 2024-06-28 00:01:10 - logger - INFO - Deleting database
+2024-06-28 00:12:10 - logger - INFO - Start app
+2024-06-28 00:12:10 - logger - INFO - Creating database
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-06-28 00:12:20 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-06-28 00:12:20 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-06-28 00:12:20 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-06-28 00:13:01 - logger - INFO - Deleting database
+2024-06-28 00:14:01 - logger - INFO - Start app
+2024-06-28 00:14:01 - logger - INFO - Creating database
+2024-06-28 00:14:23 - logger - INFO - Deleting database
+2024-06-28 00:18:02 - logger - INFO - Start app
+2024-06-28 00:18:02 - logger - INFO - Creating database
+2024-06-28 00:18:05 - logger - INFO - Deleting database
+2024-06-28 00:19:54 - logger - INFO - Start app
+2024-06-28 00:19:54 - logger - INFO - Creating database
+2024-06-28 00:20:52 - logger - INFO - Deleting database
+2024-06-28 00:21:53 - logger - INFO - Start app
+2024-06-28 00:21:53 - logger - INFO - Creating database
+2024-06-28 00:22:10 - logger - INFO - Deleting database
+2024-06-28 00:23:54 - logger - INFO - Start app
+2024-06-28 00:23:54 - logger - INFO - Creating database
+2024-06-28 00:23:57 - logger - INFO - Deleting database
+2024-06-28 00:25:31 - logger - INFO - Start app
+2024-06-28 00:25:31 - logger - INFO - Creating database
+2024-06-28 00:25:38 - logger - INFO - Deleting database
+2024-06-28 00:26:02 - logger - INFO - Start app
+2024-06-28 00:26:02 - logger - INFO - Creating database
+2024-06-28 00:26:08 - logger - INFO - Deleting database
+2024-06-28 00:34:27 - logger - INFO - Start app
+2024-06-28 00:34:27 - logger - INFO - Creating database
+2024-06-28 00:34:27 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\app.py", line 13, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 35, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 63, in create_top_bar_with_icons
+    help_window = HelpWindow(parent_widget)
+  File "D:\duplicateImages\GUI\help_window.py", line 33, in __init__
+    self.load_initial_content()
+  File "D:\duplicateImages\GUI\help_window.py", line 56, in load_initial_content
+    self.load_html("home.html")
+  File "D:\duplicateImages\GUI\help_window.py", line 65, in load_html
+    with open(file_path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\duplicateImages\\GUI\\home.html'
+2024-06-28 00:36:11 - logger - INFO - Start app
+2024-06-28 00:36:11 - logger - INFO - Creating database
+2024-06-28 00:36:12 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\app.py", line 13, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 35, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 63, in create_top_bar_with_icons
+    help_window = HelpWindow(parent_widget)
+  File "D:\duplicateImages\GUI\help_window.py", line 33, in __init__
+    self.load_initial_content()
+  File "D:\duplicateImages\GUI\help_window.py", line 56, in load_initial_content
+    self.load_html("home.html")
+  File "D:\duplicateImages\GUI\help_window.py", line 65, in load_html
+    with open(file_path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\GUI\\help_html\\home.html'
+2024-06-28 00:36:21 - logger - INFO - Start app
+2024-06-28 00:36:21 - logger - INFO - Creating database
+2024-06-28 00:36:21 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\app.py", line 13, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 35, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 63, in create_top_bar_with_icons
+    help_window = HelpWindow(parent_widget)
+  File "D:\duplicateImages\GUI\help_window.py", line 33, in __init__
+    self.load_initial_content()
+  File "D:\duplicateImages\GUI\help_window.py", line 56, in load_initial_content
+    self.load_html("home.html")
+  File "D:\duplicateImages\GUI\help_window.py", line 65, in load_html
+    with open(file_path, 'r', encoding='utf-8') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '\\GUI\\help_html\\home.html'
+2024-06-28 00:38:26 - logger - INFO - Start app
+2024-06-28 00:38:26 - logger - INFO - Creating database
+2024-06-28 00:38:26 - logger - ERROR - Page not found: home.html
+2024-06-28 00:38:37 - logger - INFO - Deleting database
+2024-06-28 00:38:50 - logger - INFO - Start app
+2024-06-28 00:38:50 - logger - INFO - Creating database
+2024-06-28 00:38:50 - logger - ERROR - Page not found: home.html
+2024-06-28 00:38:55 - logger - INFO - Deleting database
+2024-06-28 00:39:02 - logger - INFO - Start app
+2024-06-28 00:39:02 - logger - INFO - Creating database
+2024-06-28 00:39:16 - logger - ERROR - Page not found: quick_start.html
+2024-06-28 00:39:17 - logger - ERROR - Page not found: menu_usage.html
+2024-06-28 00:39:18 - logger - ERROR - Page not found: program_usage.html
+2024-06-28 00:39:22 - logger - INFO - Deleting database
+2024-06-28 00:46:07 - logger - INFO - Start app
+2024-06-28 00:46:07 - logger - INFO - Creating database
+2024-06-28 00:46:35 - logger - ERROR - Page not found: program_usage.html
+2024-06-28 00:46:36 - logger - ERROR - Page not found: other_programs.html
+2024-06-28 00:46:37 - logger - ERROR - Page not found: other_programs.html
+2024-06-28 00:46:39 - logger - ERROR - Page not found: quick_start.html
+2024-06-28 00:46:40 - logger - ERROR - Page not found: quick_start.html
+2024-06-28 00:46:43 - logger - INFO - Deleting database
+2024-06-28 00:47:17 - logger - INFO - Start app
+2024-06-28 00:47:17 - logger - INFO - Creating database
+2024-06-28 00:47:29 - logger - INFO - Deleting database
+2024-06-28 00:52:46 - logger - INFO - Start app
+2024-06-28 00:52:46 - logger - INFO - Creating database
+2024-06-28 00:52:52 - logger - INFO - Deleting database
+2024-06-28 00:58:11 - logger - INFO - Start app
+2024-06-28 00:58:11 - logger - INFO - Creating database
+2024-06-28 00:58:31 - logger - INFO - Deleting database
+2024-06-28 00:59:22 - logger - INFO - Start app
+2024-06-28 00:59:22 - logger - INFO - Creating database
+2024-06-28 00:59:40 - logger - INFO - Deleting database
+2024-06-28 01:00:11 - logger - INFO - Start app
+2024-06-28 01:00:11 - logger - INFO - Creating database
+2024-06-28 01:00:21 - logger - INFO - Deleting database
