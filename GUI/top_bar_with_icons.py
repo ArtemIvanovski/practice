@@ -9,6 +9,17 @@ from core.settings_handler import read_settings_from_json
 
 
 def create_button(text, icon_path, icon_size=QSize(100, 100)):
+    """
+    This function creates a QPushButton with custom style, size, icon, and text.
+
+    Parameters:
+    text (str): The text to be displayed on the button.
+    icon_path (str): The path to the icon image file.
+    icon_size (QSize, optional): The size of the icon. Default is QSize(100, 100).
+
+    Returns:
+    QPushButton: The created button with the specified properties.
+    """
     button = QPushButton()
     button.setStyleSheet("""
         QPushButton {
@@ -23,6 +34,16 @@ def create_button(text, icon_path, icon_size=QSize(100, 100)):
 
 
 def create_checkbox(label_text, setting_key):
+    """
+    This function creates a QCheckBox with the specified label text and initializes its state based on the setting key.
+
+    Parameters:
+    label_text (str): The text to be displayed on the checkbox.
+    setting_key (str): The key to read the setting value from the JSON settings file.
+
+    Returns:
+    QCheckBox: The created checkbox with the specified properties. The checkbox is checked if the corresponding setting value is True, otherwise it is unchecked.
+    """
     checkbox = QCheckBox(label_text)
     if read_settings_from_json(setting_key):
         checkbox.setCheckState(Qt.Checked)
@@ -30,6 +51,21 @@ def create_checkbox(label_text, setting_key):
 
 
 def create_slider(min_board, max_board, setting_key):
+    """
+    This function creates a horizontal QSlider with specified minimum and maximum values,
+    and initializes its value based on the setting key.
+
+    Parameters:
+    min_board (int): The minimum value of the slider.
+    max_board (int): The maximum value of the slider.
+    setting_key (str): The key to read the setting value from the JSON settings file.
+
+    Returns:
+    QSlider: The created slider with the specified properties. The slider's value is set to the corresponding setting value.
+
+    Note:
+    The slider's tick interval is set to 1, and the tick position is set to QSlider.TicksBelow.
+    """
     slider = QSlider(Qt.Horizontal)
     slider.setMinimum(min_board)
     slider.setMaximum(max_board)
@@ -40,6 +76,21 @@ def create_slider(min_board, max_board, setting_key):
 
 
 def create_spin_box(min_board, max_board, setting_key):
+    """
+    This function creates a QSpinBox with specified minimum and maximum values,
+    and initializes its value based on the setting key.
+
+    Parameters:
+    min_board (int): The minimum value of the spin box.
+    max_board (int): The maximum value of the spin box.
+    setting_key (str): The key to read the setting value from the JSON settings file.
+
+    Returns:
+    QSpinBox: The created spin box with the specified properties. The spin box's value is set to the corresponding setting value.
+
+    Note:
+    The spin box's step size is set to 1 by default.
+    """
     spin_box = QSpinBox()
     spin_box.setRange(min_board, max_board)
     spin_box.setValue(read_settings_from_json(setting_key))
@@ -47,6 +98,17 @@ def create_spin_box(min_board, max_board, setting_key):
 
 
 def create_top_bar_with_icons(parent_widget, run_search_callback, run_home_comeback):
+    """
+    This function creates a top bar with icons for different functionalities.
+
+    Parameters:
+    parent_widget (QWidget): The parent widget for the top bar.
+    run_search_callback (function): The callback function to be executed when the "Run Search" icon is clicked.
+    run_home_comeback (function): The callback function to be executed when the "Home" icon is clicked.
+
+    Returns:
+    tuple: A tuple containing two QWidgets, the first one is a white strip and the second one is a grey strip with icons.
+    """
     white_strip = QWidget(parent_widget)
     white_strip.setStyleSheet("background-color: #f3f3f3;")
     white_strip.setFixedHeight(30)
@@ -54,10 +116,12 @@ def create_top_bar_with_icons(parent_widget, run_search_callback, run_home_comeb
     grey_strip = QWidget(parent_widget)
     grey_strip.setStyleSheet("background-color: #d7d8da;")
     grey_strip.setFixedHeight(60)
+
     grey_layout = QHBoxLayout(grey_strip)
     grey_layout.setAlignment(Qt.AlignLeft)
 
     grey_layout.setSpacing(0)
+
     about_window = AboutWindow(parent_widget)
     setting_window = SettingsWindow(parent_widget)
     help_window = HelpWindow(parent_widget)
@@ -74,6 +138,22 @@ def create_top_bar_with_icons(parent_widget, run_search_callback, run_home_comeb
 
 
 def add_icon_to_layout(layout, icon_path, tooltip_text, on_click=None):
+    """
+    This function adds an icon button and a vertical separator line to a given layout.
+
+    Parameters:
+    layout (QHBoxLayout): The layout to which the icon button and separator line will be added.
+    icon_path (str): The path to the icon image file.
+    tooltip_text (str): The tooltip text to be displayed when hovering over the icon button.
+    on_click (function, optional): The callback function to be executed when the icon button is clicked. Default is None.
+
+    Returns:
+    None
+
+    Note:
+    The icon button's size is set to 512x512 pixels, its height is fixed to 40 pixels, and its width is fixed to 100 pixels.
+    The separator line is a vertical line with a sunken frame shadow and a color of #afb2b7.
+    """
     icon_size = QSize(512, 512)
 
     icon_button = QToolButton()
