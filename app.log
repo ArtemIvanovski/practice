@@ -5489,3 +5489,13 @@ FileNotFoundError: [Errno 2] No such file or directory: '\\GUI\\help_html\\home.
 2024-06-28 13:29:56 - logger - ERROR - Page not found: program_usage.html
 2024-06-28 13:29:57 - logger - ERROR - Page not found: setting_usage.html
 2024-06-28 13:29:59 - logger - INFO - Deleting database
+2024-06-28 13:44:57 - logger - INFO - Start app
+2024-06-28 13:44:57 - logger - INFO - Creating database
+2024-06-28 13:45:05 - logger - INFO - Deleting database
+2024-06-28 13:52:55 - logger - INFO - Start app
+2024-06-28 13:52:55 - logger - INFO - Creating database
+2024-06-28 13:53:10 - logger - ERROR - Page not found: program_usage.html
+2024-06-28 13:53:21 - logger - ERROR - Page not found: program_usage.html
+2024-06-28 13:53:26 - logger - ERROR - Page not found: program_usage.html
+2024-06-28 13:53:28 - logger - ERROR - Page not found: quick_start.html
+2024-06-28 13:53:35 - logger - INFO - Deleting database

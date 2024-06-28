@@ -177,3 +177,5 @@ G
 GUI/help_html/home.html,a\2\a26044d535fa5cb4ecb688c0e8ab7c486517370c
 G
 GUI/help_html/tips.html,f\2\f285f14387f9b46ebbcfc429ce65c3547c13b222
+P
+ GUI/help_html/setting_usage.html,5\8\58ce031b17c08fa12dffe48986eeeb73c792714d
