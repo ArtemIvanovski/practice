@@ -92,13 +92,13 @@ class SettingsWindow(QDialog):
         self.use_a_hash_algorithm = create_checkbox("Использовать алгоритм a-хэширования", "aHash")
         layout.addWidget(self.use_a_hash_algorithm)
 
-        self.use_p_hash_algorithm = create_checkbox("Использовать алгоритм p-хэширования", "aHash")
+        self.use_p_hash_algorithm = create_checkbox("Использовать алгоритм p-хэширования", "pHash")
         layout.addWidget(self.use_p_hash_algorithm)
 
-        self.use_g_hash_algorithm = create_checkbox("Использовать алгоритм g-хэширования", "aHash")
+        self.use_g_hash_algorithm = create_checkbox("Использовать алгоритм g-хэширования", "gHash")
         layout.addWidget(self.use_g_hash_algorithm)
 
-        self.use_d_hash_algorithm = create_checkbox("Использовать алгоритм d-хэширования", "aHash")
+        self.use_d_hash_algorithm = create_checkbox("Использовать алгоритм d-хэширования", "dHash")
         layout.addWidget(self.use_d_hash_algorithm)
 
         from GUI.top_bar_with_icons import create_slider

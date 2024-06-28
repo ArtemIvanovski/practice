@@ -70,10 +70,10 @@ def get_results_find_duplicates(image_paths_above, image_paths_below):
             similarity += calculate_similarity(img1[2], img2[2])
             count += 1
         if use_g_hash:
-            similarity += calculate_similarity(img1[3], img2[3])
+            similarity += calculate_similarity(img1[4], img2[4])
             count += 1
         if use_p_hash:
-            similarity += calculate_similarity(img1[4], img2[4])
+            similarity += calculate_similarity(img1[3], img2[3])
             count += 1
         if use_d_hash:
             similarity += calculate_similarity(img1[5], img2[5])

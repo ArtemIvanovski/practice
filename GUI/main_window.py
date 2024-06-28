@@ -1,4 +1,5 @@
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog, QApplication
 from PyQt5.QtGui import QIcon
 from GUI.error_window import ErrorWindow
 from GUI.loading_window import LoadingDialog
@@ -23,9 +24,12 @@ class MainWindow(QMainWindow):
         self.setWindowTitle('Image Duplicate Finder')
         self.setStyleSheet("background-color: #f3f3f3;")
         self.setWindowIcon(QIcon('assets/icon.png'))
-        # TODO: fix fixed size
-        # self.showMaximized()
-        # self.setFixedSize(self.size())
+
+        screen_geometry = QApplication.desktop().screenGeometry()
+        self.screen_width = screen_geometry.width()
+        self.screen_height = screen_geometry.height()
+        self.setFixedSize(self.screen_width, self.screen_height)
+
         self.main_widget = QWidget()
         self.setCentralWidget(self.main_widget)
         self.layout = QVBoxLayout()
@@ -182,4 +186,9 @@ class MainWindow(QMainWindow):
         self.loading_dialog.close()
         self.results_window = ResultsWindow(self, results)
         self.results_window.show()
-        self.hide()
+        self.setHidden(True)
+
+    def showEvent(self, event):
+        self.showMaximized()
+        self.setFixedSize(self.screen_width, self.screen_height)
+        super().showEvent(event)

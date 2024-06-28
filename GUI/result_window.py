@@ -1,6 +1,6 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtWidgets import QVBoxLayout, QLabel, QMainWindow, QWidget, QScrollArea, QPushButton
+from PyQt5.QtWidgets import QVBoxLayout, QLabel, QMainWindow, QWidget, QScrollArea, QPushButton, QApplication
 
 from GUI.loading_window import LoadingDialog
 from GUI.top_bar_with_icons import create_top_bar_with_icons
@@ -20,7 +20,12 @@ class ResultsWindow(QMainWindow):
         self.height = read_settings_from_json("preview_height")
         self.setStyleSheet("background-color: #f3f3f3;")
         self.setWindowIcon(QIcon('assets/icon.png'))
-        # self.setFixedSize(self.size())
+
+        screen_geometry = QApplication.desktop().screenGeometry()
+        self.screen_width = screen_geometry.width()
+        self.screen_height = screen_geometry.height()
+
+        self.setFixedSize(self.screen_width, self.screen_height)
         self.main_widget = QWidget()
 
         self.setCentralWidget(self.main_widget)
@@ -49,7 +54,8 @@ class ResultsWindow(QMainWindow):
 
             view_button = QPushButton("Посмотреть подобные изображения")
             view_button.setFixedSize(350, 30)
-            view_button.clicked.connect(lambda checked, res=result: self.start_similar_images_loading(res['similar_images']))
+            view_button.clicked.connect(
+                lambda checked, res=result: self.start_similar_images_loading(res['similar_images']))
 
             image_layout = QVBoxLayout()
             image_layout.addStretch()
@@ -79,4 +85,5 @@ class ResultsWindow(QMainWindow):
 
     def run_homepage(self):
         self.main_window.show()
+        self.main_window.showMaximized()
         self.close()

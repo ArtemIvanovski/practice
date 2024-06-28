@@ -171,15 +171,9 @@ Z
 *core/threads/file_get_processing_thread.py,5\8\58d588735a0d2e8a7ccb99287ef0beba9e9043eb
 X
 (core/threads/viewer_processing_thread.py,b\f\bff98b8ffb7451a6ac0152d4883f0167a1690015
-I
-GUI/information_window.py,1\9\19b837c0a84311a0bd90d75dc7f726f1d2720c01
 B
 GUI/help_window.py,e\8\e8d27eea6b884e0b5fd68bdc4ffe8b447d9dfddf
-8
-GUI/html,5\6\56ad644a728f1cb7203db64f3209a5ef39bd2493
 G
 GUI/help_html/home.html,a\2\a26044d535fa5cb4ecb688c0e8ab7c486517370c
-N
-GUI/help_html/quick_start.html,0\a\0a722e94c369e4b90c4d579b680362d4fc41e5ee
 G
 GUI/help_html/tips.html,f\2\f285f14387f9b46ebbcfc429ce65c3547c13b222
