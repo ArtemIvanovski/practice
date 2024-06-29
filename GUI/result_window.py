@@ -40,31 +40,36 @@ class ResultsWindow(QMainWindow):
         scroll_content = QWidget()
         scroll_layout = QVBoxLayout(scroll_content)
 
-        for result in results:
-            image_label = QLabel()
-            pixmap = QPixmap(result['path']).scaled(self.width, self.height, Qt.KeepAspectRatio)
-            image_label.setPixmap(pixmap)
-            image_label.setAlignment(Qt.AlignCenter)
+        if not results:
+            no_results_label = QLabel("Нет подобных изображений")
+            no_results_label.setAlignment(Qt.AlignCenter)
+            scroll_layout.addWidget(no_results_label)
+        else:
+            for result in results:
+                image_label = QLabel()
+                pixmap = QPixmap(result['path']).scaled(self.width, self.height, Qt.KeepAspectRatio)
+                image_label.setPixmap(pixmap)
+                image_label.setAlignment(Qt.AlignCenter)
 
-            name_label = QLabel(result['path'].split('/')[-1])
-            name_label.setAlignment(Qt.AlignCenter)
+                name_label = QLabel(result['path'].split('/')[-1])
+                name_label.setAlignment(Qt.AlignCenter)
 
-            count_label = QLabel(f"Подобных изображений: {result['similar_count']}")
-            count_label.setAlignment(Qt.AlignCenter)
+                count_label = QLabel(f"Подобных изображений: {result['similar_count']}")
+                count_label.setAlignment(Qt.AlignCenter)
 
-            view_button = QPushButton("Посмотреть подобные изображения")
-            view_button.setFixedSize(350, 30)
-            view_button.clicked.connect(
-                lambda checked, res=result: self.start_similar_images_loading(res['similar_images']))
+                view_button = QPushButton("Посмотреть подобные изображения")
+                view_button.setFixedSize(350, 30)
+                view_button.clicked.connect(
+                    lambda checked, res=result: self.start_similar_images_loading(res['similar_images']))
 
-            image_layout = QVBoxLayout()
-            image_layout.addStretch()
-            image_layout.addWidget(image_label)
-            image_layout.addWidget(name_label)
-            image_layout.addWidget(count_label)
-            image_layout.addWidget(view_button, alignment=Qt.AlignCenter)
+                image_layout = QVBoxLayout()
+                image_layout.addStretch()
+                image_layout.addWidget(image_label)
+                image_layout.addWidget(name_label)
+                image_layout.addWidget(count_label)
+                image_layout.addWidget(view_button, alignment=Qt.AlignCenter)
 
-            scroll_layout.addLayout(image_layout)
+                scroll_layout.addLayout(image_layout)
 
         scroll_area.setWidget(scroll_content)
         self.layout.addWidget(scroll_area)

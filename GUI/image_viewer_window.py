@@ -24,26 +24,26 @@ class ImageViewer(QMainWindow):
         row = 0
 
         for i, image_path in enumerate(image_paths):
-            if i >= max_images_to_display:
-                break
+            if i < max_images_to_display:
+                image_label = QLabel(self)
+                pixmap = QPixmap(image_path)
+                pixmap = pixmap.scaled(width, height, Qt.KeepAspectRatio)
+                image_label.setPixmap(pixmap)
+                image_label.setAlignment(Qt.AlignCenter)
 
-            image_label = QLabel(self)
-            pixmap = QPixmap(image_path)
-            pixmap = pixmap.scaled(width, height, Qt.KeepAspectRatio)
-            image_label.setPixmap(pixmap)
-            image_label.setAlignment(Qt.AlignCenter)
+                path_label = QLabel(image_path, self)
+                path_label.setAlignment(Qt.AlignCenter)
 
-            path_label = QLabel(image_path, self)
-            path_label.setAlignment(Qt.AlignCenter)
-
-            container_widget = QWidget()
-            container_layout = QVBoxLayout(container_widget)
-            container_layout.addWidget(image_label)
-            container_layout.addWidget(path_label)
-            container_widget.setLayout(container_layout)
+                container_widget = QWidget()
+                container_layout = QVBoxLayout(container_widget)
+                container_layout.addWidget(image_label)
+                container_layout.addWidget(path_label)
+                container_widget.setLayout(container_layout)
+            else:
+                container_widget = QLabel(image_path, self)
+                container_widget.setAlignment(Qt.AlignCenter)
 
             self.grid_layout.addWidget(container_widget, row, column)
-
             column += 1
             if column >= value_columns:
                 column = 0

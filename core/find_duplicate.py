@@ -1,4 +1,5 @@
 import logging
+import time
 from concurrent.futures import ThreadPoolExecutor
 from itertools import combinations
 from core.hashing import a_hash, p_hash, g_hash, d_hash, calculate_similarity
@@ -23,7 +24,7 @@ def process_hash_image(image_path, use_a_hash, use_p_hash, use_g_hash, use_d_has
         logger.error(f"Error processing {image_path}: {e}")
 
 
-def process_hash_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash, max_workers=10):
+def process_hash_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash, max_workers=30):
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(process_hash_image, image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash) for
                    image_path in image_paths]
@@ -32,14 +33,6 @@ def process_hash_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_ha
                 future.result()
             except Exception as e:
                 logging.error(f"Error in thread: {e}")
-
-
-def find_hash(paths):
-    use_a_hash = read_settings_from_json("aHash")
-    use_g_hash = read_settings_from_json("gHash")
-    use_p_hash = read_settings_from_json("pHash")
-    use_d_hash = read_settings_from_json("dHash")
-    process_hash_images_in_threads(paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash)
 
 
 def get_results_find_duplicates(image_paths_above, image_paths_below):
@@ -57,8 +50,12 @@ def get_results_find_duplicates(image_paths_above, image_paths_below):
         paths = image_paths_below
 
     clear_database()
-    find_hash(paths)
-
+    start_time_hash = time.time()
+    process_hash_images_in_threads(paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash)
+    end_time_hash = time.time()
+    hash_processing_time = end_time_hash - start_time_hash
+    print(f"Time taken to process hash images: {hash_processing_time} seconds")
+    start_time_total = time.time()
     duplicates = []
     for path1, path2 in combinations(paths, 2):
         img1 = get_image_data(path1)
@@ -105,5 +102,7 @@ def get_results_find_duplicates(image_paths_above, image_paths_below):
             'similar_count': data['similar_count'],
             'similar_images': data['similar_images']
         })
-
+    end_time_total = time.time()
+    total_time = end_time_total - start_time_total
+    print(f"Total time taken to get results: {total_time} seconds")
     return results_list
