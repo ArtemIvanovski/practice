@@ -179,3 +179,5 @@ G
 GUI/help_html/tips.html,f\2\f285f14387f9b46ebbcfc429ce65c3547c13b222
 P
  GUI/help_html/setting_usage.html,5\8\58ce031b17c08fa12dffe48986eeeb73c792714d
+Y
+)core/threads/loading_processing_thread.py,4\8\487c26c84be316295e5a2a36013c0937ce404ab3

@@ -4,7 +4,7 @@ from PyQt5.QtGui import QMovie
 from PyQt5.QtCore import Qt
 
 
-class LoadingDialog(QDialog):
+class LoadingWindow(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle('Загрузка')

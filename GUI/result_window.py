@@ -2,7 +2,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QMainWindow, QWidget, QScrollArea, QPushButton, QApplication
 
-from GUI.loading_window import LoadingDialog
+from GUI.loading_window import LoadingWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons
 from core.settings_handler import read_settings_from_json
 from core.threads.similar_images_processing_thread import SimilarImagesProcessingThread
@@ -71,7 +71,7 @@ class ResultsWindow(QMainWindow):
         self.main_widget.setLayout(self.layout)
 
     def start_similar_images_loading(self, similar_images):
-        self.loading_dialog = LoadingDialog(self)
+        self.loading_dialog = LoadingWindow(self)
         self.loading_dialog.show()
 
         self.similar_images_window_thread = SimilarImagesProcessingThread(similar_images, self.width, self.height)

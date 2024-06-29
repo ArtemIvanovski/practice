@@ -3,7 +3,7 @@
     "preview_height": 400,
     "max_images_to_display": 1000,
     "value_columns": 3,
-    "similarity_threshold": 81,
+    "similarity_threshold": 15,
     "aHash": false,
     "pHash": true,
     "dHash": false,

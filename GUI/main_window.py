@@ -2,7 +2,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog, QApplication
 from PyQt5.QtGui import QIcon
 from GUI.error_window import ErrorWindow
-from GUI.loading_window import LoadingDialog
+from GUI.loading_window import LoadingWindow
 from GUI.result_window import ResultsWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
 from core.threads.file_get_processing_thread import FileGetProcessingThread
@@ -13,10 +13,10 @@ from core.threads.viewer_processing_thread import ViewerProcessingThread
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.image_processing_thread = None
         self.viewer_worker_thread = None
+        self.image_processing_thread = None
         self.worker_thread = None
-        self.loading_dialog = None
+        self.loading_window = None
         self.folder_path_above = None
         self.folder_path_below = None
         self.image_paths_below = []
@@ -93,8 +93,8 @@ class MainWindow(QMainWindow):
             self.add_folder_button_below.setIcon(QIcon("assets/iconAddFolder.png"))
 
     def start_loading(self, folder_path, callback):
-        self.loading_dialog = LoadingDialog(self)
-        self.loading_dialog.show()
+        self.loading_window = LoadingWindow(self)
+        self.loading_window.show()
 
         self.worker_thread = FileGetProcessingThread(folder_path)
         self.worker_thread.finished.connect(callback)
@@ -103,7 +103,7 @@ class MainWindow(QMainWindow):
     def on_folder_above_loaded(self, image_paths, error_image_path):
         self.add_folder_button_above.setText(f"Выбранная папка: {self.folder_path_above.split('/')[-1]}")
         self.add_folder_button_above.setIcon(QIcon("assets/iconRemoveFolder.png"))
-        self.loading_dialog.close()
+        self.loading_window.close()
         self.image_paths_above = image_paths
         if len(error_image_path) > 0:
             error_image_path_string = '\n'.join(path for path in error_image_path)
@@ -119,7 +119,7 @@ class MainWindow(QMainWindow):
     def on_folder_below_loaded(self, image_paths, error_image_path):
         self.add_folder_button_below.setText(f"Выбранная папка: {self.folder_path_below.split('/')[-1]}")
         self.add_folder_button_below.setIcon(QIcon("assets/iconRemoveFolder.png"))
-        self.loading_dialog.close()
+        self.loading_window.close()
         self.image_paths_below = image_paths
         if len(error_image_path) > 0:
             error_image_path_string = '\n'.join(path for path in error_image_path)
@@ -155,15 +155,15 @@ class MainWindow(QMainWindow):
         self.start_viewer_loading(image_paths)
 
     def start_viewer_loading(self, image_paths):
-        self.loading_dialog = LoadingDialog(self)
-        self.loading_dialog.show()
+        self.loading_window = LoadingWindow(self)
+        self.loading_window.show()
 
         self.viewer_worker_thread = ViewerProcessingThread(image_paths)
         self.viewer_worker_thread.finished.connect(self.on_viewer_loaded)
         self.viewer_worker_thread.start()
 
     def on_viewer_loaded(self, viewer_window):
-        self.loading_dialog.close()
+        self.loading_window.close()
         self.viewer_window = viewer_window
         self.viewer_window.show()
 
@@ -173,8 +173,8 @@ class MainWindow(QMainWindow):
             error_dialog.exec_()
             return
 
-        self.loading_dialog = LoadingDialog(self)
-        self.loading_dialog.show()
+        self.loading_window = LoadingWindow(self)
+        self.loading_window.show()
 
         self.image_processing_thread = ImageProcessingThread(
             self.image_paths_above, self.image_paths_below,
@@ -183,7 +183,7 @@ class MainWindow(QMainWindow):
         self.image_processing_thread.start()
 
     def on_results_ready(self, results):
-        self.loading_dialog.close()
+        self.loading_window.close()
         self.results_window = ResultsWindow(self, results)
         self.results_window.show()
         self.setHidden(True)

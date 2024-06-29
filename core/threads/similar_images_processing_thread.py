@@ -8,8 +8,6 @@ class SimilarImagesProcessingThread(QThread):
     A QThread subclass for processing similar images. Emits a signal when processing is finished.
     """
 
-    # Signal that is emitted when processing is finished.
-    # The signal carries an instance of SimilarImagesWindow.
     finished = pyqtSignal(object)
 
     def __init__(self, similar_images, width, height):
