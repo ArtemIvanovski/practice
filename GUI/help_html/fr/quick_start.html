@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démarrage rapide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-top: 10px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #666;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-top: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Démarrage rapide</h1>
+    <p>Le programme permet de choisir des images à comparer : au sein d'un même groupe d'images (galerie) ou entre deux groupes d'images. Une galerie est un ensemble d'images qui peut contenir autant d'images que nécessaire, même si elles sont situées sur différents disques.</p>
+
+    <div class="section-title">Options de comparaison</div>
+    <p>Considérons deux options de comparaison :</p>
+    <ul>
+        <li>
+            <div class="section-title">Au sein d'un même groupe</div>
+            <p>Le programme parcourra toutes les images de cette galerie et recherchera des images similaires au sein de ce même groupe. Chaque image de la galerie sera comparée à toutes les autres images de cette galerie.</p>
+        </li>
+        <li>
+            <div class="section-title">Entre deux groupes d'images</div>
+            <p>La recherche d'images similaires se fera non pas à l'intérieur d'un même groupe mais entre les galeries. Le programme recherchera des images similaires du premier groupe en parcourant toutes les images du deuxième groupe. Dans ce cas, la recherche à l'intérieur des groupes n'est pas effectuée ; chaque image du premier groupe est comparée à chaque image du deuxième groupe.</p>
+        </li>
+    </ul>
+
+    <div class="section-title">Étape 1. Ajout d'éléments dans les galeries</div>
+    <p>
+        À cette étape, vous devez sélectionner un dossier contenant des images. Pour ce faire, cliquez sur le bouton d'ajout de dossier
+        <img src="/assets/iconAddFolder.png" alt="Ajouter un dossier" class="icon">.
+        Une boîte de dialogue apparaîtra pour choisir le dossier contenant les images. Sélectionnez le dossier et cliquez sur "OK". Vous pouvez répéter cette opération autant de fois que nécessaire. Pour supprimer un dossier de la galerie, cliquez sur le bouton
+        <img src="/assets/iconRemoveFolder.png" alt="Supprimer un dossier" class="icon">, ne sélectionnez rien dans la boîte de dialogue et cliquez sur "OK".
+    </p>
+    <p>
+        Pour comparer entre les dossiers, vous devez ajouter un dossier d'images en bas et un en haut. Pour comparer dans une même galerie, vous pouvez ajouter un dossier avec n'importe quel bouton.
+    </p>
+
+    <div class="section-title">Étape 2. Lancer le programme</div>
+    <p>
+        Après avoir ajouté des dossiers et configuré la recherche, cliquez sur le bouton "Lancer la recherche"
+        <img src="/assets/iconRun.png" alt="Lancer la recherche" class="icon">.
+        Attendez la fin de la recherche en fonction du nombre d'images dans le dossier.
+    </p>
+
+    <div class="section-title">Étape 3. Fenêtre des résultats</div>
+    <p>
+        La fenêtre des résultats affichera une liste d'images qui ont des images similaires et leur nombre. En cliquant sur le bouton "Voir des images similaires",
+        une liste d'images similaires avec leur pourcentage de similitude s'ouvrira.
+    </p>
+</body>
+</html>

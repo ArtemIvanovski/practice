@@ -7210,3 +7210,95 @@ FileNotFoundError: [Errno 2] No such file or directory: '\\GUI\\help_html\\home.
 2024-06-29 13:50:55 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
 2024-06-29 13:50:55 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
 2024-06-29 13:50:55 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-06-30 15:15:02 - logger - INFO - Start app
+2024-06-30 15:15:02 - logger - INFO - Creating database
+2024-06-30 15:15:23 - logger - ERROR - Page not found: program_usage.html
+2024-06-30 15:15:25 - logger - ERROR - Page not found: quick_start.html
+2024-06-30 15:15:27 - logger - INFO - Deleting database
+2024-06-30 15:19:12 - logger - INFO - Start app
+2024-06-30 15:19:12 - logger - INFO - Creating database
+2024-06-30 15:19:17 - logger - ERROR - Page not found: program_usage.html
+2024-06-30 15:19:19 - logger - ERROR - Page not found: quick_start.html
+2024-06-30 15:19:42 - logger - INFO - Deleting database
+2024-06-30 15:20:48 - logger - INFO - Start app
+2024-06-30 15:20:48 - logger - INFO - Creating database
+2024-06-30 15:34:25 - logger - INFO - Start app
+2024-06-30 15:34:25 - logger - INFO - Creating database
+2024-06-30 15:34:53 - logger - INFO - Deleting database
+2024-06-30 15:39:32 - logger - INFO - Start app
+2024-06-30 15:39:32 - logger - INFO - Creating database
+2024-06-30 15:39:38 - logger - INFO - Deleting database
+2024-06-30 15:47:06 - logger - INFO - Start app
+2024-06-30 15:47:06 - logger - INFO - Creating database
+2024-06-30 15:47:07 - logger - ERROR - Page not found: home.html
+2024-06-30 15:47:15 - logger - INFO - Deleting database
+2024-06-30 15:48:00 - logger - INFO - Start app
+2024-06-30 15:48:00 - logger - INFO - Creating database
+2024-06-30 15:48:00 - logger - ERROR - Error while starting
+Traceback (most recent call last):
+  File "D:\duplicateImages\app.py", line 13, in main
+    window = MainWindow()
+  File "D:\duplicateImages\GUI\main_window.py", line 38, in __init__
+    white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+  File "D:\duplicateImages\GUI\top_bar_with_icons.py", line 126, in create_top_bar_with_icons
+    setting_window = SettingsWindow(parent_widget)
+  File "D:\duplicateImages\GUI\settings_window.py", line 38, in __init__
+    tabs.addTab(self.create_language_tab(), "язык")
+  File "D:\duplicateImages\GUI\settings_window.py", line 133, in create_language_tab
+    self.language_buttons[get_language()].setChecked(True)
+KeyError: 'ru'
+2024-06-30 15:48:25 - logger - INFO - Start app
+2024-06-30 15:48:25 - logger - INFO - Creating database
+2024-06-30 15:48:25 - logger - ERROR - Page not found: home.html
+2024-06-30 15:48:32 - logger - INFO - Deleting database
+2024-06-30 15:50:48 - logger - INFO - Start app
+2024-06-30 15:50:48 - logger - INFO - Creating database
+2024-06-30 15:51:30 - logger - INFO - Start app
+2024-06-30 15:51:30 - logger - INFO - Creating database
+2024-06-30 15:51:36 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 15:51:44 - logger - INFO - Deleting database
+2024-06-30 15:52:14 - logger - INFO - Start app
+2024-06-30 15:52:14 - logger - INFO - Creating database
+2024-06-30 15:52:15 - logger - ERROR - Page not found: home.html
+2024-06-30 15:52:18 - logger - ERROR - Page not found: home.html
+2024-06-30 15:52:19 - logger - ERROR - Page not found: tips.html
+2024-06-30 15:52:20 - logger - ERROR - Page not found: setting_usage.html
+2024-06-30 15:52:21 - logger - ERROR - Page not found: quick_start.html
+2024-06-30 15:52:24 - logger - INFO - Deleting database
+2024-06-30 15:52:28 - logger - INFO - Start app
+2024-06-30 15:52:28 - logger - INFO - Creating database
+2024-06-30 15:52:28 - logger - ERROR - Page not found: home.html
+2024-06-30 15:52:34 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 15:52:37 - logger - ERROR - Page not found: setting_usage.html
+2024-06-30 15:52:38 - logger - ERROR - Page not found: quick_start.html
+2024-06-30 15:52:39 - logger - ERROR - Page not found: quick_start.html
+2024-06-30 15:52:40 - logger - ERROR - Page not found: home.html
+2024-06-30 15:52:45 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 15:52:48 - logger - ERROR - Page not found: setting_usage.html
+2024-06-30 15:52:49 - logger - ERROR - Page not found: tips.html
+2024-06-30 15:52:50 - logger - ERROR - Page not found: quick_start.html
+2024-06-30 15:52:52 - logger - INFO - Deleting database
+2024-06-30 15:53:16 - logger - INFO - Start app
+2024-06-30 15:53:16 - logger - INFO - Creating database
+2024-06-30 15:53:16 - logger - ERROR - Page not found: home.html
+2024-06-30 15:53:20 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 15:53:23 - logger - ERROR - Page not found: setting_usage.html
+2024-06-30 15:53:25 - logger - ERROR - Page not found: tips.html
+2024-06-30 15:53:30 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 15:53:58 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 15:54:05 - logger - INFO - Deleting database
+2024-06-30 15:54:14 - logger - INFO - Start app
+2024-06-30 15:54:14 - logger - INFO - Creating database
+2024-06-30 15:54:22 - logger - ERROR - Page not found: home.html
+2024-06-30 15:54:45 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 15:54:55 - logger - INFO - Deleting database
+2024-06-30 15:55:49 - logger - INFO - Start app
+2024-06-30 15:55:49 - logger - INFO - Creating database
+2024-06-30 15:55:58 - logger - INFO - Deleting database
+2024-06-30 16:03:16 - logger - INFO - Start app
+2024-06-30 16:03:16 - logger - INFO - Creating database
+2024-06-30 16:03:23 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-06-30 16:03:35 - logger - INFO - Deleting database
+2024-06-30 16:11:16 - logger - INFO - Start app
+2024-06-30 16:11:16 - logger - INFO - Creating database
+2024-06-30 16:11:27 - logger - INFO - Deleting database

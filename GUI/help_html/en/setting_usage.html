@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Window</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        h3 {
+            margin-top: 20px;
+            color: #333;
+        }
+        p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Settings Window</h2>
+    <h3>Main</h3>
+    <p>
+        On this tab, you can set the sizes of image thumbnails and the maximum number of images displayed as thumbnails. Try not to make the image thumbnails too large, as larger sizes consume more memory and consequently slow down the program.
+    </p>
+    <p>
+        To speed up gallery opening and navigation, the program includes a mode to display galleries as a table of file names with one thumbnail of the selected image. This mode automatically activates when the number of images in the gallery exceeds the specified number on this settings tab.
+    </p>
+
+    <h3>Comparison</h3>
+    <p>
+        On this tab, you can set parameters for finding similar images: hashing methods (aHash, pHash, gHash, dHash), similarity threshold. The similarity threshold is one of the most significant parameters for the search. Only images with a similarity threshold higher than the set value will appear in the search results. If you want to find exact duplicates of images, you should select a value of 100. Lowering this parameter increases the number of pairs in the results. It's also important to note that enabling all hashing methods will increase the comparison time.
+    </p>
+
+    <h3>File Formats</h3>
+    <p>
+        This tab allows you to select the file formats the program will work with. If images of other formats not selected in the program are present in the selected directory of images, they will simply be skipped.
+    </p>
+
+    <h3>Language</h3>
+    <p>
+        This tab allows you to select the interface language of the program. By default, Russian should be selected, but you can change it if desired.
+    </p>
+</body>
+</html>

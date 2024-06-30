@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Start</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-top: 10px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #666;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-top: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quick Start</h1>
+    <p>The program allows for comparing images within one group (gallery) and between two groups of images. A gallery is a group of images that can contain any number of images, even if they are located on different disks.</p>
+
+    <div class="section-title">Comparison Options</div>
+    <p>Let's consider two comparison options:</p>
+    <ul>
+        <li>
+            <div class="section-title">Within one group</div>
+            <p>The program will review all images within the gallery and look for similar ones within the same group. Each image in the gallery will be compared to all other images in that group.</p>
+        </li>
+        <li>
+            <div class="section-title">Between two groups of images</div>
+            <p>The search for similar images will occur not within one group but between galleries. The program will search for similar images from the first group by reviewing all images in the second group. In this case, there is no internal group comparison; each image from the first gallery is compared to each image from the second gallery.</p>
+        </li>
+    </ul>
+
+    <div class="section-title">Step 1. Adding Items to Galleries</div>
+    <p>
+        At this step, you need to select a folder with images. To do this, click the add folder button
+        <img src="/assets/iconAddFolder.png" alt="Add Folder" class="icon">.
+        A dialog will appear to choose a folder with images. Select the folder and click "OK". You can repeat this operation as many times as needed. To remove a folder from the gallery, click the remove folder button
+        <img src="/assets/iconRemoveFolder.png" alt="Remove Folder" class="icon">, do not select anything in the dialog, and click "OK".
+    </p>
+    <p>
+        To compare between folders, you need to add a folder with images both below and above. In the case of comparison within one gallery, you can add a folder using any button.
+    </p>
+
+    <div class="section-title">Step 2. Running the Program</div>
+    <p>
+        After adding folders and configuring the search, click the "Start Search" button
+        <img src="/assets/iconRun.png" alt="Start Search" class="icon">.
+        Wait for the search to complete depending on the number of images in the folder.
+    </p>
+
+    <div class="section-title">Step 3. Results Window</div>
+    <p>
+        The results window will display a list of images that have similar images and the number of similarities. Clicking the "View Similar Images" button
+        will open a list of similar images with their similarity percentage.
+    </p>
+</body>
+</html>

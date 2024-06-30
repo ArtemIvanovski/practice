@@ -4,12 +4,14 @@ from PyQt5.QtWidgets import QMainWindow, QVBoxLayout, QWidget, QTreeWidget, QTre
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon
 
+from core.settings_handler import get_language
 from logger import logger
 
 
 class HelpWindow(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
+        self.language_code = get_language()
         self.setWindowTitle("Image Duplicate Finder")
         self.setGeometry(100, 100, 800, 600)
         self.setWindowIcon(QIcon('assets/icon.png'))
@@ -40,7 +42,6 @@ class HelpWindow(QMainWindow):
             ("Главная страница", "home.html"),
             ("Быстрый старт", "quick_start.html"),
             ("Работа с настройками", "setting_usage.html"),
-            ("Работа с программой", "program_usage.html"),
             ("Маленькие хитрости", "tips.html")
         ]
 
@@ -52,20 +53,23 @@ class HelpWindow(QMainWindow):
         self.tree.expandAll()
 
     def load_initial_content(self):
+        self.language_code = get_language()
         self.load_html("home.html")
 
     def on_tree_item_clicked(self, item):
+        self.language_code = get_language()
         file = item.data(0, Qt.UserRole)
         if file:
             self.load_html(file)
 
     def load_html(self, file_name):
+        self.language_code = get_language()
         base_dir = os.path.dirname(__file__)
-        file_path = os.path.join(base_dir, 'help_html', file_name)
+        file_path = os.path.join(base_dir, 'help_html', f'{self.language_code}', file_name)
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
                 html_content = file.read()
                 self.text_browser.setHtml(html_content)
         except FileNotFoundError:
-            self.text_browser.setHtml("<h1>404</h1><p>Страница не найдена</p>")
+            self.text_browser.setHtml("<h1>404</h1><p>Page not found</p>")
             logger.error("Page not found: " + file_name)

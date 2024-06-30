@@ -22,13 +22,13 @@ def get_language():
         with open("settings.json", 'r', encoding='utf-8') as f:
             data = json.load(f)
             if data.get("english"):
-                return "english"
+                return "en"
             elif data.get("russian"):
-                return "russian"
+                return "ru"
             elif data.get("french"):
-                return "french"
+                return "fr"
             elif data.get("belarusian"):
-                return "belarusian"
+                return "be"
     except FileNotFoundError as e:
         logger.error(f"File 'settings.json' not found: {e}")
     except json.JSONDecodeError as e:

@@ -57,7 +57,7 @@ def convert_to_grayscale(pixels):
     ValueError: If the input array does not have a shape of (height, width, 3).
 
     Note:
-    The conversion to grayscale is performed by taking the mean of the RGB values along the third axis.
+    The conversion to grayscale is performed be taking the mean of the RGB values along the third axis.
     """
     if len(pixels.shape) == 3 and pixels.shape[2] == 3:
         grayscale_pixels = np.mean(pixels, axis=2)

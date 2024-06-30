@@ -91,7 +91,7 @@ def g_hash(image_path):
 
     The Gradient Hash is a perceptual image hashing algorithm that compares the pixel intensity differences
     between adjacent columns and rows in a 32x32 pixel grid. It is a simple and efficient method for image similarity comparison.
-    The hash value is calculated by comparing the sum of pixel intensities in each column and row,
+    The hash value is calculated be comparing the sum of pixel intensities in each column and row,
     and appending a '1' if the sum of the current column/row is greater than the next one, or a '0' otherwise.
     """
     pixels = resize_image(image_path, 32, 32)

@@ -89,7 +89,7 @@ def create_spin_box(min_board, max_board, setting_key):
     QSpinBox: The created spin box with the specified properties. The spin box's value is set to the corresponding setting value.
 
     Note:
-    The spin box's step size is set to 1 by default.
+    The spin box's step size is set to 1 be default.
     """
     spin_box = QSpinBox()
     spin_box.setRange(min_board, max_board)

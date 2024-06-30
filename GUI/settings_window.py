@@ -122,8 +122,8 @@ class SettingsWindow(QDialog):
         layout = QVBoxLayout()
 
         self.language_group = QButtonGroup()
-        self.language_buttons = {"english": QRadioButton("English"), "russian": QRadioButton("Русский"),
-                                 "belarusian": QRadioButton("Беларускі"), "french": QRadioButton("Français")}
+        self.language_buttons = {"en": QRadioButton("English"), "ru": QRadioButton("Русский"),
+                                 "be": QRadioButton("Беларускі"), "fr": QRadioButton("Français")}
 
         for key, button in self.language_buttons.items():
             self.language_group.addButton(button)
@@ -198,10 +198,10 @@ class SettingsWindow(QDialog):
             "pHash": self.use_p_hash_algorithm.isChecked(),
             "dHash": self.use_d_hash_algorithm.isChecked(),
             "gHash": self.use_g_hash_algorithm.isChecked(),
-            "english": self.language_buttons["english"].isChecked(),
-            "russian": self.language_buttons["russian"].isChecked(),
-            "french": self.language_buttons["french"].isChecked(),
-            "belarusian": self.language_buttons["belarusian"].isChecked(),
+            "english": self.language_buttons["en"].isChecked(),
+            "russian": self.language_buttons["ru"].isChecked(),
+            "french": self.language_buttons["fr"].isChecked(),
+            "belarusian": self.language_buttons["be"].isChecked(),
             "bmp": self.bmp.isChecked(),
             "png": self.png.isChecked(),
             "jpeg": self.jpeg.isChecked(),
