@@ -1,20 +1,21 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QMainWindow, QWidget, QScrollArea, QPushButton, QApplication
-
+import time
+from multiprocessing import Process, Queue
 from GUI.loading_window import LoadingWindow
+from GUI.similar_images_window import run_similar_images_viewer
 from GUI.top_bar_with_icons import create_top_bar_with_icons
 from core.settings_handler import read_settings_from_json
-from core.threads.similar_images_processing_thread import SimilarImagesProcessingThread
 
 
 class ResultsWindow(QMainWindow):
     def __init__(self, main_window, results):
         super().__init__()
-        self.similar_images_window_thread = None
-        self.loading_dialog = None
-        self.similar_images_window = None
+        self.viewer_process = None
+        self.loading_window = None
         self.main_window = main_window
+
         self.setWindowTitle('Image Duplicate Finder')
         self.width = read_settings_from_json("preview_width")
         self.height = read_settings_from_json("preview_height")
@@ -76,17 +77,20 @@ class ResultsWindow(QMainWindow):
         self.main_widget.setLayout(self.layout)
 
     def start_similar_images_loading(self, similar_images):
-        self.loading_dialog = LoadingWindow(self)
-        self.loading_dialog.show()
+        self.loading_window = LoadingWindow(self)
+        self.loading_window.show()
+        queue = Queue()
 
-        self.similar_images_window_thread = SimilarImagesProcessingThread(similar_images, self.width, self.height)
-        self.similar_images_window_thread.finished.connect(self.on_similar_images_loaded)
-        self.similar_images_window_thread.start()
+        self.viewer_process = Process(target=run_similar_images_viewer, args=(similar_images, self.width, self.height, queue))
+        self.viewer_process.start()
 
-    def on_similar_images_loaded(self, similar_images_window):
-        self.loading_dialog.close()
-        self.similar_images_window = similar_images_window
-        self.similar_images_window.show()
+        while True:
+            if not queue.empty():
+                message = queue.get()
+                if message == 'done':
+                    self.loading_window.close()
+                    break
+            time.sleep(0.1)
 
     def run_homepage(self):
         self.main_window.show()

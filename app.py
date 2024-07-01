@@ -8,6 +8,8 @@ from logger import logger
 def main():
     logger.info("Start app")
     create_database()
+    import multiprocessing
+    multiprocessing.set_start_method('spawn')
     try:
         app = QApplication(sys.argv)
         window = MainWindow()

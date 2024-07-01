@@ -1,6 +1,8 @@
+import sys
+
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QLabel, QScrollArea, QGridLayout
+from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QLabel, QScrollArea, QGridLayout, QApplication
 
 from core.settings_handler import read_settings_from_json
 
@@ -56,7 +58,12 @@ class SimilarImagesWindow(QMainWindow):
 
         self.setCentralWidget(scroll_area)
         window_width = width * value_columns + 40 * (value_columns + 1)
-        # TODO: сделать высоту экранную динамическую
-        # window_height = height * ((len(image_paths) - 1) // value_columns + 1) + 80
-
         self.resize(window_width, 800)
+
+
+def run_similar_images_viewer(similar_images, width, height, queue):
+    app = QApplication(sys.argv)
+    viewer = SimilarImagesWindow(similar_images, width, height)
+    viewer.show()
+    queue.put('done')
+    sys.exit(app.exec_())

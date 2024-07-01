@@ -7302,3 +7302,3067 @@ KeyError: 'ru'
 2024-06-30 16:11:16 - logger - INFO - Start app
 2024-06-30 16:11:16 - logger - INFO - Creating database
 2024-06-30 16:11:27 - logger - INFO - Deleting database
+2024-07-01 22:46:06 - logger - INFO - Start app
+2024-07-01 22:46:06 - logger - INFO - Creating database
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 22:46:13 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 22:46:13 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 22:46:13 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=32)
+           2	LOAD_GLOBAL(arg=0, lineno=46)
+           4	LOAD_FAST(arg=0, lineno=46)
+           6	LOAD_CONST(arg=1, lineno=46)
+           8	LOAD_CONST(arg=1, lineno=46)
+          10	CALL_FUNCTION(arg=3, lineno=46)
+          12	STORE_FAST(arg=1, lineno=46)
+          14	LOAD_GLOBAL(arg=1, lineno=47)
+          16	LOAD_FAST(arg=1, lineno=47)
+          18	CALL_FUNCTION(arg=1, lineno=47)
+          20	STORE_FAST(arg=2, lineno=47)
+          22	LOAD_GLOBAL(arg=2, lineno=48)
+          24	LOAD_FAST(arg=2, lineno=48)
+          26	CALL_FUNCTION(arg=1, lineno=48)
+          28	STORE_FAST(arg=3, lineno=48)
+          30	LOAD_FAST(arg=3, lineno=49)
+          32	LOAD_CONST(arg=2, lineno=49)
+          34	LOAD_CONST(arg=3, lineno=49)
+          36	BUILD_SLICE(arg=2, lineno=49)
+          38	LOAD_CONST(arg=2, lineno=49)
+          40	LOAD_CONST(arg=3, lineno=49)
+          42	BUILD_SLICE(arg=2, lineno=49)
+          44	BUILD_TUPLE(arg=2, lineno=49)
+          46	BINARY_SUBSCR(arg=None, lineno=49)
+          48	STORE_FAST(arg=4, lineno=49)
+          50	LOAD_FAST(arg=4, lineno=50)
+          52	LOAD_METHOD(arg=3, lineno=50)
+          54	CALL_METHOD(arg=0, lineno=50)
+          56	STORE_FAST(arg=5, lineno=50)
+          58	LOAD_GLOBAL(arg=4, lineno=51)
+          60	LOAD_METHOD(arg=5, lineno=51)
+          62	LOAD_FAST(arg=5, lineno=51)
+          64	LOAD_CONST(arg=4, lineno=51)
+          66	LOAD_CONST(arg=2, lineno=51)
+          68	BUILD_SLICE(arg=2, lineno=51)
+          70	BINARY_SUBSCR(arg=None, lineno=51)
+          72	CALL_METHOD(arg=1, lineno=51)
+          74	STORE_FAST(arg=6, lineno=51)
+          76	LOAD_FAST(arg=5, lineno=52)
+          78	LOAD_FAST(arg=6, lineno=52)
+          80	COMPARE_OP(arg=5, lineno=52)
+          82	LOAD_METHOD(arg=6, lineno=52)
+          84	LOAD_GLOBAL(arg=7, lineno=52)
+          86	CALL_METHOD(arg=1, lineno=52)
+          88	STORE_FAST(arg=7, lineno=52)
+          90	LOAD_CONST(arg=5, lineno=53)
+          92	STORE_FAST(arg=8, lineno=53)
+          94	LOAD_FAST(arg=7, lineno=54)
+          96	GET_ITER(arg=None, lineno=54)
+>         98	FOR_ITER(arg=16, lineno=54)
+         100	STORE_FAST(arg=9, lineno=54)
+         102	LOAD_FAST(arg=8, lineno=55)
+         104	LOAD_CONST(arg=4, lineno=55)
+         106	BINARY_LSHIFT(arg=None, lineno=55)
+         108	LOAD_FAST(arg=9, lineno=55)
+         110	BINARY_OR(arg=None, lineno=55)
+         112	STORE_FAST(arg=8, lineno=55)
+         114	JUMP_ABSOLUTE(arg=98, lineno=55)
+>        116	LOAD_FAST(arg=8, lineno=57)
+         118	RETURN_VALUE(arg=None, lineno=57)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack: []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=32)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_GLOBAL(arg=0, lineno=46)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_FAST(arg=0, lineno=46)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$2load_global.0']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=LOAD_CONST(arg=1, lineno=46)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$2load_global.0', '$image_path4.1']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=LOAD_CONST(arg=1, lineno=46)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$2load_global.0', '$image_path4.1', '$const6.2']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=CALL_FUNCTION(arg=3, lineno=46)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$2load_global.0', '$image_path4.1', '$const6.2', '$const8.3']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=STORE_FAST(arg=1, lineno=46)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$10call_function.4']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=LOAD_GLOBAL(arg=1, lineno=47)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=LOAD_FAST(arg=1, lineno=47)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$14load_global.5']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=CALL_FUNCTION(arg=1, lineno=47)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$14load_global.5', '$pixels16.6']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=STORE_FAST(arg=2, lineno=47)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$18call_function.7']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=LOAD_GLOBAL(arg=2, lineno=48)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=LOAD_FAST(arg=2, lineno=48)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$22load_global.8']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=CALL_FUNCTION(arg=1, lineno=48)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$22load_global.8', '$grayscale_pixels24.9']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=STORE_FAST(arg=3, lineno=48)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$26call_function.10']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=LOAD_FAST(arg=3, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=LOAD_CONST(arg=2, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=34, inst=LOAD_CONST(arg=3, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11', '$const32.12']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=36, inst=BUILD_SLICE(arg=2, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11', '$const32.12', '$const34.13']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=38, inst=LOAD_CONST(arg=2, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11', '$36build_slice.15']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=40, inst=LOAD_CONST(arg=3, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11', '$36build_slice.15', '$const38.16']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=42, inst=BUILD_SLICE(arg=2, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11', '$36build_slice.15', '$const38.16', '$const40.17']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=44, inst=BUILD_TUPLE(arg=2, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11', '$36build_slice.15', '$42build_slice.19']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=46, inst=BINARY_SUBSCR(arg=None, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_transformed30.11', '$44build_tuple.20']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=48, inst=STORE_FAST(arg=4, lineno=49)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$46binary_subscr.21']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=50, inst=LOAD_FAST(arg=4, lineno=50)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=52, inst=LOAD_METHOD(arg=3, lineno=50)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_reduced50.22']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=54, inst=CALL_METHOD(arg=0, lineno=50)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$52load_method.23']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=56, inst=STORE_FAST(arg=5, lineno=50)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$54call_method.24']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=58, inst=LOAD_GLOBAL(arg=4, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=60, inst=LOAD_METHOD(arg=5, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$58load_global.25']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=62, inst=LOAD_FAST(arg=5, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$60load_method.26']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=64, inst=LOAD_CONST(arg=4, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$60load_method.26', '$dct_flattened62.27']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=66, inst=LOAD_CONST(arg=2, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$60load_method.26', '$dct_flattened62.27', '$const64.28']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=68, inst=BUILD_SLICE(arg=2, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$60load_method.26', '$dct_flattened62.27', '$const64.28', '$const66.29']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=70, inst=BINARY_SUBSCR(arg=None, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$60load_method.26', '$dct_flattened62.27', '$68build_slice.31']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=72, inst=CALL_METHOD(arg=1, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$60load_method.26', '$70binary_subscr.32']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=74, inst=STORE_FAST(arg=6, lineno=51)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$72call_method.33']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=76, inst=LOAD_FAST(arg=5, lineno=52)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=78, inst=LOAD_FAST(arg=6, lineno=52)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_flattened76.34']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=80, inst=COMPARE_OP(arg=5, lineno=52)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$dct_flattened76.34', '$avg78.35']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=82, inst=LOAD_METHOD(arg=6, lineno=52)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$80compare_op.36']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=84, inst=LOAD_GLOBAL(arg=7, lineno=52)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$82load_method.37']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=86, inst=CALL_METHOD(arg=1, lineno=52)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$82load_method.37', '$84load_global.38']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=88, inst=STORE_FAST(arg=7, lineno=52)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$86call_method.39']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=90, inst=LOAD_CONST(arg=5, lineno=53)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=92, inst=STORE_FAST(arg=8, lineno=53)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$const90.40']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=94, inst=LOAD_FAST(arg=7, lineno=54)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=96, inst=GET_ITER(arg=None, lineno=54)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$bits94.41']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=98, stack=('$96get_iter.42',), blockstack=(), npush=0)]
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=98 nstack_initial=1)])
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack: ['$phi98.0']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=98 nstack_initial=1)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=98, inst=FOR_ITER(arg=16, lineno=54)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi98.0']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=116, stack=(), blockstack=(), npush=0), Edge(pc=100, stack=('$phi98.0', '$98for_iter.2'), blockstack=(), npush=0)]
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=116 nstack_initial=0), State(pc_initial=100 nstack_initial=2)])
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack: []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=116 nstack_initial=0)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=116, inst=LOAD_FAST(arg=8, lineno=57)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack []
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=118, inst=RETURN_VALUE(arg=None, lineno=57)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$hash_value116.0']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=100 nstack_initial=2)])
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack: ['$phi100.0', '$phi100.1']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=100 nstack_initial=2)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=100, inst=STORE_FAST(arg=9, lineno=54)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0', '$phi100.1']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=102, inst=LOAD_FAST(arg=8, lineno=55)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=104, inst=LOAD_CONST(arg=4, lineno=55)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0', '$hash_value102.2']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=106, inst=BINARY_LSHIFT(arg=None, lineno=55)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0', '$hash_value102.2', '$const104.3']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=108, inst=LOAD_FAST(arg=9, lineno=55)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0', '$106binary_lshift.4']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=110, inst=BINARY_OR(arg=None, lineno=55)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0', '$106binary_lshift.4', '$bit108.5']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=112, inst=STORE_FAST(arg=8, lineno=55)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0', '$110binary_or.6']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - dispatch pc=114, inst=JUMP_ABSOLUTE(arg=98, lineno=55)
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - stack ['$phi100.0']
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=98, stack=('$phi100.0',), blockstack=(), npush=0)]
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=98 nstack_initial=1)])
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=98 nstack_initial=1): {'$phi98.0'},
+             State(pc_initial=100 nstack_initial=2): {'$phi100.1'},
+             State(pc_initial=116 nstack_initial=0): set()})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - defmap: {'$phi100.1': State(pc_initial=98 nstack_initial=1),
+ '$phi98.0': State(pc_initial=0 nstack_initial=0)}
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>,
+            {'$phi100.0': {('$phi98.0', State(pc_initial=98 nstack_initial=1))},
+             '$phi100.1': {('$98for_iter.2',
+                            State(pc_initial=98 nstack_initial=1))},
+             '$phi98.0': {('$96get_iter.42',
+                           State(pc_initial=0 nstack_initial=0)),
+                          ('$phi100.0',
+                           State(pc_initial=100 nstack_initial=2))}})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi100.0': {('$96get_iter.42',
+                            State(pc_initial=0 nstack_initial=0)),
+                           ('$phi100.0',
+                            State(pc_initial=100 nstack_initial=2))},
+             '$phi100.1': {('$98for_iter.2',
+                            State(pc_initial=98 nstack_initial=1))},
+             '$phi98.0': {('$96get_iter.42',
+                           State(pc_initial=0 nstack_initial=0))}})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi100.0': {('$96get_iter.42',
+                            State(pc_initial=0 nstack_initial=0))},
+             '$phi100.1': {('$98for_iter.2',
+                            State(pc_initial=98 nstack_initial=1))},
+             '$phi98.0': {('$96get_iter.42',
+                           State(pc_initial=0 nstack_initial=0))}})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi100.0': {('$96get_iter.42',
+                            State(pc_initial=0 nstack_initial=0))},
+             '$phi100.1': {('$98for_iter.2',
+                            State(pc_initial=98 nstack_initial=1))},
+             '$phi98.0': {('$96get_iter.42',
+                           State(pc_initial=0 nstack_initial=0))}})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - keep phismap: {'$phi100.1': {('$98for_iter.2', State(pc_initial=98 nstack_initial=1))},
+ '$phi98.0': {('$96get_iter.42', State(pc_initial=0 nstack_initial=0))}}
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>,
+            {State(pc_initial=0 nstack_initial=0): {'$phi98.0': '$96get_iter.42'},
+             State(pc_initial=98 nstack_initial=1): {'$phi100.1': '$98for_iter.2'}})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$2load_global.0'}), (4, {'res': '$image_path4.1'}), (6, {'res': '$const6.2'}), (8, {'res': '$const8.3'}), (10, {'func': '$2load_global.0', 'args': ['$image_path4.1', '$const6.2', '$const8.3'], 'res': '$10call_function.4'}), (12, {'value': '$10call_function.4'}), (14, {'res': '$14load_global.5'}), (16, {'res': '$pixels16.6'}), (18, {'func': '$14load_global.5', 'args': ['$pixels16.6'], 'res': '$18call_function.7'}), (20, {'value': '$18call_function.7'}), (22, {'res': '$22load_global.8'}), (24, {'res': '$grayscale_pixels24.9'}), (26, {'func': '$22load_global.8', 'args': ['$grayscale_pixels24.9'], 'res': '$26call_function.10'}), (28, {'value': '$26call_function.10'}), (30, {'res': '$dct_transformed30.11'}), (32, {'res': '$const32.12'}), (34, {'res': '$const34.13'}), (36, {'start': '$const32.12', 'stop': '$const34.13', 'step': None, 'res': '$36build_slice.15', 'slicevar': '$36build_slice.14'}), (38, {'res': '$const38.16'}), (40, {'res': '$const40.17'}), (42, {'start': '$const38.16', 'stop': '$const40.17', 'step': None, 'res': '$42build_slice.19', 'slicevar': '$42build_slice.18'}), (44, {'items': ['$36build_slice.15', '$42build_slice.19'], 'res': '$44build_tuple.20'}), (46, {'index': '$44build_tuple.20', 'target': '$dct_transformed30.11', 'res': '$46binary_subscr.21'}), (48, {'value': '$46binary_subscr.21'}), (50, {'res': '$dct_reduced50.22'}), (52, {'item': '$dct_reduced50.22', 'res': '$52load_method.23'}), (54, {'func': '$52load_method.23', 'args': [], 'res': '$54call_method.24'}), (56, {'value': '$54call_method.24'}), (58, {'res': '$58load_global.25'}), (60, {'item': '$58load_global.25', 'res': '$60load_method.26'}), (62, {'res': '$dct_flattened62.27'}), (64, {'res': '$const64.28'}), (66, {'res': '$const66.29'}), (68, {'start': '$const64.28', 'stop': '$const66.29', 'step': None, 'res': '$68build_slice.31', 'slicevar': '$68build_slice.30'}), (70, {'index': '$68build_slice.31', 'target': '$dct_flattened62.27', 'res': '$70binary_subscr.32'}), (72, {'func': '$60load_method.26', 'args': ['$70binary_subscr.32'], 'res': '$72call_method.33'}), (74, {'value': '$72call_method.33'}), (76, {'res': '$dct_flattened76.34'}), (78, {'res': '$avg78.35'}), (80, {'lhs': '$dct_flattened76.34', 'rhs': '$avg78.35', 'res': '$80compare_op.36'}), (82, {'item': '$80compare_op.36', 'res': '$82load_method.37'}), (84, {'res': '$84load_global.38'}), (86, {'func': '$82load_method.37', 'args': ['$84load_global.38'], 'res': '$86call_method.39'}), (88, {'value': '$86call_method.39'}), (90, {'res': '$const90.40'}), (92, {'value': '$const90.40'}), (94, {'res': '$bits94.41'}), (96, {'value': '$bits94.41', 'res': '$96get_iter.42'})), outgoing_phis={'$phi98.0': '$96get_iter.42'}, blockstack=(), active_try_block=None, outgoing_edgepushed={98: ('$96get_iter.42',)})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=98 nstack_initial=1):
+AdaptBlockInfo(insts=((98, {'iterator': '$phi98.0', 'pair': '$98for_iter.1', 'indval': '$98for_iter.2', 'pred': '$98for_iter.3'}),), outgoing_phis={'$phi100.1': '$98for_iter.2'}, blockstack=(), active_try_block=None, outgoing_edgepushed={116: (), 100: ('$phi98.0', '$98for_iter.2')})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=100 nstack_initial=2):
+AdaptBlockInfo(insts=((100, {'value': '$phi100.1'}), (102, {'res': '$hash_value102.2'}), (104, {'res': '$const104.3'}), (106, {'lhs': '$hash_value102.2', 'rhs': '$const104.3', 'res': '$106binary_lshift.4'}), (108, {'res': '$bit108.5'}), (110, {'lhs': '$106binary_lshift.4', 'rhs': '$bit108.5', 'res': '$110binary_or.6'}), (112, {'value': '$110binary_or.6'}), (114, {})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={98: ('$phi100.0',)})
+2024-07-01 22:46:19 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=116 nstack_initial=0):
+AdaptBlockInfo(insts=((116, {'res': '$hash_value116.0'}), (118, {'retval': '$hash_value116.0', 'castval': '$118return_value.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-07-01 22:46:19 - numba.core.interpreter - DEBUG - label 0:
+    image_path = arg(0, name=image_path)     ['image_path']
+    $2load_global.0 = global(resize_image: <function resize_image at 0x0000023BBE64BB80>) ['$2load_global.0']
+    $const6.2 = const(int, 32)               ['$const6.2']
+    $const8.3 = const(int, 32)               ['$const8.3']
+    pixels = call $2load_global.0(image_path, $const6.2, $const8.3, func=$2load_global.0, args=[Var(image_path, hashing.py:32), Var($const6.2, hashing.py:46), Var($const8.3, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None) ['$2load_global.0', '$const6.2', '$const8.3', 'image_path', 'pixels']
+    $14load_global.5 = global(convert_to_grayscale: <function convert_to_grayscale at 0x0000023BBE64B310>) ['$14load_global.5']
+    grayscale_pixels = call $14load_global.5(pixels, func=$14load_global.5, args=[Var(pixels, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None) ['$14load_global.5', 'grayscale_pixels', 'pixels']
+    $22load_global.8 = global(dct_2d: <function dct_2d at 0x0000023BAFD7A8B0>) ['$22load_global.8']
+    dct_transformed = call $22load_global.8(grayscale_pixels, func=$22load_global.8, args=[Var(grayscale_pixels, hashing.py:47)], kws=(), vararg=None, varkwarg=None, target=None) ['$22load_global.8', 'dct_transformed', 'grayscale_pixels']
+    $const32.12 = const(NoneType, None)      ['$const32.12']
+    $const34.13 = const(int, 8)              ['$const34.13']
+    $36build_slice.14 = global(slice: <class 'slice'>) ['$36build_slice.14']
+    $36build_slice.15 = call $36build_slice.14($const32.12, $const34.13, func=$36build_slice.14, args=(Var($const32.12, hashing.py:49), Var($const34.13, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None) ['$36build_slice.14', '$36build_slice.15', '$const32.12', '$const34.13']
+    $const38.16 = const(NoneType, None)      ['$const38.16']
+    $const40.17 = const(int, 8)              ['$const40.17']
+    $42build_slice.18 = global(slice: <class 'slice'>) ['$42build_slice.18']
+    $42build_slice.19 = call $42build_slice.18($const38.16, $const40.17, func=$42build_slice.18, args=(Var($const38.16, hashing.py:49), Var($const40.17, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None) ['$42build_slice.18', '$42build_slice.19', '$const38.16', '$const40.17']
+    $44build_tuple.20 = build_tuple(items=[Var($36build_slice.15, hashing.py:49), Var($42build_slice.19, hashing.py:49)]) ['$36build_slice.15', '$42build_slice.19', '$44build_tuple.20']
+    dct_reduced = getitem(value=dct_transformed, index=$44build_tuple.20, fn=<built-in function getitem>) ['$44build_tuple.20', 'dct_reduced', 'dct_transformed']
+    $52load_method.23 = getattr(value=dct_reduced, attr=flatten) ['$52load_method.23', 'dct_reduced']
+    dct_flattened = call $52load_method.23(func=$52load_method.23, args=[], kws=(), vararg=None, varkwarg=None, target=None) ['$52load_method.23', 'dct_flattened']
+    $58load_global.25 = global(np: <module 'numpy' from 'D:\\duplicateImages\\venv\\lib\\site-packages\\numpy\\__init__.py'>) ['$58load_global.25']
+    $60load_method.26 = getattr(value=$58load_global.25, attr=mean) ['$58load_global.25', '$60load_method.26']
+    $const64.28 = const(int, 1)              ['$const64.28']
+    $const66.29 = const(NoneType, None)      ['$const66.29']
+    $68build_slice.30 = global(slice: <class 'slice'>) ['$68build_slice.30']
+    $68build_slice.31 = call $68build_slice.30($const64.28, $const66.29, func=$68build_slice.30, args=(Var($const64.28, hashing.py:51), Var($const66.29, hashing.py:51)), kws=(), vararg=None, varkwarg=None, target=None) ['$68build_slice.30', '$68build_slice.31', '$const64.28', '$const66.29']
+    $70binary_subscr.32 = getitem(value=dct_flattened, index=$68build_slice.31, fn=<built-in function getitem>) ['$68build_slice.31', '$70binary_subscr.32', 'dct_flattened']
+    avg = call $60load_method.26($70binary_subscr.32, func=$60load_method.26, args=[Var($70binary_subscr.32, hashing.py:51)], kws=(), vararg=None, varkwarg=None, target=None) ['$60load_method.26', '$70binary_subscr.32', 'avg']
+    $80compare_op.36 = dct_flattened >= avg  ['$80compare_op.36', 'avg', 'dct_flattened']
+    $82load_method.37 = getattr(value=$80compare_op.36, attr=astype) ['$80compare_op.36', '$82load_method.37']
+    $84load_global.38 = global(int: <class 'int'>) ['$84load_global.38']
+    bits = call $82load_method.37($84load_global.38, func=$82load_method.37, args=[Var($84load_global.38, hashing.py:52)], kws=(), vararg=None, varkwarg=None, target=None) ['$82load_method.37', '$84load_global.38', 'bits']
+    hash_value = const(int, 0)               ['hash_value']
+    $96get_iter.42 = getiter(value=bits)     ['$96get_iter.42', 'bits']
+    $phi98.0 = $96get_iter.42                ['$96get_iter.42', '$phi98.0']
+    jump 98                                  []
+label 98:
+    $98for_iter.1 = iternext(value=$phi98.0) ['$98for_iter.1', '$phi98.0']
+    $98for_iter.2 = pair_first(value=$98for_iter.1) ['$98for_iter.1', '$98for_iter.2']
+    $98for_iter.3 = pair_second(value=$98for_iter.1) ['$98for_iter.1', '$98for_iter.3']
+    $phi100.1 = $98for_iter.2                ['$98for_iter.2', '$phi100.1']
+    branch $98for_iter.3, 100, 116           ['$98for_iter.3']
+label 100:
+    bit = $phi100.1                          ['$phi100.1', 'bit']
+    $const104.3 = const(int, 1)              ['$const104.3']
+    $106binary_lshift.4 = hash_value << $const104.3 ['$106binary_lshift.4', '$const104.3', 'hash_value']
+    hash_value = $106binary_lshift.4 | bit   ['$106binary_lshift.4', 'bit', 'hash_value']
+    jump 98                                  []
+label 116:
+    $118return_value.1 = cast(value=hash_value) ['$118return_value.1', 'hash_value']
+    return $118return_value.1                ['$118return_value.1']
+
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block analysis pass on 0
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x0000023BC9B813A0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: image_path = arg(0, name=image_path)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $2load_global.0 = global(resize_image: <function resize_image at 0x0000023BBE64BB80>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const6.2 = const(int, 32)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const8.3 = const(int, 32)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: pixels = call $2load_global.0(image_path, $const6.2, $const8.3, func=$2load_global.0, args=[Var(image_path, hashing.py:32), Var($const6.2, hashing.py:46), Var($const8.3, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $14load_global.5 = global(convert_to_grayscale: <function convert_to_grayscale at 0x0000023BBE64B310>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: grayscale_pixels = call $14load_global.5(pixels, func=$14load_global.5, args=[Var(pixels, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $22load_global.8 = global(dct_2d: <function dct_2d at 0x0000023BAFD7A8B0>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_transformed = call $22load_global.8(grayscale_pixels, func=$22load_global.8, args=[Var(grayscale_pixels, hashing.py:47)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const32.12 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const34.13 = const(int, 8)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $36build_slice.14 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $36build_slice.15 = call $36build_slice.14($const32.12, $const34.13, func=$36build_slice.14, args=(Var($const32.12, hashing.py:49), Var($const34.13, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const38.16 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const40.17 = const(int, 8)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $42build_slice.18 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $42build_slice.19 = call $42build_slice.18($const38.16, $const40.17, func=$42build_slice.18, args=(Var($const38.16, hashing.py:49), Var($const40.17, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $44build_tuple.20 = build_tuple(items=[Var($36build_slice.15, hashing.py:49), Var($42build_slice.19, hashing.py:49)])
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_reduced = static_getitem(value=dct_transformed, index=(slice(None, 8, None), slice(None, 8, None)), index_var=$44build_tuple.20, fn=<built-in function getitem>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $52load_method.23 = getattr(value=dct_reduced, attr=flatten)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_flattened = call $52load_method.23(func=$52load_method.23, args=[], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $58load_global.25 = global(np: <module 'numpy' from 'D:\\duplicateImages\\venv\\lib\\site-packages\\numpy\\__init__.py'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $60load_method.26 = getattr(value=$58load_global.25, attr=mean)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const64.28 = const(int, 1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const66.29 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $68build_slice.30 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $68build_slice.31 = call $68build_slice.30($const64.28, $const66.29, func=$68build_slice.30, args=(Var($const64.28, hashing.py:51), Var($const66.29, hashing.py:51)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $70binary_subscr.32 = static_getitem(value=dct_flattened, index=slice(1, None, None), index_var=$68build_slice.31, fn=<built-in function getitem>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: avg = call $60load_method.26($70binary_subscr.32, func=$60load_method.26, args=[Var($70binary_subscr.32, hashing.py:51)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $80compare_op.36 = dct_flattened >= avg
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $82load_method.37 = getattr(value=$80compare_op.36, attr=astype)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $84load_global.38 = global(int: <class 'int'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: bits = call $82load_method.37($84load_global.38, func=$82load_method.37, args=[Var($84load_global.38, hashing.py:52)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: hash_value = const(int, 0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $96get_iter.42 = getiter(value=bits)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $phi98.0 = $96get_iter.42
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: jump 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block analysis pass on 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x0000023BC9B813A0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.1 = iternext(value=$phi98.0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.2 = pair_first(value=$98for_iter.1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.3 = pair_second(value=$98for_iter.1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $phi100.1 = $98for_iter.2
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: branch $98for_iter.3, 100, 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block analysis pass on 100
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x0000023BC9B813A0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: bit = $phi100.1
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const104.3 = const(int, 1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $106binary_lshift.4 = hash_value << $const104.3
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: hash_value = $106binary_lshift.4 | bit
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: jump 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block analysis pass on 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x0000023BC9B813A0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $118return_value.1 = cast(value=hash_value)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: return $118return_value.1
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - defs defaultdict(<class 'list'>,
+            {'$106binary_lshift.4': [(<numba.core.ir.Assign object at 0x0000023BC9B62DC0>,
+                                      100)],
+             '$118return_value.1': [(<numba.core.ir.Assign object at 0x0000023BC9B673D0>,
+                                     116)],
+             '$14load_global.5': [(<numba.core.ir.Assign object at 0x0000023BC9B33AF0>,
+                                   0)],
+             '$22load_global.8': [(<numba.core.ir.Assign object at 0x0000023BC9B59070>,
+                                   0)],
+             '$2load_global.0': [(<numba.core.ir.Assign object at 0x0000023BC9B28C40>,
+                                  0)],
+             '$36build_slice.14': [(<numba.core.ir.Assign object at 0x0000023BC9B599D0>,
+                                    0)],
+             '$36build_slice.15': [(<numba.core.ir.Assign object at 0x0000023BC9B59AF0>,
+                                    0)],
+             '$42build_slice.18': [(<numba.core.ir.Assign object at 0x0000023BC9B59F70>,
+                                    0)],
+             '$42build_slice.19': [(<numba.core.ir.Assign object at 0x0000023BC9B5C0D0>,
+                                    0)],
+             '$44build_tuple.20': [(<numba.core.ir.Assign object at 0x0000023BC9B5C280>,
+                                    0)],
+             '$52load_method.23': [(<numba.core.ir.Assign object at 0x0000023BC9B5C790>,
+                                    0)],
+             '$58load_global.25': [(<numba.core.ir.Assign object at 0x0000023BC9B5CBB0>,
+                                    0)],
+             '$60load_method.26': [(<numba.core.ir.Assign object at 0x0000023BC9B5CD30>,
+                                    0)],
+             '$68build_slice.30': [(<numba.core.ir.Assign object at 0x0000023BC9B5F310>,
+                                    0)],
+             '$68build_slice.31': [(<numba.core.ir.Assign object at 0x0000023BC9B5F430>,
+                                    0)],
+             '$70binary_subscr.32': [(<numba.core.ir.Assign object at 0x0000023BC9B7DBE0>,
+                                      0)],
+             '$80compare_op.36': [(<numba.core.ir.Assign object at 0x0000023BC9B5FC40>,
+                                   0)],
+             '$82load_method.37': [(<numba.core.ir.Assign object at 0x0000023BC9B5FD90>,
+                                    0)],
+             '$84load_global.38': [(<numba.core.ir.Assign object at 0x0000023BC9B5FF10>,
+                                    0)],
+             '$96get_iter.42': [(<numba.core.ir.Assign object at 0x0000023BC9B62730>,
+                                 0)],
+             '$98for_iter.1': [(<numba.core.ir.Assign object at 0x0000023BC9B5CEE0>,
+                                98)],
+             '$98for_iter.2': [(<numba.core.ir.Assign object at 0x0000023BC9B5FB20>,
+                                98)],
+             '$98for_iter.3': [(<numba.core.ir.Assign object at 0x0000023BC9B621C0>,
+                                98)],
+             '$const104.3': [(<numba.core.ir.Assign object at 0x0000023BC9B62C10>,
+                              100)],
+             '$const32.12': [(<numba.core.ir.Assign object at 0x0000023BC9B596D0>,
+                              0)],
+             '$const34.13': [(<numba.core.ir.Assign object at 0x0000023BC9B59850>,
+                              0)],
+             '$const38.16': [(<numba.core.ir.Assign object at 0x0000023BC9B59C70>,
+                              0)],
+             '$const40.17': [(<numba.core.ir.Assign object at 0x0000023BC9B59DF0>,
+                              0)],
+             '$const6.2': [(<numba.core.ir.Assign object at 0x0000023BC9B33850>,
+                            0)],
+             '$const64.28': [(<numba.core.ir.Assign object at 0x0000023BC9B5CFD0>,
+                              0)],
+             '$const66.29': [(<numba.core.ir.Assign object at 0x0000023BC9B5F190>,
+                              0)],
+             '$const8.3': [(<numba.core.ir.Assign object at 0x0000023BC9B33550>,
+                            0)],
+             '$phi100.1': [(<numba.core.ir.Assign object at 0x0000023BC9B5C6A0>,
+                            98)],
+             '$phi98.0': [(<numba.core.ir.Assign object at 0x0000023BC9B33A00>,
+                           0)],
+             'avg': [(<numba.core.ir.Assign object at 0x0000023BC9B5F7C0>, 0)],
+             'bit': [(<numba.core.ir.Assign object at 0x0000023BC9B62970>,
+                      100)],
+             'bits': [(<numba.core.ir.Assign object at 0x0000023BC9B62160>, 0)],
+             'dct_flattened': [(<numba.core.ir.Assign object at 0x0000023BC9B5C9A0>,
+                                0)],
+             'dct_reduced': [(<numba.core.ir.Assign object at 0x0000023BC9B7DA90>,
+                              0)],
+             'dct_transformed': [(<numba.core.ir.Assign object at 0x0000023BC9B59370>,
+                                  0)],
+             'grayscale_pixels': [(<numba.core.ir.Assign object at 0x0000023BC9B33DF0>,
+                                   0)],
+             'hash_value': [(<numba.core.ir.Assign object at 0x0000023BC9B62370>,
+                             0),
+                            (<numba.core.ir.Assign object at 0x0000023BC9B670A0>,
+                             100)],
+             'image_path': [(<numba.core.ir.Assign object at 0x0000023BC9B28430>,
+                             0)],
+             'pixels': [(<numba.core.ir.Assign object at 0x0000023BC9B33190>,
+                         0)]})
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - SSA violators <numba.core.utils.OrderedSet object at 0x0000023BC9B1EEE0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Fix SSA violator on var hash_value
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 0
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: image_path = arg(0, name=image_path)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $2load_global.0 = global(resize_image: <function resize_image at 0x0000023BBE64BB80>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const6.2 = const(int, 32)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const8.3 = const(int, 32)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: pixels = call $2load_global.0(image_path, $const6.2, $const8.3, func=$2load_global.0, args=[Var(image_path, hashing.py:32), Var($const6.2, hashing.py:46), Var($const8.3, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $14load_global.5 = global(convert_to_grayscale: <function convert_to_grayscale at 0x0000023BBE64B310>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: grayscale_pixels = call $14load_global.5(pixels, func=$14load_global.5, args=[Var(pixels, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $22load_global.8 = global(dct_2d: <function dct_2d at 0x0000023BAFD7A8B0>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_transformed = call $22load_global.8(grayscale_pixels, func=$22load_global.8, args=[Var(grayscale_pixels, hashing.py:47)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const32.12 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const34.13 = const(int, 8)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $36build_slice.14 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $36build_slice.15 = call $36build_slice.14($const32.12, $const34.13, func=$36build_slice.14, args=(Var($const32.12, hashing.py:49), Var($const34.13, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const38.16 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const40.17 = const(int, 8)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $42build_slice.18 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $42build_slice.19 = call $42build_slice.18($const38.16, $const40.17, func=$42build_slice.18, args=(Var($const38.16, hashing.py:49), Var($const40.17, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $44build_tuple.20 = build_tuple(items=[Var($36build_slice.15, hashing.py:49), Var($42build_slice.19, hashing.py:49)])
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_reduced = static_getitem(value=dct_transformed, index=(slice(None, 8, None), slice(None, 8, None)), index_var=$44build_tuple.20, fn=<built-in function getitem>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $52load_method.23 = getattr(value=dct_reduced, attr=flatten)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_flattened = call $52load_method.23(func=$52load_method.23, args=[], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $58load_global.25 = global(np: <module 'numpy' from 'D:\\duplicateImages\\venv\\lib\\site-packages\\numpy\\__init__.py'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $60load_method.26 = getattr(value=$58load_global.25, attr=mean)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const64.28 = const(int, 1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const66.29 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $68build_slice.30 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $68build_slice.31 = call $68build_slice.30($const64.28, $const66.29, func=$68build_slice.30, args=(Var($const64.28, hashing.py:51), Var($const66.29, hashing.py:51)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $70binary_subscr.32 = static_getitem(value=dct_flattened, index=slice(1, None, None), index_var=$68build_slice.31, fn=<built-in function getitem>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: avg = call $60load_method.26($70binary_subscr.32, func=$60load_method.26, args=[Var($70binary_subscr.32, hashing.py:51)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $80compare_op.36 = dct_flattened >= avg
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $82load_method.37 = getattr(value=$80compare_op.36, attr=astype)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $84load_global.38 = global(int: <class 'int'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: bits = call $82load_method.37($84load_global.38, func=$82load_method.37, args=[Var($84load_global.38, hashing.py:52)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: hash_value = const(int, 0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - first assign: hash_value
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - replaced with: hash_value = const(int, 0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $96get_iter.42 = getiter(value=bits)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $phi98.0 = $96get_iter.42
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: jump 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.1 = iternext(value=$phi98.0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.2 = pair_first(value=$98for_iter.1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.3 = pair_second(value=$98for_iter.1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $phi100.1 = $98for_iter.2
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: branch $98for_iter.3, 100, 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 100
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: bit = $phi100.1
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const104.3 = const(int, 1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $106binary_lshift.4 = hash_value << $const104.3
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: hash_value = $106binary_lshift.4 | bit
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - replaced with: hash_value.1 = $106binary_lshift.4 | bit
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: jump 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $118return_value.1 = cast(value=hash_value)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: return $118return_value.1
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Replaced assignments: defaultdict(<class 'list'>,
+            {0: [<numba.core.ir.Assign object at 0x0000023BC9B67A60>],
+             100: [<numba.core.ir.Assign object at 0x0000023BC9B67E80>]})
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 0
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: image_path = arg(0, name=image_path)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $2load_global.0 = global(resize_image: <function resize_image at 0x0000023BBE64BB80>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const6.2 = const(int, 32)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const8.3 = const(int, 32)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: pixels = call $2load_global.0(image_path, $const6.2, $const8.3, func=$2load_global.0, args=[Var(image_path, hashing.py:32), Var($const6.2, hashing.py:46), Var($const8.3, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $14load_global.5 = global(convert_to_grayscale: <function convert_to_grayscale at 0x0000023BBE64B310>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: grayscale_pixels = call $14load_global.5(pixels, func=$14load_global.5, args=[Var(pixels, hashing.py:46)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $22load_global.8 = global(dct_2d: <function dct_2d at 0x0000023BAFD7A8B0>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_transformed = call $22load_global.8(grayscale_pixels, func=$22load_global.8, args=[Var(grayscale_pixels, hashing.py:47)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const32.12 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const34.13 = const(int, 8)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $36build_slice.14 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $36build_slice.15 = call $36build_slice.14($const32.12, $const34.13, func=$36build_slice.14, args=(Var($const32.12, hashing.py:49), Var($const34.13, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const38.16 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const40.17 = const(int, 8)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $42build_slice.18 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $42build_slice.19 = call $42build_slice.18($const38.16, $const40.17, func=$42build_slice.18, args=(Var($const38.16, hashing.py:49), Var($const40.17, hashing.py:49)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $44build_tuple.20 = build_tuple(items=[Var($36build_slice.15, hashing.py:49), Var($42build_slice.19, hashing.py:49)])
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_reduced = static_getitem(value=dct_transformed, index=(slice(None, 8, None), slice(None, 8, None)), index_var=$44build_tuple.20, fn=<built-in function getitem>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $52load_method.23 = getattr(value=dct_reduced, attr=flatten)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: dct_flattened = call $52load_method.23(func=$52load_method.23, args=[], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $58load_global.25 = global(np: <module 'numpy' from 'D:\\duplicateImages\\venv\\lib\\site-packages\\numpy\\__init__.py'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $60load_method.26 = getattr(value=$58load_global.25, attr=mean)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const64.28 = const(int, 1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const66.29 = const(NoneType, None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $68build_slice.30 = global(slice: <class 'slice'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $68build_slice.31 = call $68build_slice.30($const64.28, $const66.29, func=$68build_slice.30, args=(Var($const64.28, hashing.py:51), Var($const66.29, hashing.py:51)), kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $70binary_subscr.32 = static_getitem(value=dct_flattened, index=slice(1, None, None), index_var=$68build_slice.31, fn=<built-in function getitem>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: avg = call $60load_method.26($70binary_subscr.32, func=$60load_method.26, args=[Var($70binary_subscr.32, hashing.py:51)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $80compare_op.36 = dct_flattened >= avg
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $82load_method.37 = getattr(value=$80compare_op.36, attr=astype)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $84load_global.38 = global(int: <class 'int'>)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: bits = call $82load_method.37($84load_global.38, func=$82load_method.37, args=[Var($84load_global.38, hashing.py:52)], kws=(), vararg=None, varkwarg=None, target=None)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: hash_value = const(int, 0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $96get_iter.42 = getiter(value=bits)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $phi98.0 = $96get_iter.42
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: jump 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.1 = iternext(value=$phi98.0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.2 = pair_first(value=$98for_iter.1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $98for_iter.3 = pair_second(value=$98for_iter.1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $phi100.1 = $98for_iter.2
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: branch $98for_iter.3, 100, 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 100
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: bit = $phi100.1
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $const104.3 = const(int, 1)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $106binary_lshift.4 = hash_value << $const104.3
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def var='hash_value' stmt=$106binary_lshift.4 = hash_value << $const104.3
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def_from_top label 100
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - idom 98 from label 100
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def_from_bottom label 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def_from_top label 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - insert phi node hash_value.2 = phi(incoming_values=[], incoming_blocks=[]) at 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def_from_bottom label 0
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - incoming_def hash_value = const(int, 0)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def_from_bottom label 100
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - incoming_def hash_value.1 = $106binary_lshift.4 | bit
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - replaced with: $106binary_lshift.4 = hash_value.2 << $const104.3
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: hash_value.1 = $106binary_lshift.4 | bit
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: jump 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - ==== SSA block rewrite pass on 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x0000023BC9B678B0>
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: $118return_value.1 = cast(value=hash_value)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def var='hash_value' stmt=$118return_value.1 = cast(value=hash_value)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def_from_top label 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - idom 98 from label 116
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - find_def_from_bottom label 98
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - replaced with: $118return_value.1 = cast(value=hash_value.2)
+2024-07-01 22:46:19 - numba.core.ssa - DEBUG - on stmt: return $118return_value.1
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\08186a8cb8.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\0934dd1dde.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\110075880f.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\12935fbcac.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\184522aa50.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\1925720ad2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\228928c23d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\248320efa7.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\25824d354d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\2703a19d40.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\2794fc1ff3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\2824ba3315.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\301b28fabe.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\30356bc116.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\30837c8454.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\30918b00e2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\325d1de8f7.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\34682bf1b7.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\36202ad0aa.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\382227711b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\405620274c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\41996dd2ba.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\469764c8e2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\4739f59723.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\47895917ba.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\4795abe765.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\4829351a69.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\512883ba70.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\52178f21ae.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\05777790e2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\52236b1a56.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\53815c5e4d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\539cde3977.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\541caddb11.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\5491cb74d3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\55507d0cb5.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\55752e9705.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\57229fa626.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\58239ddadd.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\5857e34aba.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\586085c837.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\59156527f5.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\5924fc5e6e.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\5958836eb1.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\6072ba60b9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\6222ca86e2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\6234950cf2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\6412799dc6.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\6445794dd5.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\654799146e.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\6713fd7f88.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\683152d11a.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\709948c994.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\719cedd667.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\7210ea9bbc.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\725e58cecd.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\74308a6033.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\749412e02d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\7504965fdb.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\750f82f03d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\761830f617.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\8058a2974c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\8167b803ee.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\8201b963b9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\82365a32d3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\82922fc82b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\8320c9d5be.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\83657b8b10.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\84042e2885.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\8548cb621d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\85520c848c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\86543db2e9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\8720a46d82.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\8732172969.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\878805cdab.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\883432a6cf.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\88650948fc.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\889124b13b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9217213773.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9228a9d2c4.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\923f605132.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9272958192.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9318c50eb0.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\93519f856f.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9392e439de.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9509bc69dc.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\950dfee63b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\951130d9d9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\96995c7183.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9776a9ed97.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\982951d839.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\98490e42fb.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\991909cfef.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\9923eb817b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\99841f8a87.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a017dcfc8e.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a0372744a2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a0957ec347.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a0e207ff22.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a0e7fefca0.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a1221c07dd.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a1bca53f96.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a1c2b83bf4.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a255e8a11a.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a3092719ab.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a533064a04.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a5eb26aef7.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a635631fbf.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a67791ccf3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a708bac57e.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a757fa785c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a779e97cb0.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a7fb5c561d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a8b388d75d.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a920752d26.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a94e513bea.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a99819f216.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a9a440dbd6.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a9b87c7bfe.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\a9d395721e.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\ab40a4d943.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\ab4f2d7bf3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\ab5964d7a9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\abb9c23c70.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\abbfc1a3ac.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\abeefc4eb8.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\acfab9e9f3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\ae85e30e8e.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\aec6b37bbc.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\af0cadb213.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\af921f09dc.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\afabbd4009.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\afebb705b6.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\aff73bb9b9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b0680edccf.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b099ad0af8.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b1022ca4d9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b3915def3c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b3b86fb853.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b3f1cb364b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b3f9a6f770.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b4548ba28f.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b4d1cd2a07.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b4d57b86d3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b4f3ccee20.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b4f63d6810.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b55cd7e10a.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b57e85cc79.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b760d473f1.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b8245e6298.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b827cec92c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b8a141a38a.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b93a5767de.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b9a4eb9019.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\b9f3e328f8.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\ba5381c0cc.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\baa051cae9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bb4efef4f2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bb8b8685b7.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bc54f20732.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bc68ef530a.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bc776c624b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bd0f391c9c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bd1730d00c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bd51004c82.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bda5e9e10c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bdc87ac2ea.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bdd0af0e12.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bde5f846f1.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\beca533354.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\becf7380ab.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bed177dd64.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bef653b8e3.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\bf533cd690.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c1a2e7bcac.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c1abf74c2b.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c246fe7b07.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c5cf2b31b2.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c8ae2364c9.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c8e0a9dce8.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c8e5cabe4c.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c8f1c46a40.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c9b167647f.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:46:19 - logger - ERROR - Error processing D:/_datatset/Lilly\c9b4ac8823.jpeg: Failed in nopython mode pipeline (step: nopython frontend)
+[1mUntyped global name 'resize_image':[0m [1m[1mCannot determine Numba type of <class 'function'>[0m
+[1m
+File "core\hashing.py", line 46:[0m
+[1mdef p_hash(image_path):
+    <source elided>
+    """
+[1m    pixels = resize_image(image_path, 32, 32)
+[0m    [1m^[0m[0m
+[0m
+2024-07-01 22:53:25 - logger - INFO - Start app
+2024-07-01 22:53:25 - logger - INFO - Creating database
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 22:53:32 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 22:53:32 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 22:53:32 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 22:55:55 - logger - INFO - Start app
+2024-07-01 22:55:55 - logger - INFO - Creating database
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 22:56:02 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 22:56:02 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 22:56:02 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 22:56:32 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-07-01 22:56:37 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 22:56:37 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 22:56:51 - logger - INFO - Deleting database
+2024-07-01 23:01:49 - logger - INFO - Start app
+2024-07-01 23:01:49 - logger - INFO - Creating database
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:01:56 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:01:56 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:01:56 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:02:15 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:02:15 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:02:18 - logger - INFO - Deleting database
+2024-07-01 23:04:57 - logger - INFO - Start app
+2024-07-01 23:04:57 - logger - INFO - Creating database
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:05:04 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:05:04 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:05:04 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:07:21 - logger - INFO - Start app
+2024-07-01 23:07:21 - logger - INFO - Creating database
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:07:28 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:07:28 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:07:28 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:09:55 - logger - INFO - Start app
+2024-07-01 23:09:55 - logger - INFO - Creating database
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:10:03 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:10:03 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:10:03 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:10:14 - logger - INFO - Start app
+2024-07-01 23:10:14 - logger - INFO - Creating database
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:10:20 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:10:20 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:10:20 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:10:44 - logger - INFO - Start app
+2024-07-01 23:10:44 - logger - INFO - Creating database
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:10:51 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:10:51 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:10:51 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:11:13 - logger - INFO - Start app
+2024-07-01 23:11:13 - logger - INFO - Creating database
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:11:19 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:11:19 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:11:19 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:11:37 - logger - INFO - Deleting database
+2024-07-01 23:14:45 - logger - INFO - Start app
+2024-07-01 23:14:45 - logger - INFO - Creating database
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:14:53 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:14:53 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:14:53 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:15:08 - logger - INFO - Deleting database
+2024-07-01 23:23:14 - logger - INFO - Start app
+2024-07-01 23:23:14 - logger - INFO - Creating database
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing BlpImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing BmpImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing BufrStubImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing CurImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing DcxImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing DdsImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing EpsImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing FitsImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing FliImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing FpxImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing FtexImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing GbrImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing GifImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing GribStubImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing Hdf5StubImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing IcnsImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing IcoImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing ImImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing ImtImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing IptcImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing JpegImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing Jpeg2KImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing McIdasImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing MicImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing MpegImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing MpoImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing MspImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PalmImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PcdImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PcxImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PdfImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PixarImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PngImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PpmImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing PsdImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing QoiImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing SgiImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing SpiderImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing SunImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing TgaImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing TiffImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing WebPImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing WmfImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing XbmImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing XpmImagePlugin
+2024-07-01 23:23:20 - PIL.Image - DEBUG - Importing XVThumbImagePlugin
+2024-07-01 23:23:20 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\295bd95399.jpeg'. The image may be corrupted.
+2024-07-01 23:23:20 - logger - ERROR - Failed to open image 'D:/_datatset/Lilly\434b2ccea1.jpeg'. The image may be corrupted.
+2024-07-01 23:23:30 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-07-01 23:23:54 - logger - INFO - Deleting database

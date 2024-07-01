@@ -173,14 +173,6 @@ X
 (core/threads/viewer_processing_thread.py,b\f\bff98b8ffb7451a6ac0152d4883f0167a1690015
 B
 GUI/help_window.py,e\8\e8d27eea6b884e0b5fd68bdc4ffe8b447d9dfddf
-G
-GUI/help_html/home.html,a\2\a26044d535fa5cb4ecb688c0e8ab7c486517370c
-G
-GUI/help_html/tips.html,f\2\f285f14387f9b46ebbcfc429ce65c3547c13b222
-P
- GUI/help_html/setting_usage.html,5\8\58ce031b17c08fa12dffe48986eeeb73c792714d
-N
-GUI/help_html/quick_start.html,0\a\0a722e94c369e4b90c4d579b680362d4fc41e5ee
 @
 GUI/help_html/en,4\6\4666cc62b5d91ef4ffc4f7945dc87fdd4f5dd7fe
 J
@@ -207,8 +199,6 @@ S
 #GUI/help_html/fr/setting_usage.html,a\d\ad5f416da30c245feed2f67e4fe4d9498352b227
 J
 GUI/help_html/fr/tips.html,1\e\1ec82ebea621914ae93dea15dc44c6362e4aebae
-K
-GUI/help_html/bel/home.html,0\2\02d69011abba16ec41207bbb3602c234bd5e0c40
 Q
 !GUI/help_html/be/quick_start.html,b\f\bf7206a0e9d4fb8ed038fdb7ad0965fcb374e071
 S

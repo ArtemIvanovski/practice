@@ -1,6 +1,8 @@
+import sys
+
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QMainWindow, QScrollArea, QWidget, QVBoxLayout, QLabel, QGridLayout
+from PyQt5.QtWidgets import QMainWindow, QScrollArea, QWidget, QVBoxLayout, QLabel, QGridLayout, QApplication
 from core.settings_handler import read_settings_from_json
 
 
@@ -54,3 +56,11 @@ class ImageViewer(QMainWindow):
 
         window_width = width * value_columns + 40 * (value_columns + 1)
         self.resize(window_width, 800)
+
+
+def run_image_viewer(image_paths, queue):
+    app = QApplication(sys.argv)
+    viewer = ImageViewer(image_paths)
+    viewer.show()
+    queue.put('done')
+    sys.exit(app.exec_())

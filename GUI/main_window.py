@@ -1,18 +1,20 @@
+import time
+from multiprocessing import Process, Queue
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QFileDialog, QApplication
 from PyQt5.QtGui import QIcon
 from GUI.error_window import ErrorWindow
+from GUI.image_viewer_window import run_image_viewer
 from GUI.loading_window import LoadingWindow
 from GUI.result_window import ResultsWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
 from core.threads.file_get_processing_thread import FileGetProcessingThread
 from core.threads.image_processing_thread import ImageProcessingThread
-from core.threads.viewer_processing_thread import ViewerProcessingThread
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.viewer_worker_thread = None
+        self.viewer_process = None
         self.image_processing_thread = None
         self.worker_thread = None
         self.loading_window = None
@@ -20,6 +22,7 @@ class MainWindow(QMainWindow):
         self.folder_path_below = None
         self.image_paths_below = []
         self.image_paths_above = []
+
         self.setWindowTitle('Image Duplicate Finder')
         self.setStyleSheet("background-color: #f3f3f3;")
         self.setWindowIcon(QIcon('assets/icon.png'))
@@ -36,6 +39,7 @@ class MainWindow(QMainWindow):
         self.results_window = None
 
         white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+
         self.layout.addWidget(white_strip)
         self.layout.addWidget(grey_strip)
         self.layout.addWidget(white_strip)
@@ -156,15 +160,18 @@ class MainWindow(QMainWindow):
     def start_viewer_loading(self, image_paths):
         self.loading_window = LoadingWindow(self)
         self.loading_window.show()
+        queue = Queue()
 
-        self.viewer_worker_thread = ViewerProcessingThread(image_paths)
-        self.viewer_worker_thread.finished.connect(self.on_viewer_loaded)
-        self.viewer_worker_thread.start()
+        self.viewer_process = Process(target=run_image_viewer, args=(image_paths, queue))
+        self.viewer_process.start()
 
-    def on_viewer_loaded(self, viewer_window):
-        self.loading_window.close()
-        self.viewer_window = viewer_window
-        self.viewer_window.show()
+        while True:
+            if not queue.empty():
+                message = queue.get()
+                if message == 'done':
+                    self.loading_window.close()
+                    break
+            time.sleep(0.1)
 
     def run_search(self):
         if not self.image_paths_above and not self.image_paths_below:
