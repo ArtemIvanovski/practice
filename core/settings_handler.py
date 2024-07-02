@@ -88,3 +88,28 @@ def write_settings_to_json(settings):
         logger.info(f"Settings successfully written to 'settings.json'.")
     except Exception as e:
         logger.error(f"Error writing to file 'settings.json': {e}")
+
+
+def get_finder_settings():
+    """
+    This function retrieves the settings for the image finder from the 'settings.json' file.
+
+    Parameters:
+    None
+
+    Returns:
+    tuple: A tuple containing the similarity threshold and the flags indicating whether to use
+           aHash, gHash, pHash, and dHash for image comparison. The tuple has the following format:
+           (threshold, use_a_hash, use_g_hash, use_p_hash, use_d_hash)
+
+    Raises:
+    FileNotFoundError: If the 'settings.json' file is not found.
+    json.JSONDecodeError: If there is a JSON decode error in the 'settings.json' file.
+    Exception: For any other unexpected error.
+    """
+    threshold = read_settings_from_json("similarity_threshold")
+    use_a_hash = read_settings_from_json("aHash")
+    use_g_hash = read_settings_from_json("gHash")
+    use_p_hash = read_settings_from_json("pHash")
+    use_d_hash = read_settings_from_json("dHash")
+    return threshold, use_a_hash, use_g_hash, use_p_hash, use_d_hash

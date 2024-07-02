@@ -1,6 +1,5 @@
 from core.image_utils import resize_image, convert_to_grayscale, dct_2d
 import numpy as np
-
 from logger import logger
 
 

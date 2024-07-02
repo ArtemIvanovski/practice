@@ -1,11 +1,13 @@
 import logging
 import time
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from itertools import combinations
 from core.hashing import a_hash, p_hash, g_hash, d_hash, calculate_similarity
-from core.settings_handler import read_settings_from_json
+from core.settings_handler import get_finder_settings
 from database.db import add_image_data, get_image_data, clear_database
 from logger import logger
+from itertools import product
 
 
 def process_hash_image(image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash):
@@ -36,18 +38,9 @@ def process_hash_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_ha
 
 
 def get_results_find_duplicates(image_paths_above, image_paths_below):
-    threshold = read_settings_from_json("similarity_threshold")
-    use_a_hash = read_settings_from_json("aHash")
-    use_g_hash = read_settings_from_json("gHash")
-    use_p_hash = read_settings_from_json("pHash")
-    use_d_hash = read_settings_from_json("dHash")
-    paths = None
-    if image_paths_above and image_paths_below:
-        paths = image_paths_above + image_paths_below
-    elif image_paths_above:
-        paths = image_paths_above
-    elif image_paths_below:
-        paths = image_paths_below
+    threshold, use_a_hash, use_g_hash, use_p_hash, use_d_hash = get_finder_settings()
+
+    paths = image_paths_above + image_paths_below if image_paths_above and image_paths_below else image_paths_above or image_paths_below
 
     clear_database()
     start_time_hash = time.time()
@@ -57,52 +50,58 @@ def get_results_find_duplicates(image_paths_above, image_paths_below):
     print(f"Time taken to process hash images: {hash_processing_time} seconds")
     start_time_total = time.time()
     duplicates = []
-    for path1, path2 in combinations(paths, 2):
-        img1 = get_image_data(path1)
-        img2 = get_image_data(path2)
 
-        similarity = 0
-        count = 0
-        if use_a_hash:
-            similarity += calculate_similarity(img1[2], img2[2])
-            count += 1
-        if use_g_hash:
-            similarity += calculate_similarity(img1[4], img2[4])
-            count += 1
-        if use_p_hash:
-            similarity += calculate_similarity(img1[3], img2[3])
-            count += 1
-        if use_d_hash:
-            similarity += calculate_similarity(img1[5], img2[5])
-            count += 1
+    if image_paths_above and image_paths_below:
+        pairs_to_compare = product(image_paths_above, image_paths_below)
+    else:
+        pairs_to_compare = combinations(paths, 2)
 
-        if count > 0:
-            similarity /= count
-
+    for path1, path2 in pairs_to_compare:
+        similarity = compare_images(path1, path2, use_a_hash, use_g_hash, use_p_hash, use_d_hash)
         if similarity >= threshold:
-            duplicates.append((img1[1], img2[1], similarity))
+            duplicates.append((path1, path2, similarity))
 
-    results = {}
+    results_list = aggregate_results(duplicates)
+    end_time_total = time.time()
+    total_time = end_time_total - start_time_total
+    print(f"Total time taken to get results: {total_time} seconds")
+    return results_list
+
+
+def aggregate_results(duplicates):
+    results = defaultdict(lambda: {'similar_count': 0, 'similar_images': []})
+
     for path1, path2, similarity in duplicates:
-        if path1 not in results:
-            results[path1] = {'similar_count': 0, 'similar_images': []}
-        if path2 not in results:
-            results[path2] = {'similar_count': 0, 'similar_images': []}
-
         results[path1]['similar_count'] += 1
         results[path1]['similar_images'].append({'path': path2, 'similarity': similarity})
 
         results[path2]['similar_count'] += 1
         results[path2]['similar_images'].append({'path': path1, 'similarity': similarity})
 
-    results_list = []
-    for path, data in results.items():
-        results_list.append({
-            'path': path,
-            'similar_count': data['similar_count'],
-            'similar_images': data['similar_images']
-        })
-    end_time_total = time.time()
-    total_time = end_time_total - start_time_total
-    print(f"Total time taken to get results: {total_time} seconds")
+    results_list = [{'path': path, **data} for path, data in results.items()]
     return results_list
+
+
+def compare_images(image_path1, image_path2, use_a_hash, use_g_hash, use_p_hash, use_d_hash):
+    img1 = get_image_data(image_path1)
+    img2 = get_image_data(image_path2)
+
+    similarity = 0
+    count = 0
+    if use_a_hash:
+        similarity += calculate_similarity(img1[2], img2[2])
+        count += 1
+    if use_g_hash:
+        similarity += calculate_similarity(img1[4], img2[4])
+        count += 1
+    if use_p_hash:
+        similarity += calculate_similarity(img1[3], img2[3])
+        count += 1
+    if use_d_hash:
+        similarity += calculate_similarity(img1[5], img2[5])
+        count += 1
+
+    if count > 0:
+        similarity /= count
+
+    return similarity

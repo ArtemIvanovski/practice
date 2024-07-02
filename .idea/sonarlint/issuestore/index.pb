@@ -163,14 +163,10 @@ C
 GUI/about_window.py,5\a\5aa910864790027bb3c7fdfd3c2fd4bb3690ad27
 H
 core/threads/__init__.py,0\9\0951ef795d60ecc0bf93179dd6e9ff6c2c1b38da
-`
-0core/threads/similar_images_processing_thread.py,a\4\a4a4ac6e76e5e6a72de5e10a52ae19cd19cb7496
 W
 'core/threads/image_processing_thread.py,e\b\eb7c42b29122772d59a2b9481c1b86a864d41616
 Z
 *core/threads/file_get_processing_thread.py,5\8\58d588735a0d2e8a7ccb99287ef0beba9e9043eb
-X
-(core/threads/viewer_processing_thread.py,b\f\bff98b8ffb7451a6ac0152d4883f0167a1690015
 B
 GUI/help_window.py,e\8\e8d27eea6b884e0b5fd68bdc4ffe8b447d9dfddf
 @
