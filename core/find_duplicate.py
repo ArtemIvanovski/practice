@@ -1,7 +1,7 @@
 import logging
 import time
 from collections import defaultdict
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from itertools import combinations
 from core.hashing import a_hash, p_hash, g_hash, d_hash, calculate_similarity
 from core.settings_handler import get_finder_settings
@@ -11,6 +11,23 @@ from itertools import product
 
 
 def process_hash_image(image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash):
+    """
+    Processes an image file to calculate hash values for different algorithms (a_hash, p_hash, g_hash, d_hash)
+    and stores the results in the database.
+
+    Parameters:
+    image_path (str): The path to the image file.
+    use_a_hash (bool): A flag indicating whether to calculate a_hash.
+    use_p_hash (bool): A flag indicating whether to calculate p_hash.
+    use_g_hash (bool): A flag indicating whether to calculate g_hash.
+    use_d_hash (bool): A flag indicating whether to calculate d_hash.
+
+    Returns:
+    None
+
+    Raises:
+    Exception: If any error occurs during the image processing or database insertion.
+    """
     hash_a = hash_p = hash_g = hash_d = None
     try:
         if use_a_hash:
@@ -27,6 +44,24 @@ def process_hash_image(image_path, use_a_hash, use_p_hash, use_g_hash, use_d_has
 
 
 def process_hash_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash, max_workers=30):
+    """
+    Processes a list of image files in parallel using multiple threads to calculate hash values for different algorithms
+    (a_hash, p_hash, g_hash, d_hash) and stores the results in the database.
+
+    Parameters:
+    image_paths (list): A list of paths to the image files.
+    use_a_hash (bool): A flag indicating whether to calculate a_hash.
+    use_p_hash (bool): A flag indicating whether to calculate p_hash.
+    use_g_hash (bool): A flag indicating whether to calculate g_hash.
+    use_d_hash (bool): A flag indicating whether to calculate d_hash.
+    max_workers (int, optional): The maximum number of threads to use for processing. Defaults to 30.
+
+    Returns:
+    None
+
+    Raises:
+    Exception: If any error occurs during the image processing or database insertion in a thread.
+    """
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(process_hash_image, image_path, use_a_hash, use_p_hash, use_g_hash, use_d_hash) for
                    image_path in image_paths]
@@ -43,12 +78,7 @@ def get_results_find_duplicates(image_paths_above, image_paths_below):
     paths = image_paths_above + image_paths_below if image_paths_above and image_paths_below else image_paths_above or image_paths_below
 
     clear_database()
-    start_time_hash = time.time()
     process_hash_images_in_threads(paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash)
-    end_time_hash = time.time()
-    hash_processing_time = end_time_hash - start_time_hash
-    print(f"Time taken to process hash images: {hash_processing_time} seconds")
-    start_time_total = time.time()
     duplicates = []
 
     if image_paths_above and image_paths_below:
@@ -56,15 +86,20 @@ def get_results_find_duplicates(image_paths_above, image_paths_below):
     else:
         pairs_to_compare = combinations(paths, 2)
 
-    for path1, path2 in pairs_to_compare:
+    def process_pair(pair):
+        path1, path2 = pair
         similarity = compare_images(path1, path2, use_a_hash, use_g_hash, use_p_hash, use_d_hash)
         if similarity >= threshold:
-            duplicates.append((path1, path2, similarity))
+            return (path1, path2, similarity)
+        return None
 
+    with ThreadPoolExecutor(max_workers=30) as executor:
+        future_to_pair = {executor.submit(process_pair, pair): pair for pair in pairs_to_compare}
+        for future in as_completed(future_to_pair):
+            result = future.result()
+            if result:
+                duplicates.append(result)
     results_list = aggregate_results(duplicates)
-    end_time_total = time.time()
-    total_time = end_time_total - start_time_total
-    print(f"Total time taken to get results: {total_time} seconds")
     return results_list
 
 
