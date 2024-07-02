@@ -1,5 +1,4 @@
 import logging
-import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from itertools import combinations
@@ -73,12 +72,28 @@ def process_hash_images_in_threads(image_paths, use_a_hash, use_p_hash, use_g_ha
 
 
 def get_results_find_duplicates(image_paths_above, image_paths_below):
+    """
+    This function finds duplicate images in two sets of image paths. It uses hash values to compare images and
+    returns a list of dictionaries containing the duplicate image pairs and their similarity scores.
+
+    Parameters:
+    image_paths_above (list): A list of paths to the first set of image files.
+    image_paths_below (list): A list of paths to the second set of image files.
+
+    Returns:
+    list: A list of dictionaries, where each dictionary represents a duplicate image pair and contains the following keys:
+          - 'path1' (str): The path of the first image file.
+          - 'path2' (str): The path of the second image file.
+          - 'similarity' (float): The similarity score between the two images.
+    """
     threshold, use_a_hash, use_g_hash, use_p_hash, use_d_hash = get_finder_settings()
 
     paths = image_paths_above + image_paths_below if image_paths_above and image_paths_below else image_paths_above or image_paths_below
 
     clear_database()
+
     process_hash_images_in_threads(paths, use_a_hash, use_p_hash, use_g_hash, use_d_hash)
+
     duplicates = []
 
     if image_paths_above and image_paths_below:
@@ -99,11 +114,29 @@ def get_results_find_duplicates(image_paths_above, image_paths_below):
             result = future.result()
             if result:
                 duplicates.append(result)
+
     results_list = aggregate_results(duplicates)
     return results_list
 
 
 def aggregate_results(duplicates):
+    """
+    Aggregates the duplicate image results and returns a list of dictionaries.
+
+    Parameters:
+    duplicates (list): A list of tuples, where each tuple contains three elements:
+                      - path1 (str): The path of the first image file.
+                      - path2 (str): The path of the second image file.
+                      - similarity (float): The similarity score between the two images.
+
+    Returns:
+    list: A list of dictionaries, where each dictionary represents an image file and contains the following keys:
+          - 'path' (str): The path of the image file.
+          - 'similar_count' (int): The number of duplicate images found for this image.
+          - 'similar_images' (list): A list of dictionaries, where each dictionary represents a duplicate image and contains the following keys:
+                                     - 'path' (str): The path of the duplicate image.
+                                     - 'similarity' (float): The similarity score between the original image and the duplicate image.
+    """
     results = defaultdict(lambda: {'similar_count': 0, 'similar_images': []})
 
     for path1, path2, similarity in duplicates:
@@ -118,6 +151,20 @@ def aggregate_results(duplicates):
 
 
 def compare_images(image_path1, image_path2, use_a_hash, use_g_hash, use_p_hash, use_d_hash):
+    """
+    Compares two images based on their hash values and returns the similarity score.
+
+    Parameters:
+    image_path1 (str): The path to the first image file.
+    image_path2 (str): The path to the second image file.
+    use_a_hash (bool): A flag indicating whether to use a_hash for comparison.
+    use_g_hash (bool): A flag indicating whether to use g_hash for comparison.
+    use_p_hash (bool): A flag indicating whether to use p_hash for comparison.
+    use_d_hash (bool): A flag indicating whether to use d_hash for comparison.
+
+    Returns:
+    float: The similarity score between the two images, ranging from 0 (no similarity) to 100 (identical).
+    """
     img1 = get_image_data(image_path1)
     img2 = get_image_data(image_path2)
 
