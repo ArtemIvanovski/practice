@@ -1,8 +1,10 @@
 import sys
 from PyQt5.QtWidgets import QApplication
 from GUI.main_window import MainWindow
+from core.settings_handler import get_language
 from database.db import create_database, delete_database
 from logger import logger
+from translations.translator import TranslatorManager
 
 
 def main():
@@ -12,7 +14,13 @@ def main():
     multiprocessing.set_start_method('spawn')
     try:
         app = QApplication(sys.argv)
-        window = MainWindow()
+        translator_manager = TranslatorManager()
+        current_language = get_language()
+        if current_language:
+            translator_manager.load_translation(current_language)
+        translator_manager.install_translation(app)
+
+        window = MainWindow(translator_manager=translator_manager, app=app)
         window.show()
         app.aboutToQuit.connect(lambda: delete_database())
         sys.exit(app.exec_())

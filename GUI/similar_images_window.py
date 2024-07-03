@@ -11,7 +11,7 @@ class SimilarImagesWindow(QMainWindow):
     def __init__(self, similar_images, width, height):
         super().__init__()
         self.similar_images = similar_images
-        self.setWindowTitle('Similar Images')
+        self.setWindowTitle('Image Duplicate Finder')
         self.setStyleSheet("background-color: #f3f3f3;")
         self.setWindowIcon(QIcon('assets/icon.png'))
         self.setGeometry(100, 100, 800, 600)

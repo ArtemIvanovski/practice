@@ -7,8 +7,10 @@ from GUI.error_window import ErrorWindow
 
 
 class SettingsWindow(QDialog):
-    def __init__(self, parent=None):
+    def __init__(self, parent=None, translator_manager=None, app=None):
         super().__init__(parent)
+        self.translator_manager = translator_manager
+        self.app = app
         self.gif = None
         self.jpeg = None
         self.png = None
@@ -182,6 +184,14 @@ class SettingsWindow(QDialog):
         return button_layout
 
     def on_ok_button_clicked(self):
+        selected_language = None
+        for code, button in self.language_buttons.items():
+            if button.isChecked():
+                selected_language = code
+                break
+
+        if selected_language and selected_language != self.translator_manager.current_language:
+            self.translator_manager.change_language(self.app, selected_language)
 
         if not (self.bmp.isChecked() or self.png.isChecked() or self.jpeg.isChecked() or self.gif.isChecked()):
             error_dialog = ErrorWindow("Не выбран ни один тип файла")

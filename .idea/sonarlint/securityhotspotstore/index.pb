@@ -203,3 +203,13 @@ J
 GUI/help_html/be/tips.html,c\5\c58481f099dc662dd413e35176d6f18f6642b497
 J
 GUI/help_html/be/home.html,a\5\a5553d0d04d244b7d7c4af6667c5958910d0de1d
+A
+tests/__init__.py,8\e\8e911f6351f3fa0cd30fc10a701473fbb56707e6
+J
+tests/test_image_hashes.py,2\f\2f5b2cc9d02e034dadfb6a4ca18b8810941ba77a
+I
+tests/test_image_utils.py,1\f\1f9d1b0b21fb4902fdefc20383bd922b66647d36
+N
+tests/test_settings_handler.py,a\f\af82c6283aad926f283397854ccc768e69b28e72
+F
+translations/app_ru.ts,3\f\3fa646a62eb5d0d8e4c54f9efe64992bf0e42a98

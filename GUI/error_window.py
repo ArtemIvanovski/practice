@@ -4,9 +4,31 @@ from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QDialogButtonBox
 
 
 class ErrorWindow(QDialog):
+    """
+    A custom QDialog window to display error messages.
+
+    Attributes:
+    -----------
+    message : str
+        The error message to be displayed in the window.
+
+    Methods:
+    --------
+    __init__(self, message)
+        Initializes the ErrorWindow with the given error message.
+    """
     def __init__(self, message):
+        """
+        Initializes the ErrorWindow with the given error message.
+
+        Parameters:
+        -----------
+        message : str
+                The error message to be displayed in the window.
+        """
+
         super().__init__()
-        self.setWindowTitle('Ошибка')
+        self.setWindowTitle(self.tr('Ошибка'))
         self.setWindowIcon(QIcon('assets/iconError.png'))
         self.setWindowFlags(self.windowFlags() & ~Qt.WindowContextHelpButtonHint)
 

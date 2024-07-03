@@ -12,8 +12,10 @@ from core.threads.image_processing_thread import ImageProcessingThread
 
 
 class MainWindow(QMainWindow):
-    def __init__(self):
+    def __init__(self, translator_manager, app):
         super().__init__()
+        self.translator_manager = translator_manager
+        self.app = app
         self.viewer_process = None
         self.image_processing_thread = None
         self.worker_thread = None
@@ -49,11 +51,11 @@ class MainWindow(QMainWindow):
 
         button_layout_above = QHBoxLayout()
 
-        self.add_folder_button_above = create_button("Добавить папку с изображениями", "assets/iconAddFolder.png")
+        self.add_folder_button_above = create_button(self.tr("Добавить папку с изображениями"), "assets/iconAddFolder.png")
         self.add_folder_button_above.clicked.connect(self.select_folder_above)
         button_layout_above.addWidget(self.add_folder_button_above)
 
-        self.view_images_button_above = create_button("Просмотреть изображения в папке", "assets/iconView.png")
+        self.view_images_button_above = create_button(self.tr("Просмотреть изображения в папке"), "assets/iconView.png")
         self.view_images_button_above.clicked.connect(lambda: self.view_images_in_folder(False))
         button_layout_above.addWidget(self.view_images_button_above)
 
@@ -61,11 +63,11 @@ class MainWindow(QMainWindow):
 
         button_layout_below = QHBoxLayout()
 
-        self.add_folder_button_below = create_button("Добавить папку с изображениями", "assets/iconAddFolder.png")
+        self.add_folder_button_below = create_button(self.tr("Добавить папку с изображениями"), "assets/iconAddFolder.png")
         self.add_folder_button_below.clicked.connect(self.select_folder_below)
         button_layout_below.addWidget(self.add_folder_button_below)
 
-        self.view_images_button_below = create_button("Просмотреть изображения в папке", "assets/iconView.png")
+        self.view_images_button_below = create_button(self.tr("Просмотреть изображения в папке"), "assets/iconView.png")
         self.view_images_button_below.clicked.connect(lambda: self.view_images_in_folder(True))
         button_layout_below.addWidget(self.view_images_button_below)
 
@@ -77,22 +79,22 @@ class MainWindow(QMainWindow):
         self.main_widget.setLayout(self.layout)
 
     def select_folder_above(self):
-        self.folder_path_above = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
+        self.folder_path_above = QFileDialog.getExistingDirectory(self, self.tr('Выбрать папку'))
         if self.folder_path_above:
             self.start_loading(self.folder_path_above, self.on_folder_above_loaded)
         else:
             self.image_paths_above = []
-            self.add_folder_button_above.setText("Добавить папку с изображениями")
+            self.add_folder_button_above.setText(self.tr("Добавить папку с изображениями"))
             self.add_folder_button_above.setIcon(QIcon("assets/iconAddFolder.png"))
 
     def select_folder_below(self):
-        self.folder_path_below = QFileDialog.getExistingDirectory(self, 'Выбрать папку')
+        self.folder_path_below = QFileDialog.getExistingDirectory(self, self.tr('Выбрать папку'))
         if self.folder_path_below:
 
             self.start_loading(self.folder_path_below, self.on_folder_below_loaded)
         else:
             self.image_paths_below = []
-            self.add_folder_button_below.setText("Добавить папку с изображениями")
+            self.add_folder_button_below.setText(self.tr("Добавить папку с изображениями"))
             self.add_folder_button_below.setIcon(QIcon("assets/iconAddFolder.png"))
 
     def start_loading(self, folder_path, callback):
@@ -104,35 +106,39 @@ class MainWindow(QMainWindow):
         self.worker_thread.start()
 
     def on_folder_above_loaded(self, image_paths, error_image_path):
-        self.add_folder_button_above.setText(f"Выбранная папка: {self.folder_path_above.split('/')[-1]}")
+        tr_msg = self.tr("Выбранная папка: {}")
+        self.add_folder_button_above.setText(tr_msg.format(self.folder_path_above.split('/')[-1]))
         self.add_folder_button_above.setIcon(QIcon("assets/iconRemoveFolder.png"))
         self.loading_window.close()
         self.image_paths_above = image_paths
         if len(error_image_path) > 0:
             error_image_path_string = '\n'.join(path for path in error_image_path)
-            error_dialog = ErrorWindow(f"Данные изображения повреждены:\n {error_image_path_string}")
+            tr_msg = self.tr("Данные изображения повреждены:\n {}")
+            error_dialog = ErrorWindow(tr_msg.format(error_image_path_string))
             error_dialog.exec_()
         if len(self.image_paths_above) == 0:
-            error_dialog = ErrorWindow("В данной папке нет изображений выбранного формата")
+            error_dialog = ErrorWindow(self.tr("В данной папке нет изображений выбранного формата"))
             error_dialog.exec_()
             self.folder_path_above = None
-            self.add_folder_button_above.setText("Добавить папку с изображениями")
+            self.add_folder_button_above.setText(self.tr("Добавить папку с изображениями"))
             self.add_folder_button_above.setIcon(QIcon("assets/iconAddFolder.png"))
 
     def on_folder_below_loaded(self, image_paths, error_image_path):
-        self.add_folder_button_below.setText(f"Выбранная папка: {self.folder_path_below.split('/')[-1]}")
+        tr_msg = self.tr("Выбранная папка: {}")
+        self.add_folder_button_below.setText(tr_msg.format(self.folder_path_below.split('/')[-1]))
         self.add_folder_button_below.setIcon(QIcon("assets/iconRemoveFolder.png"))
         self.loading_window.close()
         self.image_paths_below = image_paths
         if len(error_image_path) > 0:
             error_image_path_string = '\n'.join(path for path in error_image_path)
-            error_dialog = ErrorWindow(f"Данные изображения повреждены:\n {error_image_path_string}")
+            tr_msg = self.tr("Данные изображения повреждены:\n {}")
+            error_dialog = ErrorWindow(tr_msg.format(error_image_path_string))
             error_dialog.exec_()
         if len(self.image_paths_below) == 0:
-            error_dialog = ErrorWindow("В данной папке нет изображений выбранного формата")
+            error_dialog = ErrorWindow(self.tr("В данной папке нет изображений выбранного формата"))
             error_dialog.exec_()
             self.folder_path_below = None
-            self.add_folder_button_below.setText("Добавить папку с изображениями")
+            self.add_folder_button_below.setText(self.tr("Добавить папку с изображениями"))
             self.add_folder_button_below.setIcon(QIcon("assets/iconAddFolder.png"))
 
     def view_images_in_folder(self, is_below_folder):
@@ -140,18 +146,18 @@ class MainWindow(QMainWindow):
             if self.folder_path_below is not None and self.folder_path_below != "":
                 image_paths = self.image_paths_below
             else:
-                error_dialog = ErrorWindow("Папка ниже не выбрана.")
+                error_dialog = ErrorWindow(self.tr("Папка ниже не выбрана"))
                 error_dialog.exec_()
                 return
         else:
             if self.folder_path_above is not None and self.folder_path_above != "":
                 image_paths = self.image_paths_above
             else:
-                error_dialog = ErrorWindow("Папка сверху не выбрана.")
+                error_dialog = ErrorWindow(self.tr("Папка сверху не выбрана"))
                 error_dialog.exec_()
                 return
         if not image_paths:
-            error_dialog = ErrorWindow("Нет изображений выбранного типа")
+            error_dialog = ErrorWindow(self.tr("Нет изображений выбранного типа"))
             error_dialog.exec_()
             return
 
@@ -175,7 +181,7 @@ class MainWindow(QMainWindow):
 
     def run_search(self):
         if not self.image_paths_above and not self.image_paths_below:
-            error_dialog = ErrorWindow("Выберите папку с изображениями.")
+            error_dialog = ErrorWindow(self.tr("Выберите папку с изображениями"))
             error_dialog.exec_()
             return
 

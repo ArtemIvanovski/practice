@@ -131,7 +131,6 @@ def create_top_bar_with_icons(parent_widget, run_search_callback, run_home_comeb
     add_icon_to_layout(grey_layout, 'assets/iconSettings.png', 'Настройки', setting_window.show)
     add_icon_to_layout(grey_layout, 'assets/iconHelp.png', 'Мне нужна помощь', help_window.show)
     add_icon_to_layout(grey_layout, 'assets/iconInformation.png', 'Информация о приложении', about_window.show)
-
     grey_strip.setLayout(grey_layout)
 
     return white_strip, grey_strip

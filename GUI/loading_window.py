@@ -1,10 +1,24 @@
-import sys
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel
 from PyQt5.QtGui import QMovie
 from PyQt5.QtCore import Qt
 
 
 class LoadingWindow(QDialog):
+    """
+    A class to create a loading window with a GIF animation.
+
+    Attributes
+    ----------
+    parent : QWidget
+        the parent widget of the dialog (default is None)
+
+    Methods
+    -------
+    start_animation():
+        starts the GIF animation
+    stop_animation():
+        stops the GIF animation
+    """
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle('Загрузка')

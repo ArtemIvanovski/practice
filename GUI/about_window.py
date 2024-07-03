@@ -8,7 +8,7 @@ class AboutWindow(QDialog):
         super().__init__(parent)
         self.setWindowFlags(Qt.Window | Qt.WindowCloseButtonHint)
 
-        self.setWindowTitle('О программе Image Duplicate Finder')
+        self.setWindowTitle(self.tr('О программе Image Duplicate Finder'))
         self.setFixedSize(550, 600)
         self.setWindowIcon(self.style().standardIcon(QStyle.SP_MessageBoxInformation))
 
