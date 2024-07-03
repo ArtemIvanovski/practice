@@ -31,7 +31,7 @@
     pip install selenium
     ```
 
-3. **ChromeDriver**: Скачайте ChromeDriver, который соответствует версии вашего браузера Google Chrome, с [страницы загрузки ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads). Разархивируйте и сохраните файл `chromedriver.exe` в удобное место.
+3. **ChromeDriver**: Скачайте ChromeDriver, который соответствует версии вашего браузера Google Chrome, с [страницы загрузки ChromeDriver](https://getwebdriver.com/chromedriver). Разархивируйте и сохраните файл `chromedriver.exe` в удобное место.
 
 ## Запуск
 
