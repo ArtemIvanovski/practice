@@ -6,12 +6,14 @@ from multiprocessing import Process, Queue
 from GUI.loading_window import LoadingWindow
 from GUI.similar_images_window import run_similar_images_viewer
 from GUI.top_bar_with_icons import create_top_bar_with_icons
-from core.settings_handler import read_settings_from_json
+from core.settings_handler import read_settings_from_json, get_language
 
 
 class ResultsWindow(QMainWindow):
-    def __init__(self, main_window, results):
+    def __init__(self, main_window, results, translator_manager, app):
         super().__init__()
+        self.translator_manager = translator_manager
+        self.app = app
         self.viewer_process = None
         self.loading_window = None
         self.main_window = main_window
@@ -32,7 +34,9 @@ class ResultsWindow(QMainWindow):
         self.setCentralWidget(self.main_widget)
         self.layout = QVBoxLayout()
 
-        white_strip, grey_strip = create_top_bar_with_icons(self, None, self.run_homepage)
+        white_strip, grey_strip, self.buttons = create_top_bar_with_icons(self, None, self.run_homepage,
+                                                                          self.translator_manager,
+                                                                          self.app, self.main_window)
         self.layout.addWidget(white_strip)
         self.layout.addWidget(grey_strip)
 
@@ -40,11 +44,12 @@ class ResultsWindow(QMainWindow):
         scroll_area.setWidgetResizable(True)
         scroll_content = QWidget()
         scroll_layout = QVBoxLayout(scroll_content)
-
+        self.count_labels = []
+        self.view_buttons = []
         if not results:
-            no_results_label = QLabel("Нет подобных изображений")
-            no_results_label.setAlignment(Qt.AlignCenter)
-            scroll_layout.addWidget(no_results_label)
+            self.no_results_label = QLabel(self.tr("Нет подобных изображений"))
+            self.no_results_label.setAlignment(Qt.AlignCenter)
+            scroll_layout.addWidget(self.no_results_label)
         else:
             for result in results:
                 image_label = QLabel()
@@ -54,12 +59,13 @@ class ResultsWindow(QMainWindow):
 
                 name_label = QLabel(result['path'].split('/')[-1])
                 name_label.setAlignment(Qt.AlignCenter)
-
-                count_label = QLabel(f"Подобных изображений: {result['similar_count']}")
+                count_label = QLabel(self.tr("Подобных изображений: ") + str(result['similar_count']))
+                self.count_labels.append((count_label, str(result['similar_count'])))
                 count_label.setAlignment(Qt.AlignCenter)
 
-                view_button = QPushButton("Посмотреть подобные изображения")
-                view_button.setFixedSize(350, 30)
+                view_button = QPushButton(self.tr("Посмотреть подобные изображения"))
+                self.view_buttons.append(view_button)
+                view_button.setFixedSize(370, 30)
                 view_button.clicked.connect(
                     lambda checked, res=result: self.start_similar_images_loading(res['similar_images']))
 
@@ -81,7 +87,8 @@ class ResultsWindow(QMainWindow):
         self.loading_window.show()
         queue = Queue()
 
-        self.viewer_process = Process(target=run_similar_images_viewer, args=(similar_images, self.width, self.height, queue))
+        self.viewer_process = Process(target=run_similar_images_viewer,
+                                      args=(similar_images, self.width, self.height, queue))
         self.viewer_process.start()
 
         while True:
@@ -96,3 +103,28 @@ class ResultsWindow(QMainWindow):
         self.main_window.show()
         self.main_window.showMaximized()
         self.close()
+
+    def update_ui_texts(self):
+        if hasattr(self, 'no_results_label'):
+            self.no_results_label.setText(self.tr("Нет подобных изображений"))
+        for button in self.view_buttons:
+            button.setText(self.tr("Посмотреть подобные изображения"))
+        for count_label, count in self.count_labels:
+            count_label.setText(self.tr("Подобных изображений: ") + count)
+
+        text_translate = ['Хочу домой', 'Запустить поиск', 'Настройки', 'Мне нужна помощь', 'Информация о приложении']
+
+        code_language = get_language()
+
+        if code_language == 'en':
+            text_translate = ['Go home', 'Start the search', 'Settings', 'I need help',
+                              'Information about the application']
+        elif code_language == 'be':
+            text_translate = ['Жадаю дадому', 'Запусціць пошук', 'Налады', 'Мне патрэбна дапамога',
+                              'Інфармацыя аб праграме']
+        elif code_language == 'fr':
+            text_translate = ['Je veux rentrer à la maison', 'Lancer la recherche', 'Réglages', 'Jai besoin daide',
+                              'Informations sur lapplication']
+
+        for i, button in enumerate(self.buttons):
+            button.setToolTip(text_translate[i])

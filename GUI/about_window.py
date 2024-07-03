@@ -53,3 +53,6 @@ class AboutWindow(QDialog):
         layout.addLayout(ok_button_layout)
 
         self.setLayout(layout)
+
+    def update_ui_texts(self):
+        self.setWindowTitle(self.tr('О программе Image Duplicate Finder'))

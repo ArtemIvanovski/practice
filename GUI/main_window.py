@@ -7,6 +7,7 @@ from GUI.image_viewer_window import run_image_viewer
 from GUI.loading_window import LoadingWindow
 from GUI.result_window import ResultsWindow
 from GUI.top_bar_with_icons import create_top_bar_with_icons, create_button
+from core.settings_handler import get_language
 from core.threads.file_get_processing_thread import FileGetProcessingThread
 from core.threads.image_processing_thread import ImageProcessingThread
 
@@ -40,7 +41,8 @@ class MainWindow(QMainWindow):
         self.viewer_window = None
         self.results_window = None
 
-        white_strip, grey_strip = create_top_bar_with_icons(self, self.run_search, None)
+        white_strip, grey_strip, self.buttons = create_top_bar_with_icons(self, self.run_search, None,
+                                                                          translator_manager, app, None)
 
         self.layout.addWidget(white_strip)
         self.layout.addWidget(grey_strip)
@@ -51,7 +53,8 @@ class MainWindow(QMainWindow):
 
         button_layout_above = QHBoxLayout()
 
-        self.add_folder_button_above = create_button(self.tr("Добавить папку с изображениями"), "assets/iconAddFolder.png")
+        self.add_folder_button_above = create_button(self.tr("Добавить папку с изображениями"),
+                                                     "assets/iconAddFolder.png")
         self.add_folder_button_above.clicked.connect(self.select_folder_above)
         button_layout_above.addWidget(self.add_folder_button_above)
 
@@ -63,7 +66,8 @@ class MainWindow(QMainWindow):
 
         button_layout_below = QHBoxLayout()
 
-        self.add_folder_button_below = create_button(self.tr("Добавить папку с изображениями"), "assets/iconAddFolder.png")
+        self.add_folder_button_below = create_button(self.tr("Добавить папку с изображениями"),
+                                                     "assets/iconAddFolder.png")
         self.add_folder_button_below.clicked.connect(self.select_folder_below)
         button_layout_below.addWidget(self.add_folder_button_below)
 
@@ -106,15 +110,15 @@ class MainWindow(QMainWindow):
         self.worker_thread.start()
 
     def on_folder_above_loaded(self, image_paths, error_image_path):
-        tr_msg = self.tr("Выбранная папка: {}")
-        self.add_folder_button_above.setText(tr_msg.format(self.folder_path_above.split('/')[-1]))
+        tr_msg = self.tr("Выбранная папка: ")
+        self.add_folder_button_above.setText(tr_msg + self.folder_path_above.split('/')[-1])
         self.add_folder_button_above.setIcon(QIcon("assets/iconRemoveFolder.png"))
         self.loading_window.close()
         self.image_paths_above = image_paths
         if len(error_image_path) > 0:
             error_image_path_string = '\n'.join(path for path in error_image_path)
-            tr_msg = self.tr("Данные изображения повреждены:\n {}")
-            error_dialog = ErrorWindow(tr_msg.format(error_image_path_string))
+            tr_msg = self.tr("Данные изображения повреждены:")
+            error_dialog = ErrorWindow(tr_msg + "\n" + error_image_path_string)
             error_dialog.exec_()
         if len(self.image_paths_above) == 0:
             error_dialog = ErrorWindow(self.tr("В данной папке нет изображений выбранного формата"))
@@ -124,15 +128,15 @@ class MainWindow(QMainWindow):
             self.add_folder_button_above.setIcon(QIcon("assets/iconAddFolder.png"))
 
     def on_folder_below_loaded(self, image_paths, error_image_path):
-        tr_msg = self.tr("Выбранная папка: {}")
-        self.add_folder_button_below.setText(tr_msg.format(self.folder_path_below.split('/')[-1]))
+        tr_msg = self.tr("Выбранная папка: ")
+        self.add_folder_button_below.setText(tr_msg + self.folder_path_below.split('/')[-1])
         self.add_folder_button_below.setIcon(QIcon("assets/iconRemoveFolder.png"))
         self.loading_window.close()
         self.image_paths_below = image_paths
         if len(error_image_path) > 0:
             error_image_path_string = '\n'.join(path for path in error_image_path)
-            tr_msg = self.tr("Данные изображения повреждены:\n {}")
-            error_dialog = ErrorWindow(tr_msg.format(error_image_path_string))
+            tr_msg = self.tr("Данные изображения повреждены: ")
+            error_dialog = ErrorWindow(tr_msg + "\n" + error_image_path_string)
             error_dialog.exec_()
         if len(self.image_paths_below) == 0:
             error_dialog = ErrorWindow(self.tr("В данной папке нет изображений выбранного формата"))
@@ -196,7 +200,7 @@ class MainWindow(QMainWindow):
 
     def on_results_ready(self, results):
         self.loading_window.close()
-        self.results_window = ResultsWindow(self, results)
+        self.results_window = ResultsWindow(self, results, self.translator_manager, self.app)
         self.results_window.show()
         self.setHidden(True)
 
@@ -204,3 +208,35 @@ class MainWindow(QMainWindow):
         self.showMaximized()
         self.setFixedSize(self.screen_width, self.screen_height)
         super().showEvent(event)
+
+    def update_ui_texts(self):
+        if len(self.image_paths_above) != 0:
+            tr_msg = self.tr("Выбранная папка: ")
+            self.add_folder_button_above.setText(tr_msg + self.folder_path_above.split('/')[-1])
+        else:
+            self.add_folder_button_above.setText(self.tr("Добавить папку с изображениями"))
+
+        if len(self.image_paths_below) != 0:
+            tr_msg = self.tr("Выбранная папка: ")
+            self.add_folder_button_below.setText(tr_msg + self.folder_path_below.split('/')[-1])
+        else:
+            self.add_folder_button_below.setText(self.tr("Добавить папку с изображениями"))
+        self.view_images_button_above.setText(self.tr("Просмотреть изображения в папке"))
+        self.view_images_button_below.setText(self.tr("Просмотреть изображения в папке"))
+
+        text_translate = ['Хочу домой', 'Запустить поиск', 'Настройки', 'Мне нужна помощь', 'Информация о приложении']
+
+        code_language = get_language()
+
+        if code_language == 'en':
+            text_translate = ['Go home', 'Start the search', 'Settings', 'I need help',
+                              'Information about the application']
+        elif code_language == 'be':
+            text_translate = ['Жадаю дадому', 'Запусціць пошук', 'Налады', 'Мне патрэбна дапамога',
+                              'Інфармацыя аб праграме']
+        elif code_language == 'fr':
+            text_translate = ['Je veux rentrer à la maison', 'Lancer la recherche', 'Réglages', 'Jai besoin daide',
+                              'Informations sur lapplication']
+
+        for i, button in enumerate(self.buttons):
+            button.setToolTip(text_translate[i])

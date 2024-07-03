@@ -21,7 +21,7 @@ class LoadingWindow(QDialog):
     """
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.setWindowTitle('Загрузка')
+        self.setWindowTitle(self.tr('Загрузка'))
         self.setFixedSize(300, 300)
         self.setStyleSheet("background-color: #ffffff;")
         self.setWindowFlags(Qt.Window | Qt.WindowTitleHint | Qt.CustomizeWindowHint)

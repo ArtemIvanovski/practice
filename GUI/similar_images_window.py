@@ -38,8 +38,8 @@ class SimilarImagesWindow(QMainWindow):
 
             name_label = QLabel(sim_img['path'].split('/')[-1])
             name_label.setAlignment(Qt.AlignCenter)
-
-            similarity_label = QLabel(f"Коэффициент подобия: {sim_img['similarity']}%")
+            tr_msg = self.tr("Коэффициент подобия: ")
+            similarity_label = QLabel(tr_msg + str(sim_img['similarity']) + " %")
             similarity_label.setAlignment(Qt.AlignCenter)
 
             container_widget = QWidget()

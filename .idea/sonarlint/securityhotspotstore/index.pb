@@ -213,3 +213,9 @@ N
 tests/test_settings_handler.py,a\f\af82c6283aad926f283397854ccc768e69b28e72
 F
 translations/app_ru.ts,3\f\3fa646a62eb5d0d8e4c54f9efe64992bf0e42a98
+F
+translations/app_en.ts,8\a\8a5fde28846afc94c1d3ef6f15fdabf14340d15f
+F
+translations/app_be.ts,5\7\571150f784cd8c1ba9665d53d570f891332d213d
+F
+translations/app_fr.ts,d\5\d5b1addce4c5916cf91c5c9b852174118eb11827

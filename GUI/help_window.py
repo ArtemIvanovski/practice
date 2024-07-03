@@ -36,13 +36,13 @@ class HelpWindow(QMainWindow):
         self.load_initial_content()
 
     def create_tree(self):
-        contents = QTreeWidgetItem(self.tree, ["Содержание"])
+        contents = QTreeWidgetItem(self.tree, [self.tr("Содержание")])
 
         sections = [
-            ("Главная страница", "home.html"),
-            ("Быстрый старт", "quick_start.html"),
-            ("Работа с настройками", "setting_usage.html"),
-            ("Маленькие хитрости", "tips.html")
+            (self.tr("Главная страница"), "home.html"),
+            (self.tr("Быстрый старт"), "quick_start.html"),
+            (self.tr("Работа с настройками"), "setting_usage.html"),
+            (self.tr("Маленькие хитрости"), "tips.html")
         ]
 
         for title, file in sections:
@@ -73,3 +73,14 @@ class HelpWindow(QMainWindow):
         except FileNotFoundError:
             self.text_browser.setHtml("<h1>404</h1><p>Page not found</p>")
             logger.error("Page not found: " + file_name)
+
+    def update_ui_texts(self):
+        self.tree.clear()
+        self.create_tree()
+        current_item = self.tree.currentItem()
+        if current_item:
+            file = current_item.data(0, Qt.UserRole)
+            if file:
+                self.load_html(file)
+        else:
+            self.load_initial_content()
