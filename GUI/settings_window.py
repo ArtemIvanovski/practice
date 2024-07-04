@@ -234,6 +234,9 @@ class SettingsWindow(QDialog):
             self.help_window.update_ui_texts()
             if self.main_window is not None:
                 self.main_window.update_ui_texts()
+                self.main_window.setting_window.update_ui_texts()
+                self.main_window.setting_window.about_window.update_ui_texts()
+                self.main_window.setting_window.help_window.update_ui_texts()
 
         self.accept()
 

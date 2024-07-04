@@ -4,7 +4,31 @@ from PyQt5.QtGui import QFont, QPixmap, QIcon
 
 
 class AboutWindow(QDialog):
+    """
+    A class to create an AboutWindow dialog for displaying information about the application.
+
+    ...
+
+    Attributes
+    ----------
+    parent : QWidget
+        the parent widget for this dialog
+
+    Methods
+    -------
+    update_ui_texts():
+        Updates the UI texts of the AboutWindow dialog.
+    """
+
     def __init__(self, parent=None):
+        """
+        Constructs all the necessary widgets for the AboutWindow dialog.
+
+        Parameters
+        ----------
+        parent : QWidget
+            the parent widget for this dialog
+        """
         super().__init__(parent)
         self.setWindowFlags(Qt.Window | Qt.WindowCloseButtonHint)
 
@@ -55,4 +79,7 @@ class AboutWindow(QDialog):
         self.setLayout(layout)
 
     def update_ui_texts(self):
+        """
+        Updates the UI texts of the AboutWindow dialog.
+        """
         self.setWindowTitle(self.tr('О программе Image Duplicate Finder'))

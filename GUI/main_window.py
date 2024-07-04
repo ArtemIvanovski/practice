@@ -41,8 +41,10 @@ class MainWindow(QMainWindow):
         self.viewer_window = None
         self.results_window = None
 
-        white_strip, grey_strip, self.buttons = create_top_bar_with_icons(self, self.run_search, None,
-                                                                          translator_manager, app, None)
+        white_strip, grey_strip, self.buttons, self.setting_window = create_top_bar_with_icons(self, self.run_search,
+                                                                                               None,
+                                                                                               translator_manager, app,
+                                                                                               None)
 
         self.layout.addWidget(white_strip)
         self.layout.addWidget(grey_strip)

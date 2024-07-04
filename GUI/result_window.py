@@ -34,9 +34,9 @@ class ResultsWindow(QMainWindow):
         self.setCentralWidget(self.main_widget)
         self.layout = QVBoxLayout()
 
-        white_strip, grey_strip, self.buttons = create_top_bar_with_icons(self, None, self.run_homepage,
-                                                                          self.translator_manager,
-                                                                          self.app, self.main_window)
+        white_strip, grey_strip, self.buttons, _ = create_top_bar_with_icons(self, None, self.run_homepage,
+                                                                             self.translator_manager,
+                                                                             self.app, self.main_window)
         self.layout.addWidget(white_strip)
         self.layout.addWidget(grey_strip)
 

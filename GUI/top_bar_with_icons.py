@@ -201,7 +201,7 @@ def create_top_bar_with_icons(parent_widget, run_search_callback, run_home_comeb
     add_icon_to_layout(grey_layout, 'assets/iconHelp.png', text_translate[3], help_window.show)
     add_icon_to_layout(grey_layout, 'assets/iconInformation.png', text_translate[4], about_window.show)
     grey_strip.setLayout(grey_layout)
-    return white_strip, grey_strip, buttons
+    return white_strip, grey_strip, buttons, setting_window
 
 
 
