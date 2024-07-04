@@ -547,3 +547,9 @@ ValueError: too many values to unpack (expected 2)
 2024-07-04 00:45:05 - logger - INFO - Settings successfully written to 'settings.json'.
 2024-07-04 00:45:05 - logger - INFO - Loaded translation file translations/app_be.qm.
 2024-07-04 00:45:27 - logger - INFO - Deleting database
+2024-07-04 11:51:48 - logger - INFO - Start app
+2024-07-04 11:51:48 - logger - INFO - Creating database
+2024-07-04 11:51:49 - logger - INFO - Loaded translation file translations/app_be.qm.
+2024-07-04 11:51:58 - logger - INFO - Settings successfully written to 'settings.json'.
+2024-07-04 11:51:58 - logger - INFO - Loaded translation file translations/app_ru.qm.
+2024-07-04 11:52:08 - logger - INFO - Deleting database

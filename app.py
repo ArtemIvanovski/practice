@@ -8,10 +8,20 @@ from translations.translator import TranslatorManager
 
 
 def main():
+    """
+    Main entry point of the application.
+
+    This function initializes the application, sets up the database,
+    creates the main window, and handles any exceptions that may occur during startup.
+
+    Returns:
+        None
+    """
     logger.info("Start app")
     create_database()
     import multiprocessing
     multiprocessing.set_start_method('spawn')
+
     try:
         app = QApplication(sys.argv)
         translator_manager = TranslatorManager()
@@ -19,11 +29,11 @@ def main():
         if current_language:
             translator_manager.load_translation(current_language)
         translator_manager.install_translation(app)
-
         window = MainWindow(translator_manager=translator_manager, app=app)
         window.show()
         app.aboutToQuit.connect(lambda: delete_database())
         sys.exit(app.exec_())
+
     except Exception as e:
         logger.exception("Error while starting")
         sys.exit(1)
